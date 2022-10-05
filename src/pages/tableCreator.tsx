@@ -78,7 +78,7 @@ const TableCreator = () => {
         if (enDesc && esDesc && catDesc) {
             createWriteData()
         }
-    }, [lang, gemColor, gemCut, gemName, enDesc, esDesc, catDesc, ready])
+    }, [lang, gemColor, gemCut, gemName, enDesc, esDesc, catDesc, ready, formInfo])
 
     const replaceSpan = () => {
         for (let i = 0, l = formInfo["values"].length; i < l; i += 1) {
