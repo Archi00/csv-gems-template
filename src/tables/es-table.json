@@ -58,5 +58,25 @@
         "Quantity": 1,
         "Name": "Rutil 26.20ct",
         "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Rutil</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>26.20ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>27x15x4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Bruto</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Amarillo</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6.0–6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "F747",
+        "Active": 1,
+        "Categories": "2,16,17,31",
+        "Price": "32",
+        "Reference": "F747",
+        "Quantity": 1,
+        "Name": "Kunzita 4.65ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Kunzita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>4.65ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>12.8x7.5x5.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Rectangular</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6.5-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Afghanistan</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "F748",
+        "Active": 1,
+        "Categories": "2,16,17,29",
+        "Price": "42",
+        "Reference": "F748",
+        "Quantity": 1,
+        "Name": "Espinela 0.85ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Espinela</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>0.85ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>6x5x3.2mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Cushion</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Púrpura</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Myanmar</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
     }
 ]

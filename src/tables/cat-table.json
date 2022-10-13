@@ -94,5 +94,37 @@
             "https://www.gemmesterra.com/Botiga/upload/Mi741-2.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/Mi741-3.jpeg"
         ]
+    },
+    {
+        "ID": "F747",
+        "Active": 1,
+        "Categories": "2,16,17,31",
+        "Price": "32",
+        "Reference": "F747",
+        "Quantity": 1,
+        "Name": "Kunzita 4.65ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Kunzita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>4.65ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>12.8x7.5x5.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Rectangular</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>6.5-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Afghanistan</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F747-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F747-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F747-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F747-3.jpeg"
+        ]
+    },
+    {
+        "ID": "F748",
+        "Active": 1,
+        "Categories": "2,16,17,29",
+        "Price": "42",
+        "Reference": "F748",
+        "Quantity": 1,
+        "Name": "Espinel·la 0.85ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Espinel·la</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>0.85ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>6x5x3.2mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Cushion</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Porpra</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Myanmar</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F748-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F748-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F748-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F748-3.jpeg"
+        ]
     }
 ]
