@@ -1,12 +1,62 @@
 [
     {
-        "ID": "F000",
+        "ID": "F742",
         "Active": 1,
-        "Categories": "2,16,17,95",
-        "Price": "50",
-        "Reference": "F000",
+        "Categories": "2,16,17,121",
+        "Price": "88",
+        "Reference": "F742",
         "Quantity": 1,
-        "Name": "Granate 2ct",
-        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Granate</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>2ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>3x3x3mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Colombia</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+        "Name": "Opalo de fuego 1.10ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Opalo de fuego</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>1.10ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>10.2x6.7x4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Naranja</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Mexic</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "F743",
+        "Active": 1,
+        "Categories": "2,16,18,199",
+        "Price": "14",
+        "Reference": "F743",
+        "Quantity": 1,
+        "Name": "Amazonita 13.80ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Amazonita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>13.80ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>21x19x5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Lágrima</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Azul</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>6-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Vietnam</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "F744",
+        "Active": 1,
+        "Categories": "2,16,17,20",
+        "Price": "20",
+        "Reference": "F744",
+        "Quantity": 1,
+        "Name": "Amatista 3.80ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Amatista</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>3.80ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>11x9x5.7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "F745",
+        "Active": 1,
+        "Categories": "2,16,17,20",
+        "Price": "20",
+        "Reference": "F745",
+        "Quantity": 1,
+        "Name": "Amatista 3.30ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Amatista</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>3.30ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>13x8.1x7.2mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Pera</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Púrpura</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "F746",
+        "Active": 1,
+        "Categories": "2,16,17,94",
+        "Price": "35",
+        "Reference": "F746",
+        "Quantity": 1,
+        "Name": "Zafiro 0.69ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Zafiro</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>0.69ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>7x4.4x2.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Pera</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Púrpura</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>9</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
+    },
+    {
+        "ID": "Mi741",
+        "Active": 1,
+        "Categories": "2,39",
+        "Price": "90",
+        "Reference": "Mi741",
+        "Quantity": 1,
+        "Name": "Rutil 26.20ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Rutil</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>26.20ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>27x15x4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Bruto</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Amarillo</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6.0–6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>"
     }
 ]

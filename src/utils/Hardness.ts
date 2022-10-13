@@ -108,4 +108,5 @@ export const Hardness: any = {
     howlite: "3.5",
     larvikite: "6-6.5",
     "snowflake obsidian": "5-5.5",
+    rutile: "6.0–6.5",
 }
