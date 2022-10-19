@@ -9,5 +9,16 @@
         "Name": "Esmeralda 2ct",
         "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Esmeralda</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>2ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>3x3x3mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Colombia</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
         "ShortDescription": "<p>Esmeralda</p>\n    <p>No está muy claro de donde deriva el nombre, se cree que del griego \"smaragdos\" - piedra verde o del persa \"zamarat\" - corazón de piedra.</p>"
+    },
+    {
+        "ID": "F000",
+        "Active": 1,
+        "Categories": "2,16,17,32",
+        "Price": "50",
+        "Reference": "F000",
+        "Quantity": 1,
+        "Name": "Labradorita 2ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Labradorita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>2ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>3x3x3mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Gris</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Labradorita</p>\n    <p>Es un feldespato (30-50% Albita - 50-70% Anortita)</p>\n    <p>Lleva el nombre de la península de Labrador, Canada. Donde fue descubierta.</p>\n    <p>Puede presentar un tipo de iridiscencia llamada Labradorescencia.</p>\n    <p>La causa de este fenómeno óptico se debe a la estructura laminar causada por un proceso de disolución debido a una brecha de miscibilidad.</p>\n    <p>Este efecto es visible cuando la separación laminar es entre 128 y 252nm.</p>\n    <p>Otra requerimiento para la separación laminar es el enfriamiento, es necesario para permitir que los iones de Ca, Na, Si y Al dispersarse y producir la separación laminar.</p>"
     }
 ]

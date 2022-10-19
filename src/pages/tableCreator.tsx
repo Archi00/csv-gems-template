@@ -183,8 +183,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("es")
         rawData["es"]["Description"] = esDesc
-        if (GemsInfo[enName.toLowerCase()]) rawData["es"]["ShortDescription"] = GemsInfo[enName.toLowerCase()]
-        gems.map((gem: any) =>{
+        Object.keys(gems).map((gem: any) =>{
             if (gem[enName.toLowerCase()]) {
                 rawData["es"]["ShortDescription"] = gem[enName.toLowerCase()]
             }
