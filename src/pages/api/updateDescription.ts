@@ -1,4 +1,3 @@
-import { GemsInfo } from "@/utils/GemsInfo"
 import fs from "fs"
 import type { NextApiRequest, NextApiResponse } from "next"
 type Data = {
@@ -6,10 +5,18 @@ type Data = {
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
-    const file = fs.readFileSync("src/utils/GemsInfo.ts")
-    console.log(file)
-    console.log(req.body)
-    GemsInfo[req.body.name] = req.body.content
-    console.log(GemsInfo[req.body.name])
-    return res.status(200).json({name: "OK"})
+    try {
+        const file = fs.readFileSync("src/gems/gemsInfo.json").toString()
+        const parsedFile = JSON.parse(file)
+        parsedFile.map((gem: any) => {
+            if(gem[req.body.name]){
+                gem[req.body.name] = req.body.content
+            }
+        })
+        const writeFile = JSON.stringify(parsedFile)
+        fs.writeFileSync("src/gems/gemsInfo.json", writeFile, "utf8")
+        return res.status(200).json({name: "OK"})
+    } catch {
+        return res.status(200).json({name: "NOT OK"})
+    }
 }

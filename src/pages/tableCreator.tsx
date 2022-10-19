@@ -9,7 +9,20 @@ import { Categories } from "@/utils/Categories"
 import { Hardness } from "@/utils/Hardness"
 import { GemsInfo } from "@/utils/GemsInfo"
 
-const TableCreator = () => {
+export async function getServerSideProps() {
+    let gems = {}
+    const rawGems = await fetch(`http://localhost:3000/api/getGemsInfo`)
+    const parsedGems = await rawGems.json()
+    Object.values(parsedGems).map((gem: any) => {
+        gems = {...gems, ...gem}
+    })
+    
+    return {
+      props: {gems}, 
+    }
+  }
+
+const TableCreator = ({gems}: any) => {
     const [formInfo, setFormInfo] = useState({} as FormInfo)
     const [gemInfo, setGemInfo] = useState({} as GemInfo)
     const [gemName, setGemName] = useState("")
@@ -171,6 +184,11 @@ const TableCreator = () => {
         }` : setName("es")
         rawData["es"]["Description"] = esDesc
         if (GemsInfo[enName.toLowerCase()]) rawData["es"]["ShortDescription"] = GemsInfo[enName.toLowerCase()]
+        gems.map((gem: any) =>{
+            if (gem[enName.toLowerCase()]) {
+                rawData["es"]["ShortDescription"] = gem[enName.toLowerCase()]
+            }
+        })
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
