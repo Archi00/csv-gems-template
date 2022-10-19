@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "ID": "F00",
+        "Active": 1,
+        "Categories": "2,16,17",
+        "Price": "50",
+        "Reference": "F00",
+        "Quantity": 1,
+        "Name": "Maragda 2ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Maragda</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>2ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>3x3x3mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Colombia</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p>Esmeralda</p>\n    <p>No está muy claro de donde deriva el nombre, se cree que del griego \"smaragdos\" - piedra verde o del persa \"zamarat\" - corazón de piedra.</p>",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F00-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F00-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F00-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F00-3.jpeg"
+        ]
+    }
+]

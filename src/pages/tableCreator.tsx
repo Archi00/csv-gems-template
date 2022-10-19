@@ -7,6 +7,7 @@ import { translations } from "@/utils/Translations"
 import { reqOptions } from "@/utils/Appconfig"
 import { Categories } from "@/utils/Categories"
 import { Hardness } from "@/utils/Hardness"
+import { GemsInfo } from "@/utils/GemsInfo"
 
 const TableCreator = () => {
     const [formInfo, setFormInfo] = useState({} as FormInfo)
@@ -169,6 +170,7 @@ const TableCreator = () => {
             price.children[0].innerText || price.children[0].value
         }` : setName("es")
         rawData["es"]["Description"] = esDesc
+        if (GemsInfo[enName.toLowerCase()]) rawData["es"]["ShortDescription"] = GemsInfo[enName.toLowerCase()]
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
