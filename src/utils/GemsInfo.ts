@@ -1,53 +1,42 @@
-export const GemsInfo: any = {
+export let GemsInfo: any = {
     amethyst: `<p>
-    <span
-        >La Amatista es una variedad violeta del cuarzo. Se presenta en toda la gama de violetas.
+    <span>La Amatista es una variedad violeta del cuarzo. Se presenta en toda la gama de violetas.
         De casi incolora a violeta oscuro. En los mejores ejemplares tiene destellos de rojo y
         azul. Cuando una amatista presenta un violeta oscuro con destellos se la llama
         comercialmente de "color siberiano" ya que en Siberia salieron ejemplares de gran
-        belleza.</span
-    >
-</p>
-<p><span>Tiene dureza 7 de Mohs y se puede usar con seguridad de durabilidad.</span></p>
-<p>
-    <span
-        >Se ha sinterizado con exito con mucho acierto y es muy dificil distinguir la sintetica de
-        la natural.</span
-    >
-</p>
-<p>
-    <span
-        >Un tanto por ciento muy alto de las que estan a la venta en el mercado son sinteticas por
-        eso es una gema que se tiene que comprar a un proveedor de mucha confianza.</span
-    >
-</p>
-<p><span>Garantizamos que nuestras amatistas son naturales.</span></p>
-<p>
-    <span
-        >Los yacimientos principales estan en: Uruguay, Brasil, Bolivia, Este de Africa,
-        Rusia.</span
-    >
-</p>
-<p><span>En Cataluña tuvieron mucha importancia las amatistas del Montseny (Barcelona).</span></p>
-<p>
-    <span><a href="http://www.gemdat.org/gem-198.html">GEMDAT</a></span>
-</p>
-`,
+        belleza.</span>
+    </p>
+    <p><span>Tiene dureza 7 de Mohs y se puede usar con seguridad de durabilidad.</span></p>
+    <p>
+        <span>Se ha sinterizado con exito con mucho acierto y es muy dificil distinguir la sintetica de
+            la natural.</span>
+    </p>
+    <p>
+        <span>Un tanto por ciento muy alto de las que estan a la venta en el mercado son sinteticas por
+            eso es una gema que se tiene que comprar a un proveedor de mucha confianza.</span>
+    </p>
+    <p><span>Garantizamos que nuestras amatistas son naturales.</span></p>
+    <p>
+        <span>Los yacimientos principales estan en: Uruguay, Brasil, Bolivia, Este de Africa,
+            Rusia.</span>
+    </p>
+    <p><span>En Cataluña tuvieron mucha importancia las amatistas del Montseny (Barcelona).</span></p>
+    <p>
+        <span><a href="http://www.gemdat.org/gem-198.html">GEMDAT</a></span>
+    </p>`,
     amazonite: `<p>Amazonita</p>
     <p>Es una de las gemas que se ven con más frecuencia en la joyería egipcia clásica</p>
     <p>Antes llamada Neshmet (también era el nombre utilizado para indicar la barca sagrada de Osiris), era tan apreciada por los egipcios que el capítulo 7, el juicio de Osiris del libro de los muertos fue inscrito en una losa de pura amazonita.</p>`,
-
     andalucite: `<p>Andalucita</p>
     <p>La andalucita fue estudiada por primera vez por Werner, a partir de ejemplares procedentes de España. Tanto este mineralogista como Delamétherie, creyeron que los ejemplares procedían de Andalucía, por lo que el segundo le dio al mineral el nombre que ahora lleva. Sin embargo, parece ser que los ejemplares que estudiaron procedían de El Cardoso (Guadalajara), pueblo que supusieron situado en Andalucía</p>
     <p>Es un polimorfo con otras dos piedras preciosas: cianita y silimanita. Polimorfo significa que comparten la misma composición química e ingredientes pero tienen una estructura cristalina distinta.</p>
     <p>La mayoría de las andalucitas tienden a ser de un color marrón verdoso, pero también puede tener destellos de naranja, rosa o rojo cuando se gira de un ángulo a otro.</p>
-    <p>Este cambio de color se conoce como pleocroísmo y debe tenerse en cuenta a la hora de cortarlo.</p>
-    `,
+    <p>Este cambio de color se conoce como pleocroísmo y debe tenerse en cuenta a la hora de cortarlo.</p>`,
     andesine: `<p>Andesina</p>
     <p>Es un feldespato compuesto por 50-70% albita y 30-50% anortita</p>
     <p>Fue descrita por primera vez en 1841, descubierta en la mina de Marmato, Colombia. Su nombre proviene de las montañas andes de sud-américa.</p>`,
     apatite: `<p>Apatita</p>
-    <p>El nombre ("Apatit") fue inventado por A.G Werner a mediaddos de 1780, más tarde describió el nombre después del verbo griego aπasάω (apatáō) que significa "engañar" (alguién) o "ser engañoso", porqué como escribió "hasta ahora ha confundido/engañado a todos los mineralogistas en su identificación" (Roycroft & Cuypers, 2015)</p>
+    <p>El nombre ("Apatit") fue inventado por A.G Werner a mediados de 1780, más tarde describió el nombre después del verbo griego aπasάω (apatáō) que significa "engañar" (alguién) o "ser engañoso", porqué como escribió "hasta ahora ha confundido/engañado a todos los mineralogistas en su identificación" (Roycroft & Cuypers, 2015)</p>
     <p>Brasil, Canadá, India, Madagascar y México son los principales productores mundiales de apatita y España es conocida por las de color espárrago, mientras que Maine en los EE. UU. es la fuente de las apatitas de color lila.</p>`,
     azurite: `<p>Azurita</p>
     <p>La azurita es un carbonato de cobre, obtiene su color azul intenso del cobre</p>`,

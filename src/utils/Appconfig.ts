@@ -28,6 +28,10 @@ export const AppConfig: AppConfigInterface = {
         title: "Upload & Edit Images",
         description: "Upload, Crop, Resize Images",
     },
+    descriptions: {
+        title: "Gem Descriptions",
+        description: "Check and edit descriptions",
+    },
 }
 
 const currentIP = "localhost" || process.env.NEXT_PUBLIC_CUSTOM_IP || "192.168.1.126"
@@ -52,8 +56,7 @@ export const reqOptions = {
         csv: `/api/saveCsv`,
         script: `/api/importScript`,
         compress: `/api/compressImages`,
-        setImage: `/api/setImages`
-
+        setImage: `/api/setImages`,
     },
     post: {
         method: "POST",
