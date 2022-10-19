@@ -1,7 +1,6 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
 import { reqOptions } from "@/utils/Appconfig"
-import { GemsInfo } from "@/utils/GemsInfo"
 import {  useEffect, useRef, useState } from "react"
 
 export async function getServerSideProps() {
@@ -50,7 +49,7 @@ const DescriptionsPage = ({gems}:any) => {
     }
 
     const addGem = async () => {
-        
+
     }
 
     return (
