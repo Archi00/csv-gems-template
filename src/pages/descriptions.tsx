@@ -19,12 +19,11 @@ export async function getServerSideProps() {
 const DescriptionsPage = ({gems}:any) => {
     const [currentSelected, setCurrentSelected] = useState<string>("")
     const [success, setSuccess] = useState<boolean | null>()
+    const [newGemName, setNewGemName] = useState<string>("")
     const descriptionContainer = useRef<HTMLDivElement|null>(null)
+    const addingDescription = useRef<HTMLTextAreaElement|null>(null)
 
-    useEffect(() => {
-        console.log(gems)
-    }, [])
-    
+
     const handleSelect = async (gemName: string) => {
         setCurrentSelected(gemName)
         const myContainer = document.createElement("div")
@@ -49,7 +48,9 @@ const DescriptionsPage = ({gems}:any) => {
     }
 
     const addGem = async () => {
-
+        const gemName = prompt("Escriu el nom de la gema en Anglès")
+        setNewGemName(gemName!.toLowerCase())
+        console.log(addingDescription.current)
     }
 
     return (
@@ -63,7 +64,33 @@ const DescriptionsPage = ({gems}:any) => {
             current="descriptions"
         >
             <div ref={descriptionContainer}>
-                {!currentSelected ? 
+                {newGemName ? 
+                <>
+                    <textarea
+                      className="
+                        form-control
+                        block
+                        w-full
+                        px-3
+                        py-1.5
+                        text-base
+                        font-normal
+                        text-gray-700
+                        bg-white bg-clip-padding
+                        border border-solid border-gray-300
+                        rounded
+                        transition
+                        ease-in-out
+                        m-0
+                        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                      "
+                      placeholder="Descripció"
+                      id="textArea"
+                      ref={addingDescription}
+                    ></textarea>
+                    </>
+                : null}
+                {!currentSelected && !newGemName ? 
                     <>
                         <button type="button" onClick={addGem} className="mt-8 text-center mx-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Afegir una gemma</button>
                         <div className="mx-auto mt-8 pb-4 flex flex-wrap max-w-[80vw] gap-1 justify-between">
