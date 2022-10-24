@@ -34,13 +34,6 @@ export const AppConfig: AppConfigInterface = {
     },
 }
 
-const currentIP = "localhost" || process.env.NEXT_PUBLIC_CUSTOM_IP || "192.168.1.126"
-
-export const server =
-    process.env.NODE_ENV !== "production"
-        ? `http://${currentIP}:3000`
-        : "https://csv-gems-template-archi00.vercel.app"
-
 export const reqOptions = {
     uri: {
         en: `/api/writeENTable`,

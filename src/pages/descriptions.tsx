@@ -54,7 +54,6 @@ const DescriptionsPage = ({gems}:any) => {
             if (gem === gemName) {
                 return duplicate = true
             }
-            return duplicate
         })
         if (duplicate!) return alert(`Ja hi ha descripció de ${gemName}!!`)
         setNewGemName(gemName!.toLowerCase())
