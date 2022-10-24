@@ -51,7 +51,7 @@ const DescriptionsPage = ({gems}:any) => {
         let duplicate: boolean | null
         const gemName = prompt("Escriu el nom de la gemma en Anglès")
         Object.keys(gems).map(gem =>{
-            if (gem === gemName) {
+            if (gem.toLowerCase() === gemName?.toLowerCase()) {
                 return duplicate = true
             }
         })
