@@ -1,7 +1,7 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
 import { reqOptions } from "@/utils/Appconfig"
-import {  useEffect, useRef, useState } from "react"
+import { useRef, useState } from "react"
 
 export async function getServerSideProps() {
     let gems = {}
@@ -48,14 +48,15 @@ const DescriptionsPage = ({gems}:any) => {
     }
 
     const addGem = async () => {
-        let duplicate
+        let duplicate: boolean | null
         const gemName = prompt("Escriu el nom de la gemma en Anglès")
         Object.keys(gems).map(gem =>{
             if (gem === gemName) {
                 return duplicate = true
             }
+            return duplicate
         })
-        if (duplicate) return alert(`Ja hi ha descripció de ${gemName}!!`)
+        if (duplicate!) return alert(`Ja hi ha descripció de ${gemName}!!`)
         setNewGemName(gemName!.toLowerCase())
     }
     
