@@ -48,9 +48,30 @@ const DescriptionsPage = ({gems}:any) => {
     }
 
     const addGem = async () => {
-        const gemName = prompt("Escriu el nom de la gema en Anglès")
+        let duplicate
+        const gemName = prompt("Escriu el nom de la gemma en Anglès")
+        Object.keys(gems).map(gem =>{
+            if (gem === gemName) {
+                return duplicate = true
+            }
+        })
+        if (duplicate) return alert(`Ja hi ha descripció de ${gemName}!!`)
         setNewGemName(gemName!.toLowerCase())
-        console.log(addingDescription.current)
+    }
+    
+    const handleAddDescription = async () => {
+        const descriptionArray = addingDescription.current?.value.split("\n")
+        const finalDescriptionArray: string[] = []
+        descriptionArray?.map(part => {
+            finalDescriptionArray.push(`<p>${part}</p>`)
+        })
+        const finalDescription = finalDescriptionArray.join("")
+        const newObject = {[newGemName]: finalDescription}
+        const endPoint = "/api/addNewGemDescription"
+        const post = reqOptions["post"]
+        post.body = JSON.stringify(newObject)
+        const response = await fetch(endPoint, post)
+        if (response.ok) console.log("success")
     }
 
     return (
@@ -66,6 +87,7 @@ const DescriptionsPage = ({gems}:any) => {
             <div ref={descriptionContainer}>
                 {newGemName ? 
                 <>
+                    <label className="mt-3 mb-6 text-center mx-auto block text-xl font-bold underline">{newGemName}</label>
                     <textarea
                       className="
                         form-control
@@ -73,6 +95,7 @@ const DescriptionsPage = ({gems}:any) => {
                         w-full
                         px-3
                         py-1.5
+                        mt-3
                         text-base
                         font-normal
                         text-gray-700
@@ -88,15 +111,16 @@ const DescriptionsPage = ({gems}:any) => {
                       id="textArea"
                       ref={addingDescription}
                     ></textarea>
+                    <button type="button" onClick={handleAddDescription} className="mt-8 text-center mx-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Guardar</button>
                     </>
                 : null}
                 {!currentSelected && !newGemName ? 
                     <>
-                        <button type="button" onClick={addGem} className="mt-8 text-center mx-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Afegir una gemma</button>
+                        <button type="button" onClick={addGem} className="mt-8 text-center mx-auto text-white block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Afegir una gemma</button>
                         <div className="mx-auto mt-8 pb-4 flex flex-wrap max-w-[80vw] gap-1 justify-between">
-                            {Object.keys(gems).map((gem, id: number) => {
+                            {Object.keys(gems).sort().map((gem, id: number) => {
                                 return (
-                                    <div key={id} className="min-w-[20vw] cursor-pointer text-center py-4 px-6 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" onClick={() => handleSelect(gem)}>
+                                    <div key={id} className="min-w-[15vw] cursor-pointer text-center py-4 px-6 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" onClick={() => handleSelect(gem)}>
                                         {gem}
                                     </div>
                                 )
@@ -104,7 +128,9 @@ const DescriptionsPage = ({gems}:any) => {
                         </div>  
                     </>
                 :
+                    !newGemName && currentSelected ? 
                     <button type="button" onClick={handleSave} className="mt-8 text-center mx-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Actualitzar</button>
+                    : null
                 } 
 
             </div>

@@ -8,9 +8,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     try {
         const file = fs.readFileSync("src/gems/gemsInfo.json").toString()
         const parsedFile = JSON.parse(file)
+        const contentToWrite = JSON.parse(req.body.content)
         parsedFile.map((gem: any) => {
             if(gem[req.body.name]){
-                gem[req.body.name] = req.body.content
+                gem[req.body.name] = contentToWrite
             }
         })
         const writeFile = JSON.stringify(parsedFile)
