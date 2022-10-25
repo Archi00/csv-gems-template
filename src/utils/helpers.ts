@@ -1,7 +1,6 @@
 import JSZip from "jszip"
 export const makeCSV = (table: any[]) => {
     let csvRows = []
-    console.log(table)
     const headers = Object.keys(table[0]!)
     csvRows.push(headers.join(";"))
     for (let i = 0, l = table.length; i < l; i++) {

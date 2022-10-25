@@ -7,11 +7,10 @@ import { translations } from "@/utils/Translations"
 import { reqOptions } from "@/utils/Appconfig"
 import { Categories } from "@/utils/Categories"
 import { Hardness } from "@/utils/Hardness"
-import { GemsInfo } from "@/utils/GemsInfo"
 
 export async function getServerSideProps() {
     let gems = {}
-    const rawGems = await fetch(`http://localhost:3000/api/getGemsInfo`)
+    const rawGems = await fetch(`http://192.168.1.46:3000/api/getGemsInfo`)
     const parsedGems = await rawGems.json()
     Object.values(parsedGems).map((gem: any) => {
         gems = {...gems, ...gem}
@@ -172,7 +171,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("en")
         rawData["en"]["Description"] = enDesc
-        rawData["en"]["ShortDescription"] = ""
+        rawData["en"]["ShortDescription"] = "<p></p>"
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -185,8 +184,9 @@ const TableCreator = ({gems}: any) => {
         }` : setName("es")
         rawData["es"]["Description"] = esDesc
         Object.keys(gems).map((gem: any) =>{
-            if (gem[enName.toLowerCase()]) {
-                rawData["es"]["ShortDescription"] = gem[enName.toLowerCase()]
+            console.log(gems[gem])
+            if (gem === enName.toLowerCase()) {
+                rawData["es"]["ShortDescription"] = gems[gem]
             }
         })
         const esData = JSON.stringify(rawData["es"])
@@ -200,7 +200,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("cat")
         rawData["cat"]["Description"] = catDesc
-        rawData["cat"]["ShortDescription"] = ""
+        rawData["cat"]["ShortDescription"] = "<p></p>"
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]

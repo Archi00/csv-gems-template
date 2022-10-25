@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "ID": "F000",
+        "Active": 1,
+        "Categories": "2,16,17",
+        "Price": "50",
+        "Reference": "F000",
+        "Quantity": 1,
+        "Name": "Amatista 2ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Amatista</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>2ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>3x3x3mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>pruple</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Colombia</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p><span>La Amatista es una variedad violeta del cuarzo. Se presenta en toda la gama de violetas.De casi incolora a violeta oscuro. En los mejores ejemplares tiene destellos de rojo yazul. Cuando una amatista presenta un violeta oscuro con destellos se la llamacomercialmente de 'color siberiano' ya que en Siberia salieron ejemplares de granbelleza.</span></p><p><span>Tiene dureza 7 de Mohs y se puede usar con seguridad de durabilidad.</span></p><p><span>Se ha sinterizado con exito con mucho acierto y es muy dificil distinguir la sintetica dela natural.</span></p><p><span>Un tanto por ciento muy alto de las que estan a la venta en el mercado son sinteticas poreso es una gema que se tiene que comprar a un proveedor de mucha confianza.</span></p><p><span>Garantizamos que nuestras amatistas son naturales.</span></p><p><span>Los yacimientos principales estan en: uruguay, Brasil, Bolivia, Este de Africa,Rusia.</span></p><p><span>En Cataluña tuvieron mucha importancia las amatistas del Montseny (Barcelona).</span></p><p><span><a href='http://www.gemdat.org/gem-198.html'>GEMDAT</a></span></p>"
+    }
+]

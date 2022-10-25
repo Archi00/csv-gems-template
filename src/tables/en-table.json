@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "ID": "F000",
+        "Active": 1,
+        "Categories": "2,16,17",
+        "Price": "50",
+        "Reference": "F000",
+        "Quantity": 1,
+        "Name": "Amethyst 2ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>: <span>Amethyst</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>: <span>2ct</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>: <span>3x3x3mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>pruple</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>Colombia</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>"
+    }
+]

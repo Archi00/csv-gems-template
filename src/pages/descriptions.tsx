@@ -5,7 +5,7 @@ import { useRef, useState } from "react"
 
 export async function getServerSideProps() {
     let gems = {}
-    const rawGems = await fetch(`http://localhost:3000/api/getGemsInfo`)
+    const rawGems = await fetch(`http://192.168.1.46:3000/api/getGemsInfo`)
     const parsedGems = await rawGems.json()
     Object.values(parsedGems).map((gem: any) => {
         gems = {...gems, ...gem}
