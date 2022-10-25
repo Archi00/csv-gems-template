@@ -7,6 +7,9 @@ import { makeCSV } from "@/utils/helpers"
 
 export default async function handler(_req: NextApiRequest, res: NextApiResponse) {
     try {
+        console.log(enTable)
+        console.log(esTable)
+        console.log(catTable)
         const enCSV =  makeCSV(enTable)
         const esCSV = makeCSV(esTable)
         const catCSV = makeCSV(catTable)
