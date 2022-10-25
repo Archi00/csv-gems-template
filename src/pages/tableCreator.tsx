@@ -172,6 +172,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("en")
         rawData["en"]["Description"] = enDesc
+        rawData["en"]["ShortDescription"] = ""
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -199,6 +200,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("cat")
         rawData["cat"]["Description"] = catDesc
+        rawData["cat"]["ShortDescription"] = ""
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
@@ -235,7 +237,12 @@ const TableCreator = ({gems}: any) => {
         formInfo["treatment"].innerText = joieria ? "GEM TREATMENT" : "TREATMENT"
         formInfo["unh"].innerText = ": Unheated / Untreated"
         translate("en")
-        setEnName(translations.name["en"][gemName]!)
+        if (gemName !== "amber") {
+            setEnName(translations.name["en"][gemName])
+        }
+        if (gemName === "amber") {
+            setEnName(`${translations.name["en"][gemName]} (${formInfo["info"][6]!.value})`)
+        }
         replaceInput()
         setEnDesc(formInfo["form"].innerHTML)
         replaceSpan()
@@ -253,7 +260,12 @@ const TableCreator = ({gems}: any) => {
         formInfo["treatment"].innerText = joieria ? "TRATAMIENTO GEMA" : "TRATAMIENTO"
         formInfo["unh"].innerText = ":  Sin tratamiento"
         translate("es")
-        setEsName(translations.name["es"][gemName]!)
+        if (gemName !== "amber") {
+            setEsName(translations.name["es"][gemName])
+        }
+        if (gemName === "amber") {
+            setEsName(`${translations.name["es"][gemName]} (${formInfo["info"][6]!.value})`)
+        }
         replaceInput()
         setEsDesc(formInfo["form"].innerHTML)
         replaceSpan()
@@ -271,7 +283,12 @@ const TableCreator = ({gems}: any) => {
         formInfo["treatment"].innerText = joieria ? "TRACTAMENT GEMMA" : "TRACTAMENT"
         formInfo["unh"].innerText = ":  Sense tractament"
         translate("cat")
-        setCatName(translations.name["cat"][gemName]!)
+        if (gemName !== "amber") {
+            setCatName(translations.name["cat"][gemName])
+        }
+        if (gemName === "amber") {
+            setCatName(`${translations.name["cat"][gemName]} (${formInfo["info"][6]!.value})`)
+        }
         replaceInput()
         setCatDesc(formInfo["form"].innerHTML)
         replaceSpan()
