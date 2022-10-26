@@ -32,6 +32,10 @@ export const AppConfig: AppConfigInterface = {
         title: "Gem Descriptions",
         description: "Check and edit descriptions",
     },
+    updateDescriptions: {
+        title: "Update Descriptions",
+        description: "Click the button to update descriptions"
+    }
 }
 
 export const reqOptions = {
