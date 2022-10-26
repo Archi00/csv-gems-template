@@ -2,6 +2,7 @@ import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
 import { capitalizeFirstLetter } from "@/utils/helpers"
 import { translations } from "@/utils/Translations"
+import { useState } from "react"
 
 export async function getServerSideProps() {
     let gems = {}
@@ -19,11 +20,11 @@ export async function getServerSideProps() {
 }
 
 const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
+    const [missingDescription, setMissingDescription] = useState<any>()
     const handleUpdate = () => {
         let currentGems: any = {}
         let tmp: any = {}
         let returnObject: any = {}
-        let missingDescription: string[] = []
         const outputGems = parsedGemsToUpdate.split("\n")
         outputGems.map((gem: any) => {
             const formatedGem = gem.split(",")
@@ -47,9 +48,16 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             const cleanMedalion = cleanEarrings.replace("aguja ", "")
             const cleanRing = cleanMedalion.replace("anillo", "")
             const cleanCarving = cleanRing.replace("carving", "")
-            const cleanPiedra = cleanCarving.replace("piedra", "")
-            const cleanFosil = cleanPiedra.replace("coralfosil", "")
-            let finalFormatedGem = cleanFosil.split(" ")
+            const cleanSilver = cleanCarving.replace("plata", "")
+            const cleanPiedra = cleanSilver.replace("piedra", "")
+            const cleanOso = cleanPiedra.replace("oso", "")
+            const cleanElefante = cleanOso.replace("elefante", "")
+            const cleanHuevo = cleanElefante.replace("huevo", "")
+            const cleanFosil = cleanHuevo.replace("coralfosil", "")
+            const cleanOm = cleanFosil.replace("om", "")
+            const cleanPuño = cleanOm.replace("puño", "")
+            const cleanCorazon = cleanPuño.replace("corazon", "")
+            let finalFormatedGem = cleanCorazon.split(" ")
             if (!finalFormatedGem[0]) return 
             if (finalFormatedGem[0] === "jade" && finalFormatedGem[1] !== "de") {
                 finalFormatedGem = [`${finalFormatedGem[0]} ${finalFormatedGem[1]}`]
@@ -62,6 +70,7 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             if (!gems[finalFormatedGem[0].toLowerCase()]) return tmp = {...tmp, [formatedGem[0]]: finalFormatedGem[0].toLowerCase()} 
             currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()]}
         })
+        setMissingDescription(tmp)
         returnObject = {...currentGems, ...tmp}
         console.log(currentGems)
         console.log(`missing description:`, tmp)
@@ -76,8 +85,22 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             current="updateDescriptions"
         >
             <div className="mb-24">
-            <button type="button" onClick={handleUpdate} className="mt-8 text-center mx-auto block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Actualitzar</button>
+                <button type="button" onClick={handleUpdate} className="mt-8 text-center mx-auto block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Actualitzar</button>
             </div>
+            {missingDescription ?
+                <div>
+                    <div>Gemmes que falta descripció: </div>
+                    <div>{Object.keys(missingDescription).length}</div>
+                    <br></br>
+                    {Object.keys(missingDescription).map((key: any) => {
+                        return (
+                            <div>
+                                <span>{key}: </span><span>{missingDescription[key]}</span>
+                            </div>
+                        )
+                    })}
+                </div>
+            : null}
         </Main>
     )
 }
