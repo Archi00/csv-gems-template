@@ -51,7 +51,9 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             const cleanRing = cleanMedalion.replace("anillo", "")
             const cleanCarving = cleanRing.replace("carving", "")
             const cleanSilver = cleanCarving.replace("plata", "")
-            const cleanPiedra = cleanSilver.replace("piedra", "")
+            const cleanCruz = cleanSilver.replace("cruz", "")
+            const cleanPendulo = cleanCruz.replace("pendulo", "")
+            const cleanPiedra = cleanPendulo.replace("piedra", "")
             const cleanOso = cleanPiedra.replace("oso", "")
             const cleanElefante = cleanOso.replace("elefante", "")
             const cleanHuevo = cleanElefante.replace("huevo", "")
@@ -72,12 +74,12 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             if (!gems[finalFormatedGem[0].toLowerCase()]) return tmp = {...tmp, [formatedGem[0]]: finalFormatedGem[0].toLowerCase()} 
             currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()]}
         })
-        setMissingDescription(tmp)
         setHaveDescription(currentGems)
-  
+        setMissingDescription(tmp)
     }
 
     const handleUpdate = async () => {
+        console.log(haveDescription)
         const endpoint = reqOptions["uri"]["saveDescriptionsCSV"]
         const post = reqOptions["post"] 
         post.body = JSON.stringify(haveDescription)
