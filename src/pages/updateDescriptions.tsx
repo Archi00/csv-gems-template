@@ -1,9 +1,71 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
+import { capitalizeFirstLetter } from "@/utils/helpers"
+import { translations } from "@/utils/Translations"
 
-const UpdateDescriptions = () => {
+export async function getServerSideProps() {
+    let gems = {}
+    const rawGems = await fetch(`http://localhost:3000/api/getGemsInfo`)
+    const gemsToUpdate = await fetch(`http://localhost:3000/api/getDescriptionsCSV`)
+    const parsedGemsToUpdate = await gemsToUpdate.json()
+    const parsedGems = await rawGems.json()
+    Object.values(parsedGems).map((gem: any) => {
+        gems = {...gems, ...gem}
+    })
+    
+    return {
+      props: {gems, parsedGemsToUpdate}, 
+    }
+}
+
+const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
     const handleUpdate = () => {
-        console.log("Hello World!")
+        let currentGems: any = {}
+        let tmp: any = {}
+        let returnObject: any = {}
+        let missingDescription: string[] = []
+        const outputGems = parsedGemsToUpdate.split("\n")
+        outputGems.map((gem: any) => {
+            const formatedGem = gem.split(",")
+            if (!formatedGem[1]) return 
+            const cleanFormatedGem = formatedGem[1].toLowerCase().replace(`"`, "")
+            const cleanPendant = cleanFormatedGem.replace("collar de ", "")
+            const cleanedPendant = cleanPendant.replace("collar", "")
+            const cleanMoon = cleanedPendant.replace("  lluna", " luna")
+            const cleanColgante = cleanMoon.replace("colgante  ", "")
+            const cleanMoonPendant = cleanColgante.replace("colgante ", "")
+            const cleanNatural = cleanMoonPendant.replace(" natural", "")
+            const cleanCoral = cleanNatural.replace(" rojo mediterrano", "")
+            const cleanEthipia = cleanCoral.replace(" etiopia", "")
+            const cleanBiterminated = cleanEthipia.replace(" biterminado", "")
+            const cleanPulsera = cleanBiterminated.replace("pulsera ", "")
+            const cleanCarved = cleanPulsera.replace(" labrado", "")
+            const cleanDoubleCarved = cleanCarved.replace(" labrada", "")
+            const cleanRed = cleanDoubleCarved.replace("rojo", "")
+            const cleanCoralUpdate = cleanRed.replace("coral ", "coral")
+            const cleanEarrings = cleanCoralUpdate.replace("pendientes ", "")
+            const cleanMedalion = cleanEarrings.replace("aguja ", "")
+            const cleanRing = cleanMedalion.replace("anillo", "")
+            const cleanCarving = cleanRing.replace("carving", "")
+            const cleanPiedra = cleanCarving.replace("piedra", "")
+            const cleanFosil = cleanPiedra.replace("coralfosil", "")
+            let finalFormatedGem = cleanFosil.split(" ")
+            if (!finalFormatedGem[0]) return 
+            if (finalFormatedGem[0] === "jade" && finalFormatedGem[1] !== "de") {
+                finalFormatedGem = [`${finalFormatedGem[0]} ${finalFormatedGem[1]}`]
+            }
+            Object.keys(translations["name"]["es"]).find(key => {
+                if (translations["name"]["es"][key] === capitalizeFirstLetter(finalFormatedGem[0])) {
+                    finalFormatedGem[0] = translations["name"]["en"][key]
+                }
+            })
+            if (!gems[finalFormatedGem[0].toLowerCase()]) return tmp = {...tmp, [formatedGem[0]]: finalFormatedGem[0].toLowerCase()} 
+            currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()]}
+        })
+        returnObject = {...currentGems, ...tmp}
+        console.log(currentGems)
+        console.log(`missing description:`, tmp)
+
     }
 
     return (

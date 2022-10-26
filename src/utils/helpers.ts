@@ -88,3 +88,7 @@ export const saveByteArray =  (data: any, name: string)  => {
     a.click()
     window.URL.revokeObjectURL(url)
 }
+
+export const capitalizeFirstLetter = (string: string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}

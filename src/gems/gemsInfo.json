@@ -54,7 +54,7 @@
         "grossular garnet": "<p>Granate Grosulario</p><p>Su nombre viene derivado de las grosellas, por la variedad verde de esta composición encontrada en Siberia.</p>"
     },
     {
-        "hesonite garnet": "<p>Granate Hesonita</p><p>Se trata de la variedad naranja del granate grosularia. También conocida por la 'la piedra de canela' por su color tan característico.</p><p>El color se lo da el manganeso, y suele presentar un interior melifluo y denso visualmente.</p>"
+        "hessonite garnet": "<p>Granate Hesonita</p><p>Se trata de la variedad naranja del granate grosularia. También conocida por la 'la piedra de canela' por su color tan característico.</p><p>El color se lo da el manganeso, y suele presentar un interior melifluo y denso visualmente.</p>"
     },
     {
         "malaya garnet": "<p>Granate Malaya (Umbalita)</p><p>Es una mezcla entre piropo y espesartita.</p><p>Se encuentra en el valle Umba (de aquí el nombre de Umbalita) en Tanzania y Tanga, cerca de la costa.</p><p>El nombre de de Malaia viene del Swahili para 'inadaptado'.</p>"
@@ -75,7 +75,7 @@
         "grandidierite": "<p>Grandidierite<br />Grandidierite es un mineral muy raro que se descubrió por primera vez en elsur de Madagascar a principios del siglo XX. Como la grandidierita es bastante dura, elmaterial de alta calidad se ha cortado como gemas, lo que la convierte en una de las gemas másraras.<br />Gemológicamente, grandidierita es un borosilicato de magnesio y aluminio. Tiene unadureza de 7 a 7.5 en la escala de Mohs, similar al granate y un Ãíndice de refracción de1.590-1.623.<br /><br />Se forma en el sistema de cristal ortorrómbico. Grandidierite estí­picamente de color verde azulado y deriva su color distintivo de las huellas de hierro. Elmaterial Gemologic es translúcido a transparente. Las muestras completamente transparentes sonultra raras.</p>"
     },
     {
-        "helidor": "<p>Heliodor</p><p>El nombre viene del griego 'helios' - sol y 'doron' - regalo. El color va desde color limón a miel amarillento.</p><p>Es la variedad amarilla de berilo, es la misma familia de la esmeralda, aguamarina, morganita...</p>"
+        "heliodor": "<p>Heliodor</p><p>El nombre viene del griego 'helios' - sol y 'doron' - regalo. El color va desde color limón a miel amarillento.</p><p>Es la variedad amarilla de berilo, es la misma familia de la esmeralda, aguamarina, morganita...</p>"
     },
     {
         "howlite": "<p>Howlita</p><p>Lleva el nombre del mineralogista canadiense Henry Low, quién la descubrió en Tick Canyon en el sur de California en 1868.</p><p>En el mercado es muy común encontrarla teñida de azul como imitación a turquesa, a veces se le pone el nombre de Turquenita.</p>"
@@ -123,19 +123,19 @@
         "pietersite": "<p>Pietersita</p><p>Descubierto por Sid Pieters en 1962 Namibia, lleva su nombre.</p><p>Se trata de un agregado de brecha formado principalmente por ojo de halcón y ojo de tigre que pertenece a la rama de ojo de tigre llamada Riebeckita. Este es un pseudomorfo, un mineral que presenta la morfología de otro preexistente, el cual ha substituido debido a cambios estructurales, alteración o substitución química o disolución y relleno.</p><p>El ojo de tigre aparece en forma de crocidolita, una forma de asbesto (grupo de 6 minerales metamórficos fibrosos).</p><p>El cuarzo al reemplazar la crocidolita, toma la forma del mineral fibroso que es la causa de la 'chatoyancia' (El brillo sedoso concentrado en una banda fina de luz que cambia de posición conforme el mineral va girando).</p><p>La pietersita no presenta la estructura orderanada característica del ojo de tigre ya que durante la formación del cristal, los materiales que lo componen se rompieron, arremolinaron, reformaron y finalmente cementaron con cuarzo. Las piedras y cristales que pasan por este proceso se denominan brechados.</p>"
     },
     {
-        "pritie": "<p>Pirita</p><p>El nombre deriva del griego - fuego, ya que emite chispas al rozarla con metales.</p><p>Son característicos los cristales cúbicos dorados.</p><p>FeS2</p>"
+        "pirite": "<p>Pirita</p><p>El nombre deriva del griego - fuego, ya que emite chispas al rozarla con metales.</p><p>Son característicos los cristales cúbicos dorados.</p><p>FeS2</p>"
     },
     {
         "prehnite": "<p>Prehnita</p><p>Lleva el nombre en honor a Hendrik von Prehn, gobernador del Cabo de Buena Esperanza (Sudáfrica) en 1774 quien descubrió este mineral. El nombre fue acuñado por el famoso geólogo alemán Gottlob Werner en 1788.</p><p>Suele aparecen en un hábito botrioidal - forma externa globular y que se asemeja a un racimo de uvas (donde deriva el nombre desde el griego). </p><p>Ca2Al(AlSi3O10)(OH)2</p>"
     },
     {
-        "smoked quartz": "<p>Cuarzo Ahumado</p><p>El nombre le viene dado por su color ahumado.</p><p>Recibe este color debido a las impurezas de Aluminio que durante la creación quedaron atrapadas en el cristal y este estuvo expuesto a rayos gamma (de forma natural y/o artificial).</p>"
+        "smoky quartz": "<p>Cuarzo Ahumado</p><p>El nombre le viene dado por su color ahumado.</p><p>Recibe este color debido a las impurezas de Aluminio que durante la creación quedaron atrapadas en el cristal y este estuvo expuesto a rayos gamma (de forma natural y/o artificial).</p>"
     },
     {
         "quartz": "<p>Cuarzo</p><p>Es el mineral más común de la corteza terrestre después del feldespato</p><p>Se ha sugerido que su nombre proviene del alemán que a su vez deriva de la palabra en antiguo eslavo para duro.</p><p>La palabra del griego antiguo para cuarzo, krystallos, dio origen a la palabra cristal.</p><p>El cuarzo ocurre en 2 formas básicas: Cuarzo macrocristalino: esta hecho de cristales visibles o granos. Ejemplos: cristal de roca, arenisca, también cuarzo massivo compuesto por cristales sin caras de cristal. Cuarzo microcristalino: Esta hecho de agregados densos y compactos de cuarzo microscópico. Los diferentes tipos de cuarzo microcristalino son subsumidos al término calcedonia. Ejemplos: Agata, Sílex...</p>"
     },
     {
-        "rhodhocrosite": "<p>Rodocrosita</p><p>El nombre deriva del griego ῥοδόχρως (rodóchros) - rosáceo. Descrita por primera vez en 1813 en Romania.</p><p>Es la gema nacional de Argentina, donde aparece la característica rodocrosita bandeada.</p><p>MnCO3</p>"
+        "rhodochrosite": "<p>Rodocrosita</p><p>El nombre deriva del griego ῥοδόχρως (rodóchros) - rosáceo. Descrita por primera vez en 1813 en Romania.</p><p>Es la gema nacional de Argentina, donde aparece la característica rodocrosita bandeada.</p><p>MnCO3</p>"
     },
     {
         "ruby": "<p>Rubí</p><p>Deriva su nombre del latin ruber - rojo.</p><p>En sánscrito se la llamaba Ratnaraj - 'El rey de las piedras preciosas'.</p><p>Pertenece a la familia del corindón. Se llama rubí a los corindones rojos y zafiro a todos los demás colores.</p><p>Al2O3C</p>"

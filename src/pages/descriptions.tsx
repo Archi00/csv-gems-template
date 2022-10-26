@@ -14,7 +14,7 @@ export async function getServerSideProps() {
     return {
       props: {gems}, 
     }
-  }
+}
 
 const DescriptionsPage = ({gems}:any) => {
     const [currentSelected, setCurrentSelected] = useState<string>("")
