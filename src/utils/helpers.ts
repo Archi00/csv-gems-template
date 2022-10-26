@@ -10,6 +10,14 @@ export const makeCSV = (table: any[]) => {
     return csvRows.join("\n")
 }
 
+export const makeDescriptionsCSV = (table: any) => {
+    let csvRows = ["ID;Description"]
+    for (const [key, value] of Object.entries(table)) {
+        csvRows.push(`${key};${value}`)
+    }
+    return csvRows.join("\n")
+}
+
 export const downloadCSVFile = (csv: any, filename: any) => {
     const csvFile = new Blob([csv], { type: "text/csv" })
     const downloadLink = document.createElement("a")

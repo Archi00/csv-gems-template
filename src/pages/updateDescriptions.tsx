@@ -1,6 +1,7 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
-import { capitalizeFirstLetter } from "@/utils/helpers"
+import { reqOptions } from "@/utils/Appconfig"
+import { capitalizeFirstLetter, makeCSV, makeDescriptionsCSV } from "@/utils/helpers"
 import { translations } from "@/utils/Translations"
 import { useState } from "react"
 
@@ -21,10 +22,10 @@ export async function getServerSideProps() {
 
 const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
     const [missingDescription, setMissingDescription] = useState<any>()
-    const handleUpdate = () => {
+    
+    const handleUpdate = async () => {
         let currentGems: any = {}
         let tmp: any = {}
-        let returnObject: any = {}
         const outputGems = parsedGemsToUpdate.split("\n")
         outputGems.map((gem: any) => {
             const formatedGem = gem.split(",")
@@ -71,10 +72,11 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()]}
         })
         setMissingDescription(tmp)
-        returnObject = {...currentGems, ...tmp}
-        console.log(currentGems)
-        console.log(`missing description:`, tmp)
-
+        const endpoint = reqOptions["uri"]["saveDescriptionsCSV"]
+        const post = reqOptions["post"] 
+        post.body = JSON.stringify(currentGems)
+        const response = await fetch(endpoint, post)  
+        console.log(response.ok)        
     }
 
     return (

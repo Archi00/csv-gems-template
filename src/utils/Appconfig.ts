@@ -54,6 +54,7 @@ export const reqOptions = {
         script: `/api/importScript`,
         compress: `/api/compressImages`,
         setImage: `/api/setImages`,
+        saveDescriptionsCSV: `/api/saveDescriptionsCSV`
     },
     post: {
         method: "POST",
