@@ -1,7 +1,7 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
 import { reqOptions } from "@/utils/Appconfig"
-import { capitalizeFirstLetter, makeCSV, makeDescriptionsCSV } from "@/utils/helpers"
+import { capitalizeFirstLetter } from "@/utils/helpers"
 import { translations } from "@/utils/Translations"
 import { useState } from "react"
 
@@ -22,8 +22,9 @@ export async function getServerSideProps() {
 
 const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
     const [missingDescription, setMissingDescription] = useState<any>()
+    const [haveDescription, setHaveDescription] = useState<any>()
     
-    const handleUpdate = async () => {
+    const handleCheck = async () => {
         let currentGems: any = {}
         let tmp: any = {}
         const outputGems = parsedGemsToUpdate.split("\n")
@@ -72,11 +73,16 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()]}
         })
         setMissingDescription(tmp)
+        setHaveDescription(currentGems)
+  
+    }
+
+    const handleUpdate = async () => {
         const endpoint = reqOptions["uri"]["saveDescriptionsCSV"]
         const post = reqOptions["post"] 
-        post.body = JSON.stringify(currentGems)
+        post.body = JSON.stringify(haveDescription)
         const response = await fetch(endpoint, post)  
-        console.log(response.ok)        
+        console.log(response.ok)      
     }
 
     return (
@@ -87,20 +93,23 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
             current="updateDescriptions"
         >
             <div className="mb-24">
+                <button type="button" onClick={handleCheck} className="mt-8 text-center mx-auto block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Veure l'estat</button>
                 <button type="button" onClick={handleUpdate} className="mt-8 text-center mx-auto block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Actualitzar</button>
+
             </div>
             {missingDescription ?
                 <div>
-                    <div>Gemmes que falta descripció: </div>
-                    <div>{Object.keys(missingDescription).length}</div>
+                    <div>Gemmes que falta descripció: {Object.keys(missingDescription).length}</div>
                     <br></br>
-                    {Object.keys(missingDescription).map((key: any) => {
-                        return (
-                            <div>
-                                <span>{key}: </span><span>{missingDescription[key]}</span>
-                            </div>
-                        )
-                    })}
+                    <div className="mx-auto mt-8 pb-4 flex flex-wrap max-w-[80vw] gap-1 justify-between">
+                        {Object.keys(missingDescription).map((key: any, id) => {
+                            return (
+                                <div key={id} className="min-w-[15vw] cursor-pointer text-center py-4 px-6 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                                    <span>{key}: </span><span>{missingDescription[key]}</span>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
             : null}
         </Main>

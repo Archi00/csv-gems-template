@@ -1,6 +1,7 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
 import { reqOptions } from "@/utils/Appconfig"
+import { useRouter } from "next/router"
 import { useRef, useState } from "react"
 
 export async function getServerSideProps() {
@@ -22,6 +23,7 @@ const DescriptionsPage = ({gems}:any) => {
     const [newGemName, setNewGemName] = useState<string>("")
     const descriptionContainer = useRef<HTMLDivElement|null>(null)
     const addingDescription = useRef<HTMLTextAreaElement|null>(null)
+    const router = useRouter()
 
 
     const handleSelect = async (gemName: string) => {
@@ -50,7 +52,7 @@ const DescriptionsPage = ({gems}:any) => {
     const addGem = async () => {
         let duplicate: boolean | null
         const gemName = prompt("Escriu el nom de la gemma en Anglès")
-        Object.keys(gems).map(gem =>{
+        Object.keys(gems).map(gem=>{
             if (gem.toLowerCase() === gemName?.toLowerCase()) {
                 return duplicate = true
             }
@@ -72,6 +74,10 @@ const DescriptionsPage = ({gems}:any) => {
         post.body = JSON.stringify(newObject)
         const response = await fetch(endPoint, post)
         if (response.ok) console.log("success")
+    }
+
+    const handleRouter = () => {
+        router.push("/updateDescriptions")
     }
 
     return (
@@ -116,6 +122,7 @@ const DescriptionsPage = ({gems}:any) => {
                 : null}
                 {!currentSelected && !newGemName ? 
                     <>
+                        <button type="button" onClick={handleRouter} className="mt-8 text-center mx-auto text-white block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Anar a la pàgina d'estat</button>
                         <button type="button" onClick={addGem} className="mt-8 text-center mx-auto text-white block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Afegir una gemma</button>
                         <div className="mx-auto mt-8 pb-4 flex flex-wrap max-w-[80vw] gap-1 justify-between">
                             {Object.keys(gems).sort().map((gem, id: number) => {
