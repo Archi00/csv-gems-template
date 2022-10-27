@@ -186,7 +186,7 @@ const TableCreator = ({gems}: any) => {
         Object.keys(gems).map((gem: any) =>{
             console.log(gems[gem])
             if (gem === enName.toLowerCase()) {
-                rawData["es"]["ShortDescription"] = gems[gem]
+                rawData["es"]["ShortDescription"] = gems[gem]["es"]
             }
         })
         const esData = JSON.stringify(rawData["es"])
