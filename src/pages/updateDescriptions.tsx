@@ -30,6 +30,7 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
         const outputGems = parsedGemsToUpdate.split("\n")
         outputGems.map((gem: any) => {
             const formatedGem = gem.split(",")
+            if (formatedGem[0][0] === "J" || formatedGem[0][0] === "C") return
             if (!formatedGem[1]) return 
             const cleanFormatedGem = formatedGem[1].toLowerCase().replace(`"`, "")
             const cleanPendant = cleanFormatedGem.replace("collar de ", "")
