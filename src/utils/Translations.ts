@@ -304,7 +304,7 @@ export const translations: TranslationsConfig = {
             angelite: "Angelita",
             apatite: "Apatit",
             axinite: "Axinita",
-            azurite: "Azurita",
+            azurite: "Atzurita",
             bytownite: "Bytownita",
             kyanite: "Cianita",
             clinohumite: "Clinohumita",
