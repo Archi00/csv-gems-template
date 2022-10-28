@@ -23,6 +23,7 @@ export async function getServerSideProps() {
 const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
     const [missingDescription, setMissingDescription] = useState<any>()
     const [haveDescription, setHaveDescription] = useState<any>()
+    const [currentLang, setCurrentLang] = useState("es")
     
     const handleCheck = async () => {
         let currentGems: any = {}
@@ -73,7 +74,7 @@ const UpdateDescriptions = ({gems, parsedGemsToUpdate}: any) => {
                 }
             })
             if (!gems[finalFormatedGem[0].toLowerCase()]) return tmp = {...tmp, [formatedGem[0]]: finalFormatedGem[0].toLowerCase()} 
-            currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()]}
+            currentGems = {...currentGems, [formatedGem[0]]: gems[finalFormatedGem[0].toLowerCase()][currentLang]}
         })
         setHaveDescription(currentGems)
         setMissingDescription(tmp)

@@ -171,7 +171,12 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("en")
         rawData["en"]["Description"] = enDesc
-        rawData["en"]["ShortDescription"] = "<p></p>"
+        Object.keys(gems).map((gem: any) =>{
+            if (gem !== enName.toLowerCase()) return
+            if(!gems[gem]["en"]) return rawData["en"]["ShortDescription"] = "<p></p>"
+            rawData["en"]["ShortDescription"] = gems[gem]["en"]
+        })
+        
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -186,7 +191,7 @@ const TableCreator = ({gems}: any) => {
         Object.keys(gems).map((gem: any) =>{
             console.log(gems[gem])
             if (gem === enName.toLowerCase()) {
-                rawData["es"]["ShortDescription"] = gems[gem]
+                rawData["es"]["ShortDescription"] = gems[gem]["es"]
             }
         })
         const esData = JSON.stringify(rawData["es"])
@@ -200,7 +205,11 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("cat")
         rawData["cat"]["Description"] = catDesc
-        rawData["cat"]["ShortDescription"] = "<p></p>"
+        Object.keys(gems).map((gem: any) =>{
+            if (gem !== enName.toLowerCase()) return
+            if(!gems[gem]["cat"]) return rawData["cat"]["ShortDescription"] = "<p></p>"
+            rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
+        })
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
