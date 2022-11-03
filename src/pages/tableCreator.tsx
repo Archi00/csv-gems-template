@@ -166,6 +166,7 @@ const TableCreator = ({gems}: any) => {
         const catEndpoint = reqOptions.uri["cat"]
         const price: any = formInfo["weight"].nextSibling!
         const urls: any = createImgUrl()
+        setGemOrigin(formInfo["info"][6]!.value)
 
         console.log("Fetching en version...")
         rawData["en"] = data
@@ -179,7 +180,6 @@ const TableCreator = ({gems}: any) => {
             rawData["en"]["ShortDescription"] = gems[gem]["en"]
         })
         rawData["en"]["meta-title"] = `${capitalizeFirstLetter(rawData["en"]["Name"])} - Gemmesterra`
-        setGemOrigin(gemOrigin)
         rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut].toLowerCase()} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${gemOrigin}`
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
