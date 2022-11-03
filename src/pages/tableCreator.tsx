@@ -197,7 +197,7 @@ const TableCreator = ({gems}: any) => {
             }
         })
         rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
-        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor]} con forma ${translations.cut["es"][gemCut]} de ${formInfo["info"][6]!.value}`
+        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor]} con forma ${translations.cut["es"][gemCut]} de ${formInfo["info"][6]!.value || formInfo["info"][6]!.innerText}`
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
@@ -215,7 +215,7 @@ const TableCreator = ({gems}: any) => {
             rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
         })
         rawData["cat"]["meta-title"] = `${capitalizeFirstLetter(rawData["cat"]["Name"])} - Gemmesterra`
-        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor]} con forma ${translations.cut["cat"][gemCut]} de ${formInfo["info"][6]!.value}`
+        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor]} con forma ${translations.cut["cat"][gemCut]} de ${formInfo["info"][6]!.value || formInfo["info"][6]!.innerText}`
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
