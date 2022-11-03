@@ -7,6 +7,7 @@ import { translations } from "@/utils/Translations"
 import { reqOptions } from "@/utils/Appconfig"
 import { Categories } from "@/utils/Categories"
 import { Hardness } from "@/utils/Hardness"
+import { capitalizeFirstLetter } from "@/utils/helpers"
 
 export async function getServerSideProps() {
     let gems = {}
@@ -176,7 +177,8 @@ const TableCreator = ({gems}: any) => {
             if(!gems[gem]["en"]) return rawData["en"]["ShortDescription"] = "<p></p>"
             rawData["en"]["ShortDescription"] = gems[gem]["en"]
         })
-        
+        rawData["en"]["meta-title"] = `${capitalizeFirstLetter(rawData["en"]["Name"])} - Gemmesterra`
+        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut]} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${formInfo["info"][6]!.value}`
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -194,6 +196,8 @@ const TableCreator = ({gems}: any) => {
                 rawData["es"]["ShortDescription"] = gems[gem]["es"]
             }
         })
+        rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
+        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor]} con forma ${translations.cut["es"][gemCut]} de ${formInfo["info"][6]!.value}`
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
@@ -210,6 +214,8 @@ const TableCreator = ({gems}: any) => {
             if(!gems[gem]["cat"]) return rawData["cat"]["ShortDescription"] = "<p></p>"
             rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
         })
+        rawData["cat"]["meta-title"] = `${capitalizeFirstLetter(rawData["cat"]["Name"])} - Gemmesterra`
+        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor]} con forma ${translations.cut["cat"][gemCut]} de ${formInfo["info"][6]!.value}`
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
