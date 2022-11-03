@@ -43,6 +43,7 @@ const TableCreator = ({gems}: any) => {
     const [joieria, setJoieria] = useState<boolean>(false)
     const [joieraNamePrefix,setJoieraNamePrefix] = useState<string>("")
     const [ready, setReady] = useState<boolean>(false)
+    const [gemOrigin, setGemOrigin] = useState<string>("")
     
     useEffect(() => {
         const name = document.getElementById("name")
@@ -165,6 +166,7 @@ const TableCreator = ({gems}: any) => {
         const catEndpoint = reqOptions.uri["cat"]
         const price: any = formInfo["weight"].nextSibling!
         const urls: any = createImgUrl()
+        setGemOrigin(gemOrigin)
 
         console.log("Fetching en version...")
         rawData["en"] = data
@@ -178,7 +180,7 @@ const TableCreator = ({gems}: any) => {
             rawData["en"]["ShortDescription"] = gems[gem]["en"]
         })
         rawData["en"]["meta-title"] = `${capitalizeFirstLetter(rawData["en"]["Name"])} - Gemmesterra`
-        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut]} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${formInfo["info"][6]!.value}`
+        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut]} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${gemOrigin}`
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -197,7 +199,7 @@ const TableCreator = ({gems}: any) => {
             }
         })
         rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
-        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor]} con forma ${translations.cut["es"][gemCut]} de ${formInfo["info"][6]!.value || formInfo["info"][6]!.innerText}`
+        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor]} con forma ${translations.cut["es"][gemCut]} de ${gemOrigin}`
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
@@ -215,7 +217,7 @@ const TableCreator = ({gems}: any) => {
             rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
         })
         rawData["cat"]["meta-title"] = `${capitalizeFirstLetter(rawData["cat"]["Name"])} - Gemmesterra`
-        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor]} con forma ${translations.cut["cat"][gemCut]} de ${formInfo["info"][6]!.value || formInfo["info"][6]!.innerText}`
+        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor]} con forma ${translations.cut["cat"][gemCut]} de ${gemOrigin}`
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
@@ -256,7 +258,7 @@ const TableCreator = ({gems}: any) => {
             setEnName(translations.name["en"][gemName])
         }
         if (gemName === "amber") {
-            setEnName(`${translations.name["en"][gemName]} (${formInfo["info"][6]!.value})`)
+            setEnName(`${translations.name["en"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
         setEnDesc(formInfo["form"].innerHTML)
@@ -279,7 +281,7 @@ const TableCreator = ({gems}: any) => {
             setEsName(translations.name["es"][gemName])
         }
         if (gemName === "amber") {
-            setEsName(`${translations.name["es"][gemName]} (${formInfo["info"][6]!.value})`)
+            setEsName(`${translations.name["es"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
         setEsDesc(formInfo["form"].innerHTML)
@@ -302,7 +304,7 @@ const TableCreator = ({gems}: any) => {
             setCatName(translations.name["cat"][gemName])
         }
         if (gemName === "amber") {
-            setCatName(`${translations.name["cat"][gemName]} (${formInfo["info"][6]!.value})`)
+            setCatName(`${translations.name["cat"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
         setCatDesc(formInfo["form"].innerHTML)
