@@ -213,7 +213,7 @@
         "kunzite": {
             "es": "<p>Kunzita</p><p>Es la variedad rosa del mineral Espodumena.</p><p>Lleva el nombre del mineralogista G.F Kunz.</p>",
             "cat": "<div>Kunzita</div><div><br></div><div>És la varietat rosa del mineral Espodumena.</div><div><br></div><div>Porta el nom del mineralogista G.F Kunz.</div>",
-            "en": "<div>Kunzite</div><div><br></div><div>It is the pink variety of the mineral Spodumena.</div><div><br></div><div>It bears the number of the mineralogist G.F Kunz.</div>"
+            "en": "<div>Kunzite</div><div><br></div><div>It is the pink variety of the mineral Spodumene.</div><div><br></div><div>It bears the number of the mineralogist G.F Kunz.</div>"
         }
     },
     {
@@ -400,37 +400,9 @@
     },
     {
         "sapphire": {
-            "es": "<div>Safiro</div><div><br></div><div>El nombre deriva del greigo \"sappheiros\" - azul. Antiguamente cualquier gema azul era llamada Safiro.</div><div><br></div><div>Hoy en día se llama Safiro a los corindones de todos los colores excepto el rojo (rubí).</div><div><br></div><div>Al₂O₃<br></div>",
-            "en": "<p>Sapphire</p><p><br></p><p></p><p>The name derives from the Greek \"sappheiros\" - blue. Formerly any blue gem was called Sapphire.</p><p><br></p><p></p><p>Today corundums of all colors except red (ruby) are called Sapphire.</p><p><br></p><p></p><p>Al₂O₃</p>",
-            "cat": "<div>Safir</div><div><br></div><div>El nom deriva del grec \"sappheiros\" - blau. Antigament qualsevol gemma blava era anomenada Safir.</div><div><br></div><div>Avui dia es diu Safir els corindons de tots els colors excepte el vermell (rubí).</div><div><br></div><div>Al₂O₃</div>"
-        }
-    },
-    {
-        "sapphire": {
-            "es": "<div>Safiro</div><div><br></div><div>El nombre deriva del greigo \"sappheiros\" - azul. Antiguamente cualquier gema azul era llamada Safiro.</div><div><br></div><div>Hoy en día se llama Safiro a los corindones de todos los colores excepto el rojo (rubí).</div><div><br></div><div>Al₂O₃<br></div>",
-            "en": "<p>Sapphire</p><p><br></p><p></p><p>The name derives from the Greek \"sappheiros\" - blue. Formerly any blue gem was called Sapphire.</p><p><br></p><p></p><p>Today corundums of all colors except red (ruby) are called Sapphire.</p><p><br></p><p></p><p>Al₂O₃</p>",
-            "cat": "<div>Safir</div><div><br></div><div>El nom deriva del grec \"sappheiros\" - blau. Antigament qualsevol gemma blava era anomenada Safir.</div><div><br></div><div>Avui dia es diu Safir els corindons de tots els colors excepte el vermell (rubí).</div><div><br></div><div>Al₂O₃</div>"
-        }
-    },
-    {
-        "sapphire": {
-            "es": "<div>Safiro</div><div><br></div><div>El nombre deriva del greigo \"sappheiros\" - azul. Antiguamente cualquier gema azul era llamada Safiro.</div><div><br></div><div>Hoy en día se llama Safiro a los corindones de todos los colores excepto el rojo (rubí).</div><div><br></div><div>Al₂O₃<br></div>",
-            "en": "<p>Sapphire</p><p><br></p><p></p><p>The name derives from the Greek \"sappheiros\" - blue. Formerly any blue gem was called Sapphire.</p><p><br></p><p></p><p>Today corundums of all colors except red (ruby) are called Sapphire.</p><p><br></p><p></p><p>Al₂O₃</p>",
-            "cat": "<div>Safir</div><div><br></div><div>El nom deriva del grec \"sappheiros\" - blau. Antigament qualsevol gemma blava era anomenada Safir.</div><div><br></div><div>Avui dia es diu Safir els corindons de tots els colors excepte el vermell (rubí).</div><div><br></div><div>Al₂O₃</div>"
-        }
-    },
-    {
-        "sapphire": {
             "en": "<p>Sapphire</p><p><br></p><p></p><p>The name derives from the Greek \"sappheiros\" - blue. Formerly any blue gem was called Sapphire.</p><p><br></p><p></p><p>Today corundums of all colors except red (ruby) are called Sapphire.</p><p><br></p><p></p><p>Al₂O₃</p>",
             "es": "<div>Safiro</div><div><br></div><div>El nombre deriva del greigo \"sappheiros\" - azul. Antiguamente cualquier gema azul era llamada Safiro.</div><div><br></div><div>Hoy en día se llama Safiro a los corindones de todos los colores excepto el rojo (rubí).</div><div><br></div><div>Al₂O₃<br></div>",
             "cat": "<div>Safir</div><div><br></div><div>El nom deriva del grec \"sappheiros\" - blau. Antigament qualsevol gemma blava era anomenada Safir.</div><div><br></div><div>Avui dia es diu Safir els corindons de tots els colors excepte el vermell (rubí).</div><div><br></div><div>Al₂O₃</div>"
-        }
-    },
-    {
-        "tourmaline": {
-            "es": "<p><span>Turmalina</span></p><p >A pesar de que se conocía desde la antigüedad en la región Mediterránea, los Neerlandeses empezaron a importarlas en 1703 desde Sri Lanka. Le pusieron el nombre Sinhalese \"Turamali\" - piedra con colores mezclados.</span></p><p >Un rasgo muy característico de la turmalina es la prontitud con la que se electrifica. Calentando y subsiguientemente enfriando, así como aplicando presión, p.e. al frotar, un cristal de turmalina se cargará eléctricamente. Luego atraerá partículas de polvo y pequeños trozos de papel (piro y piezoelectricidad).</span></p><p d-expand\">(Ca,K,Na)(Al,Fe,Li,Mg,Mn)3 (Al,Cr,Fe,V)6(BO3)3(Si,Al,B)6O18(OH,F)</span></p>",
-            "en": "<p><span>Tourmaline</span></p><p >Although it has been known since ancient times in the Mediterranean region, the Dutch began importing them in 1703 from Sri Lanka. They named it Sinhalese \"Turamali\" - stone with mixed colors.</span></p><p >A very characteristic feature of tourmaline is the readiness with which it becomes electrified. By heating and subsequently cooling, as well as applying pressure, e.g. by rubbing, a tourmaline crystal will become electrically charged. It will then attract dust particles and small pieces of paper (pyro and piezoelectricity).</span></p><p >(Ca,K,Na)(Al,Fe,Li,Mg,Mn)3 (Al,Cr,Fe,V)6(BO3)3(Si,Al,B)6O18(OH,F)</span></p>",
-            "cat": "<p><span>Turmalina</span></p><p >Tot i que es coneixia des de l'antiguitat a la regió Mediterrània, els Neerlandesos van començar a importar-les el 1703 des de Sri Lanka. Li van posar el nom Sinhalese \"Turamali\" - pedra amb colors barrejats.</span></p><p >Un tret molt característic de la turmalina és la promptitud amb què s'electrifica. Escalfant i subsegüentment refredant, així com aplicant pressió, p.e. en fregar, un cristall de turmalina es carregarà elèctricament. Després atraurà partícules de pols i petits trossos de paper (pir i piezoelectricitat).</span></p><p >(Ca,K,Na)(Al,Fe,Li,Mg,Mn)3 (Al,Cr,Fe,V)6(BO3)3(Si,Al,B)6O18(OH,F)</span></p>"
         }
     },
     {
@@ -450,12 +422,6 @@
     {
         "aquamarine": {
             "es": "<p>Aguamarina</span></p><p >El nombre aguamarina viene del latín, \"aqua marinā\", agua del mar. Su nombre hace referencia a su color.</span></p><p><span>La aguamarina es la variedad azul del berilo. La misma familia que la esmeralda, morganita, heliodoro...</span></p><p >Be3Al2Si6O18::Fe</span></p>",
-            "en": "<p><span>Aguamarina</span></p><p >El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color.</span></p><p >L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</span></p><p d-expand\">Be3Al2Si6O18::Fe</span></p>"
-        }
-    },
-    {
-        "aquamarine": {
-            "es": "<p >Aguamarina</span></p><p >El nombre aguamarina viene del latín, \"aqua marinā\", agua del mar. Su nombre hace referencia a su color.</span></p><p><span>La aguamarina es la variedad azul del berilo. La misma familia que la esmeralda, morganita, heliodoro...</span></p><p >Be3Al2Si6O18::Fe</span></p>",
             "en": "<p><span>Aguamarina</span></p><p >El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color.</span></p><p >L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</span></p><p d-expand\">Be3Al2Si6O18::Fe</span></p>"
         }
     }
