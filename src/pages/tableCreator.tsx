@@ -44,6 +44,7 @@ const TableCreator = ({gems}: any) => {
     const [joieraNamePrefix,setJoieraNamePrefix] = useState<string>("")
     const [ready, setReady] = useState<boolean>(false)
     const [gemOrigin, setGemOrigin] = useState<string>("")
+    const [gemSize, setGemSize] = useState<string>("")
     
     useEffect(() => {
         const name = document.getElementById("name")
@@ -179,7 +180,7 @@ const TableCreator = ({gems}: any) => {
             rawData["en"]["ShortDescription"] = gems[gem]["en"]
         })
         rawData["en"]["meta-title"] = `${capitalizeFirstLetter(rawData["en"]["Name"])} - Gemmesterra`
-        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut].toLowerCase()} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${gemOrigin}`
+        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut].toLowerCase()} ${capitalizeFirstLetter(rawData["en"]["Name"])} (${gemSize}) from ${gemOrigin} - Not treated`
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -198,7 +199,7 @@ const TableCreator = ({gems}: any) => {
             }
         })
         rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
-        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor].toLowerCase()} con forma ${translations.cut["es"][gemCut].toLowerCase()} de ${gemOrigin}`
+        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor].toLowerCase()} con forma ${translations.cut["es"][gemCut].toLowerCase()} (${gemSize}) de ${gemOrigin} - Sin tratamientos`
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
@@ -216,7 +217,7 @@ const TableCreator = ({gems}: any) => {
             rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
         })
         rawData["cat"]["meta-title"] = `${capitalizeFirstLetter(rawData["cat"]["Name"])} - Gemmesterra`
-        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor].toLowerCase()} amb forma ${translations.cut["cat"][gemCut].toLowerCase()} de ${gemOrigin}`
+        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor].toLowerCase()} amb forma ${translations.cut["cat"][gemCut].toLowerCase()} (${gemSize}) de ${gemOrigin} - Sense tractaments`
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
@@ -253,6 +254,7 @@ const TableCreator = ({gems}: any) => {
         formInfo["treatment"].innerText = joieria ? "GEM TREATMENT" : "TREATMENT"
         formInfo["unh"].innerText = ": Unheated / Untreated"
         setGemOrigin(formInfo["info"][6]!.value)
+        setGemSize(formInfo["info"][2]!.value)
         translate("en")
         if (gemName !== "amber") {
             setEnName(translations.name["en"][gemName])
