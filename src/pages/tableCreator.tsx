@@ -166,8 +166,7 @@ const TableCreator = ({gems}: any) => {
         const catEndpoint = reqOptions.uri["cat"]
         const price: any = formInfo["weight"].nextSibling!
         const urls: any = createImgUrl()
-        setGemOrigin(formInfo["info"][6]!.value)
-
+        
         console.log("Fetching en version...")
         rawData["en"] = data
         rawData["en"]["Name"] = !joieria ? `${enName} ${
@@ -253,12 +252,13 @@ const TableCreator = ({gems}: any) => {
         formInfo["origin"].innerText = joieria ? "GEM ORIGIN" : "ORIGIN"
         formInfo["treatment"].innerText = joieria ? "GEM TREATMENT" : "TREATMENT"
         formInfo["unh"].innerText = ": Unheated / Untreated"
+        setGemOrigin(formInfo["info"][6]!.value)
         translate("en")
         if (gemName !== "amber") {
             setEnName(translations.name["en"][gemName])
         }
         if (gemName === "amber") {
-            setEnName(`${translations.name["en"][gemName]} (${gemOrigin})`)
+            setEnName(`${translations.name["en"][gemName]} (${formInfo["info"][6]!.value})`)
         }
         replaceInput()
         setEnDesc(formInfo["form"].innerHTML)
