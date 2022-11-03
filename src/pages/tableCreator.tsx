@@ -166,7 +166,6 @@ const TableCreator = ({gems}: any) => {
         const catEndpoint = reqOptions.uri["cat"]
         const price: any = formInfo["weight"].nextSibling!
         const urls: any = createImgUrl()
-        setGemOrigin(gemOrigin)
 
         console.log("Fetching en version...")
         rawData["en"] = data
@@ -180,7 +179,8 @@ const TableCreator = ({gems}: any) => {
             rawData["en"]["ShortDescription"] = gems[gem]["en"]
         })
         rawData["en"]["meta-title"] = `${capitalizeFirstLetter(rawData["en"]["Name"])} - Gemmesterra`
-        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut]} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${gemOrigin}`
+        setGemOrigin(gemOrigin)
+        rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut].toLowerCase()} ${capitalizeFirstLetter(rawData["en"]["Name"])} from ${gemOrigin}`
         const enData = JSON.stringify(rawData["en"])
         const enPost = reqOptions["post"]
         enPost["body"] = enData
@@ -199,7 +199,7 @@ const TableCreator = ({gems}: any) => {
             }
         })
         rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
-        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor]} con forma ${translations.cut["es"][gemCut]} de ${gemOrigin}`
+        rawData["es"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["es"]["Name"])} de color ${translations.color["es"][gemColor].toLowerCase()} con forma ${translations.cut["es"][gemCut].toLowerCase()} de ${gemOrigin}`
         const esData = JSON.stringify(rawData["es"])
         const esPost = reqOptions["post"]
         esPost["body"] = esData
@@ -217,7 +217,7 @@ const TableCreator = ({gems}: any) => {
             rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
         })
         rawData["cat"]["meta-title"] = `${capitalizeFirstLetter(rawData["cat"]["Name"])} - Gemmesterra`
-        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor]} con forma ${translations.cut["cat"][gemCut]} de ${gemOrigin}`
+        rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor].toLowerCase()} amb forma ${translations.cut["cat"][gemCut].toLowerCase()} de ${gemOrigin}`
         rawData["cat"]["imgUrls"] = urls
         const catData = JSON.stringify(rawData["cat"])
         const catPost = reqOptions["post"]
