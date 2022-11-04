@@ -23,8 +23,8 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
     const file = fs.readFileSync(`src/tables/cat-table.json`, "utf8")
     const parsedFile = JSON.parse(file)
     parsedFile.map((gem:Gem) => {
-        console.log(counter[gem.Reference])
         gem.imgUrls = createImgUrl(gem.Reference, counter[gem.Reference])
+        gem.imgAlts = Array(counter[gem.Reference]).fill(gem.Name).join(",")
     })
     const writeFile = JSON.stringify(parsedFile, null, 4)
     fs.writeFileSync("src/tables/cat-table.json", writeFile, "utf8")
