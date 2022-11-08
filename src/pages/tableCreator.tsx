@@ -174,10 +174,9 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("en")
         rawData["en"]["Description"] = enDesc
+        rawData["en"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
-            if (gem === enName.toLowerCase()) return rawData["en"]["ShortDescription"] = gems[gem]["en"]
-            return rawData["en"]["ShortDescription"] = "<p></p>"
-            
+            if (gem === enName.toLowerCase()) return rawData["en"]["ShortDescription"] = gems[gem]["en"]            
         })
         rawData["en"]["meta-title"] = `${capitalizeFirstLetter(rawData["en"]["Name"])} - Gemmesterra`
         rawData["en"]["meta-description"] = `${translations.color["en"][gemColor]} ${translations.cut["en"][gemCut].toLowerCase()} ${capitalizeFirstLetter(rawData["en"]["Name"])} (${gemSize}) from ${gemOrigin} - Not treated`
@@ -192,9 +191,9 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("es")
         rawData["es"]["Description"] = esDesc
+        rawData["es"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
-            if (gem === enName.toLowerCase()) return rawData["es"]["ShortDescription"] = gems[gem]["cat"]
-            return rawData["es"]["ShortDescription"] = "<p></p>"
+            if (gem === enName.toLowerCase()) return rawData["es"]["ShortDescription"] = gems[gem]["es"]
 
         })
         rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
@@ -210,9 +209,9 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("cat")
         rawData["cat"]["Description"] = catDesc
+        rawData["cat"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
             if (gem === enName.toLowerCase()) return rawData["cat"]["ShortDescription"] = gems[gem]["cat"]
-            return rawData["cat"]["ShortDescription"] = "<p></p>"
         })
         rawData["cat"]["meta-title"] = `${capitalizeFirstLetter(rawData["cat"]["Name"])} - Gemmesterra`
         rawData["cat"]["meta-description"] = ` ${capitalizeFirstLetter(rawData["cat"]["Name"])} de color ${translations.color["cat"][gemColor].toLowerCase()} amb forma ${translations.cut["cat"][gemCut].toLowerCase()} (${gemSize}) de ${gemOrigin} - Sense tractaments`
