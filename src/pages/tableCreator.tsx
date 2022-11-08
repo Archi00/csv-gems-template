@@ -193,7 +193,7 @@ const TableCreator = ({gems}: any) => {
         rawData["es"]["Description"] = esDesc
         rawData["es"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
-            if (gem === enName.toLowerCase()) return rawData["es"]["ShortDescription"] = gems[gem]["cat"]
+            if (gem === enName.toLowerCase()) return rawData["es"]["ShortDescription"] = gems[gem]["es"]
 
         })
         rawData["es"]["meta-title"] = `${capitalizeFirstLetter(rawData["es"]["Name"])} - Gemmesterra`
