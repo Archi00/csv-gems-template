@@ -425,5 +425,47 @@
             "en": "<p>Aquamarine.</p><p>The name aquamarine comes from the Latin, \"aqua marinā\", sea water. Its name refers to the color. Aquamarine is the blue variety of beryl. Same family as emerald, morganite, heliodor...</p><p>Be3Al2Si6O18::Fe</p>",
             "cat": "<p>Aiguamarina.</p><p>El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color. L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</p><p>Be3Al2Si6O18::Fe</p>"
         }
+    },
+    {
+        "hackmanite": {
+            "es": "<p>Hackmanita.</p><p><br></p><p style=\"text-align: left;\">Lleva el nombre de su descubridor Victor Hackaman.</p><p><br></p><p>Es la variedad violeta de la sodalita que prestenta tenebrescencia. Describe el fenómeno de un mineral o gema que cambia de color al exponerse a la luz ultravioleta y vuelve a su color original al privarla de luz.</p><p><br></p><p></p>",
+            "en": "<div>Hackmanite.</div><div><span style=\"font-size: 1.25rem; color: rgb(74 85 104 / var(--tw-text-opacity));\"><br></span></div><div><span style=\"font-size: 1.25rem; color: rgb(74 85 104 / var(--tw-text-opacity));\">It is named after its discoverer Victor Hackaman.</span><br></div><div><br></div><div>It is the violet variety of sodalite that presents tenebrescence. Describes the phenomenon of a mineral or gem changing color when exposed to ultraviolet light and returning to its original color when deprived of light.</div>",
+            "cat": "<div>Hackmanita.</div><div><br></div><div>Porta el nom del seu descobridor Victor Hackaman.</div><div><br></div><div>És la varietat violeta de la sodalita que presenta tenebrescència. Descriu el fenomen d'un mineral o gemma que canvia de color en exposar-se a la llum ultravioleta i torna al color original en privar-la de llum.</div>"
+        }
+    },
+    {
+        "larimar": {
+            "es": "<p>Larimar.</p><p><br></p><p>Lleva el nombre de la localidad donde fue encontrada en la mina Filipinas Larimar, República Dominicana.</p><p><br></p><p>Es el nombre comercial para la variedad azul de la pectoilita.</p><p><br></p><p>Ca2NaHSi3O9</p><p><br></p>",
+            "cat": "<div>Larimar.</div><div><br></div><div>Porta el nom de la localitat on va ser trobada a la mina Filipines Larimar, República Dominicana.</div><div><br></div><div>És el nom comercial de la varietat blava de la pectoilita.</div><div><br></div><div><span style=\"font-size: 1.25rem; color: rgb(74 85 104 / var(--tw-text-opacity));\">Ca2NaHSi3O9</span><br></div>",
+            "en": "<div>Larimar.</div><div><br></div><div>It is named after the locality where it was found in the Philippines Larimar mine, Dominican Republic.</div><div><br></div><div>It is the trade name for the blue variety of pectoilite.</div><div><br></div><div>Ca2NaHSi3O9</div>"
+        }
+    },
+    {
+        "inesite": {
+            "es": "<p>Inesita</p><p><br></p><p></p><p>La nombró Adolf Schneider en 1887 del griego \"Ίνες\" - fibras de carne. Haciendo alusión a su color y hábito.</p><p><br></p><p></p><p>Ca2Mn7Si10O28(OH)2•5(H2O)</p>",
+            "en": "<div>Inesita</div><div><br></div><div>Adolf Schneider named it in 1887 from the Greek \"Ίνες\" - meat fibers. Alluding to its color and habit.</div><div><br></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>",
+            "cat": "<div>Inesita</div><div><br></div><div>La va nomenar Adolf Schneider el 1887 del grec \"Ίνες\" - fibres de carn. Fent al·lusió al seu color i hàbit.</div><div><br></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>"
+        }
+    },
+    {
+        "inesite": {
+            "es": "<p>Inesita</p><p><br></p><p></p><p>La nombró Adolf Schneider en 1887 del griego \"Ίνες\" - fibras de carne. Haciendo alusión a su color y hábito.</p><p><br></p><p></p><p>Ca2Mn7Si10O28(OH)2•5(H2O)</p>",
+            "en": "<div>Inesita</div><div><br></div><div>Adolf Schneider named it in 1887 from the Greek \"Ίνες\" - meat fibers. Alluding to its color and habit.</div><div><br></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>",
+            "cat": "<div>Inesita</div><div><br></div><div>La va nomenar Adolf Schneider el 1887 del grec \"Ίνες\" - fibres de carn. Fent al·lusió al seu color i hàbit.</div><div><br></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>"
+        }
+    },
+    {
+        "inesite": {
+            "es": "<p>Inesita</p><p><br></p><p></p><p>La nombró Adolf Schneider en 1887 del griego \"Ίνες\" - fibras de carne. Haciendo alusión a su color y hábito.</p><p><br></p><p></p><p>Ca2Mn7Si10O28(OH)2•5(H2O)</p>",
+            "en": "<div>Inesita</div><div><br></div><div>Adolf Schneider named it in 1887 from the Greek \"Ίνες\" - meat fibers. Alluding to its color and habit.</div><div><br></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>",
+            "cat": "<div>Inesita</div><div><br></div><div>La va nomenar Adolf Schneider el 1887 del grec \"Ίνες\" - fibres de carn. Fent al·lusió al seu color i hàbit.</div><div><br></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>"
+        }
+    },
+    {
+        "thulite": {
+            "es": "<p>Tulita</p><p><br></p><p>Es la variedad rosa de la Zoisita, se encontró por primera vez en Noruega y se nombró a partir de Thule, el término con el cuál se hacia referencia esta región a finales del siglo 19.&nbsp;</p><p><br></p><p>Ca2Al3(SiO4)(Si2O7)(O,OH)</p>",
+            "cat": "<div>Tulita</div><div><br></div><div>És la varietat rosa de la Zoisita, es va trobar per primera vegada a Noruega i es va nomenar a partir de Thule, el terme amb el qual es feia referència aquesta regió a finals del segle 19.</div><div><br></div><div><span style=\"font-size: 1.25rem; color: rgb(74 85 104 / var(--tw-text-opacity));\">Ca2Al3(SiO4)(Si2O7)(O,OH)</span><br></div>",
+            "en": "<div>Thulite</div><div><br></div><div>It is the pink variety of Zoisite, it was found for the first time in Norway and was named after Thule, the term with which this region was referred to at the end of the 19th century.</div><div><br></div><div>Ca2Al3(SiO4)(Si2O7)(O,OH)</div>"
+        }
     }
 ]
