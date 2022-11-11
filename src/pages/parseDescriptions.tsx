@@ -18,7 +18,7 @@ const parseDescription = () => {
 
     useEffect(() =>{
         if (!info) return
-        saveByteArray(info, "descriptions.txt")
+        saveByteArray(info, "test.pdf")
     },[info])
 
     return (
