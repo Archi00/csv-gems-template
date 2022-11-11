@@ -37,20 +37,29 @@ import_tab = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPAT
 
 import_options = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="entity"]/option[2]'))).click()
 file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
-'//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[5]/div/div[2]/button'))).click()
+'//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[5]/div/div[2]/button'))).click() 
 cat_file = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,  
-'//*[@id="fileHistoryTable"]/tbody/tr[2]/td[2]/div/button[1]'))).click()
+'//*[@id="fileHistoryTable"]/tbody/tr[4]/td[2]/div/button[1]'))).click()
+
+time.sleep(2)
+
 same_key = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[2]/div/div'))).click()
 regenerate_miniatures = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
  '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[3]/div/div'))).click()
 send_notification = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[5]/div/div'))).click()
+
+time.sleep(2)
+
 next_step = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,  
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[2]/div/button'))).click()
 
 load_template = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="loadImportMatchs"]'))).click()
 import_btn = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="import"]'))).click()
+
+time.sleep(2)
+
 close_import = WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="import_close_button"]'))).click()
 
 edit_file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
@@ -58,14 +67,23 @@ edit_file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
 file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[5]/div/div[2]/button'))).click()
 es_file = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
-'//*[@id="fileHistoryTable"]/tbody/tr[3]/td[2]/div/button[1]'))).click()
+'//*[@id="fileHistoryTable"]/tbody/tr[2]/td[2]/div/button[1]'))).click()
+
+time.sleep(2)
+
 select_es_language = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="iso_lang"]/option[3]'))).click()
+
+time.sleep(2)
+
 next_step = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[2]/div/button'))).click()
 
 es_template = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="18"]'))).click()
 load_template = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="loadImportMatchs"]'))).click()
 import_btn = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="import"]'))).click()    
+
+time.sleep(2)
+
 close_import = WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="import_close_button"]'))).click()
 
 edit_file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
@@ -73,7 +91,10 @@ edit_file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
 file_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[5]/div/div[2]/button'))).click()
 en_file = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
-'//*[@id="fileHistoryTable"]/tbody/tr[4]/td[2]/div/button[1]'))).click()
+'//*[@id="fileHistoryTable"]/tbody/tr[3]/td[2]/div/button[1]'))).click()
+
+time.sleep(2)
+
 select_en_language = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="iso_lang"]/option[2]'))).click()
 next_step = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[2]/div/button'))).click()
@@ -81,6 +102,9 @@ next_step = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH
 en_template = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="18"]'))).click()
 load_template = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="loadImportMatchs"]'))).click()
 import_btn = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="import"]'))).click()    
+
+time.sleep(2)
+
 close_import = WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="import_close_button"]'))).click()
 
 time.sleep(1)
