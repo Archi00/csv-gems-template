@@ -19,7 +19,7 @@ export const translations: TranslationsConfig = {
             amethyst: "Amethyst",
             amber: "Amber",
             ametrine: "Ametrine",
-            andalucite: "Andalucite",
+            andalusite: "Andalusite",
             andesine: "Andesine",
             angelite: "Angelite",
             apatite: "Apatite",
