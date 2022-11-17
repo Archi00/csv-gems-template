@@ -422,8 +422,8 @@
     {
         "aquamarine": {
             "es": "<p>Aguamarina</p><p >El nombre aguamarina viene del latín, \"aqua marinā\", agua del mar. Su nombre hace referencia a su color.</p><p>La aguamarina es la variedad azul del berilo. La misma familia que la esmeralda, morganita, heliodoro...</p><p >Be3Al2Si6O18::Fe</p>",
-            "en": "<p>Aquamarine.</p><p>The name aquamarine comes from the Latin, \"aqua marinā\", sea water. Its name refers to the color. Aquamarine is the blue variety of beryl. Same family as emerald, morganite, heliodor...</p><p>Be3Al2Si6O18::Fe</p>",
-            "cat": "<p>Aiguamarina.</p><p>El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color. L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</p><p>Be3Al2Si6O18::Fe</p>"
+            "en": "<p>Aquamarine</p><p>The name aquamarine comes from the Latin, \"aqua marinā\", sea water. Its name refers to the color. Aquamarine is the blue variety of beryl. Same family as emerald, morganite, heliodor...</p><p>Be3Al2Si6O18::Fe</p>",
+            "cat": "<p>Aiguamarina</p><p>El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color. L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</p><p>Be3Al2Si6O18::Fe</p>"
         }
     },
     {
@@ -443,7 +443,7 @@
     {
         "inesite": {
             "es": "<p>Inesita</p><p></p><p></p><p>La nombró Adolf Schneider en 1887 del griego \"Ίνες\" - fibras de carne. Haciendo alusión a su color y hábito.</p><p></p><p></p><p>Ca2Mn7Si10O28(OH)2•5(H2O)</p>",
-            "en": "<div>Inesita</div><div></div><div>Adolf Schneider named it in 1887 from the Greek \"Ίνες\" - meat fibers. Alluding to its color and habit.</div><div></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>",
+            "en": "<div>Inesite</div><div></div><div>Adolf Schneider named it in 1887 from the Greek \"Ίνες\" - meat fibers. Alluding to its color and habit.</div><div></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>",
             "cat": "<div>Inesita</div><div></div><div>La va nomenar Adolf Schneider el 1887 del grec \"Ίνες\" - fibres de carn. Fent al·lusió al seu color i hàbit.</div><div></div><div>Ca2Mn7Si10O28(OH)2•5(H2O)</div>"
         }
     },
@@ -456,9 +456,9 @@
     },
     {
         "jacinto de compostela": {
-            "es": "<p>El nombre le viene dado por la relación con el Camino de Santiago. Era usado como amuleto de protección durante la peregrinación. </p><p></p><p>No hay constancia de ningún deposito de este mineral en Santiago de Compostela o alrededores.</p><p></p><p>Se trata de una variedad de cuarzo que se caracteriza por su color rojizo. Le debe el color a materiales arcillosos.</p>",
-            "en": "<div>The name is given by the relationship with the Camino de Santiago. It was used as a protection amulet during the pilgrimage.</div><div></div><div>There is no evidence of any deposit of this mineral in Santiago de Compostela or surroundings.</div><div></div><div>It is a variety of quartz that is characterized by its reddish color. It owes its color to clay materials.</div>",
-            "cat": "<div>El nom li ve donat per la relació amb el camí de Santiago. Era usat com a amulet de protecció durant el pelegrinatge.</div><div></div><div>No hi ha constància de cap dipòsit d'aquest mineral a Santiago de Compostela o rodalies.</div><div></div><div>Es tracta d'una varietat de quars que es caracteritza pel color vermellós. Li deu el color a materials argilosos.</div>"
+            "es": "<p>Jacinto de Compostela</p><p>El nombre le viene dado por la relación con el Camino de Santiago. Era usado como amuleto de protección durante la peregrinación. </p><p></p><p>No hay constancia de ningún deposito de este mineral en Santiago de Compostela o alrededores.</p><p></p><p>Se trata de una variedad de cuarzo que se caracteriza por su color rojizo. Le debe el color a materiales arcillosos.</p>",
+            "en": "<p>Jacinto de Compostela</p><div>The name is given by the relationship with the Camino de Santiago. It was used as a protection amulet during the pilgrimage.</div><div></div><div>There is no evidence of any deposit of this mineral in Santiago de Compostela or surroundings.</div><div></div><div>It is a variety of quartz that is characterized by its reddish color. It owes its color to clay materials.</div>",
+            "cat": "<p>Jacinto de Compostela</p><div>El nom li ve donat per la relació amb el camí de Santiago. Era usat com a amulet de protecció durant el pelegrinatge.</div><div></div><div>No hi ha constància de cap dipòsit d'aquest mineral a Santiago de Compostela o rodalies.</div><div></div><div>Es tracta d'una varietat de quars que es caracteritza pel color vermellós. Li deu el color a materials argilosos.</div>"
         }
     },
     {
