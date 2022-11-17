@@ -353,7 +353,7 @@
         "sodalite": {
             "es": "<p>Sodalita</p><p>Recibe su nombre por su contenido de sodio.</p><p>Puede ser difícil de diferenciarla del lapizlazuli. Pero esta es translúcida, el lapis es opaco.</p><p>Na8Al6Si6O24Cl2</p>",
             "cat": "<div>Sodalita</div><div></div><div>Rep el nom pel contingut de sodi.</div><div></div><div>Pot ser difícil de diferenciar-la del lapis latzuli. Però aquesta és translúcida, el lapis és opac.</div><div></div><div>Na8Al6Si6O24Cl2</div>",
-            "en": "<div>sodalite</div><div></div><div>It gets its name from its sodium content.</div><div></div><div>It can be hard to tell apart from lapizlazuli. But this one is translucent, lapis is opaque.</div><div></div><div>Na8Al6Si6O24Cl2</div>"
+            "en": "<div>Sodalite</div><div></div><div>It gets its name from its sodium content.</div><div></div><div>It can be hard to tell apart from lapizlazuli. But this one is translucent, lapis is opaque.</div><div></div><div>Na8Al6Si6O24Cl2</div>"
         }
     },
     {
@@ -393,14 +393,14 @@
     },
     {
         "opal": {
-            "es": "<p >Opalo</p><p >El nombre deriva del Sanskrit para piedra.</p><p >Desde la época romana a los inicios del siglo XVII fue tenido en gran estima. Durante los siglos XVIII y XIX fue bastante olvidado al creer que esta piedra traía mala suerte.</p><p >Algunos dicen que su mala fama se originó en la novela de Walter Scott denominada \"Anne of Geierstein\".</p><p >SiO2+ H2O</p>",
-            "en": "<p>Opal</p><p >The name derives from the Sanskrit for stone.</p><p >From Roman times to the beginning of the 17th century it was held in great esteem. During the 18th and 19th centuries it was quite forgotten as it was believed that this stone brought bad luck.</p><p >Some say that his infamous originated in Walter Scott's novel called \"Anne of Geierstein\".</p><p>SiO2+ H2O</p>",
-            "cat": "<p >Opal</p><p >El nom deriva del Sanskrit per a pedra.</p><p >Des de l'època romana als inicis del segle XVII va ser tingut en gran estima. Durant els segles XVIII i XIX va ser força oblidat en creure que aquesta pedra portava mala sort.</p><p >Alguns diuen que la seva mala fama es va originar a la novel·la de Walter Scott anomenada \"Anne of Geierstein\".</p><p>SiO2+ H2O</p>"
+            "es": "<p>Ópalo</p><p>El nombre deriva del Sanskrit para piedra.</p><p >Desde la época romana a los inicios del siglo XVII fue tenido en gran estima. Durante los siglos XVIII y XIX fue bastante olvidado al creer que esta piedra traía mala suerte.</p><p >Algunos dicen que su mala fama se originó en la novela de Walter Scott denominada \"Anne of Geierstein\".</p><p >SiO2+ H2O</p>",
+            "en": "<p>Opal</p><p>The name derives from the Sanskrit for stone.</p><p >From Roman times to the beginning of the 17th century it was held in great esteem. During the 18th and 19th centuries it was quite forgotten as it was believed that this stone brought bad luck.</p><p >Some say that his infamous originated in Walter Scott's novel called \"Anne of Geierstein\".</p><p>SiO2+ H2O</p>",
+            "cat": "<p>Òpal</p><p>El nom deriva del Sanskrit per a pedra.</p><p >Des de l'època romana als inicis del segle XVII va ser tingut en gran estima. Durant els segles XVIII i XIX va ser força oblidat en creure que aquesta pedra portava mala sort.</p><p >Alguns diuen que la seva mala fama es va originar a la novel·la de Walter Scott anomenada \"Anne of Geierstein\".</p><p>SiO2+ H2O</p>"
         }
     },
     {
         "sapphire": {
-            "en": "<p>Sapphire</p><p></p><p></p><p>The name derives from the Greek \"sappheiros\" - blue. Formerly any blue gem was called Sapphire.</p><p></p><p></p><p>Today corundums of all colors except red (ruby) are called Sapphire.</p><p></p><p></p><p>Al₂O₃</p>",
+            "en": "<p>Sapphire</p><p>The name derives from the Greek \"sappheiros\" - blue. Formerly any blue gem was called Sapphire.</p><p>Today corundums of all colors except red (ruby) are called Sapphire.</p><p>Al₂O₃</p>",
             "es": "<div>Safiro</div><div></div><div>El nombre deriva del greigo \"sappheiros\" - azul. Antiguamente cualquier gema azul era llamada Safiro.</div><div></div><div>Hoy en día se llama Safiro a los corindones de todos los colores excepto el rojo (rubí).</div><div></div><div>Al₂O₃</div>",
             "cat": "<div>Safir</div><div></div><div>El nom deriva del grec \"sappheiros\" - blau. Antigament qualsevol gemma blava era anomenada Safir.</div><div></div><div>Avui dia es diu Safir els corindons de tots els colors excepte el vermell (rubí).</div><div></div><div>Al₂O₃</div>"
         }
