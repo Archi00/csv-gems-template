@@ -78,6 +78,8 @@ export const Hardness: any = {
     pyrite: "6-6.5",
     "inca stone": "6.5-7",
     moonstone: "6-6.5",
+    mtorolite: "6-7",
+    epidote: "6-7",
     peridot: "6.5-7",
     pezzotaite: "8",
     poldervaartite: "5",
