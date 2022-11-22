@@ -12,6 +12,7 @@ export const Hardness: any = {
     amethyst: "7",
     amber: "2-2.5",
     ametrine: "7",
+    amblygonite: "5.5-6",
     andalusite: "7-7.5",
     andesine: "6-6.5",
     angelite: "3.5",
