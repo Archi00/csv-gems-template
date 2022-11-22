@@ -49,6 +49,7 @@ export const Hardness: any = {
     hessonite: "6.5-7.5",
     "hessonite garnet": "6.5-7.5",
     "rodolite garnet": "6.5-7.5",
+    "mandarin garnet": "6.5-7.5",
     spessartine: "6.5-7.5",
     "spessartine garnet": "6.5-7.5",
     spessartite: "6.5-7.5",

@@ -32,6 +32,10 @@ export const AppConfig: AppConfigInterface = {
         title: "Gem Descriptions",
         description: "Check and edit descriptions",
     },
+    prices: {
+        title: "Avg. Prices",
+        description: "Check avg. prices from GemSelect",
+    },
     updateDescriptions: {
         title: "Update Descriptions",
         description: "Click the button to update descriptions"

@@ -1,0 +1,567 @@
+[
+    {
+        "aquamarine": 27.52,
+        "per": "ct"
+    },
+    {
+        "cats eye aquamarine": 17.79,
+        "per": "ct"
+    },
+    {
+        "alexandrite": 297.59,
+        "per": "ct"
+    },
+    {
+        "amethyst": 6.11,
+        "per": "ct"
+    },
+    {
+        "druzy amethyst": 0.55,
+        "per": "ct"
+    },
+    {
+        "amazonite": 3.65,
+        "per": "ct"
+    },
+    {
+        "ametrine": 8.12,
+        "per": "ct"
+    },
+    {
+        "ammolite": 12.94,
+        "per": "ct"
+    },
+    {
+        "andalusite": 491.42,
+        "per": "ct"
+    },
+    {
+        "andesine labradorite": 16.5,
+        "per": "ct"
+    },
+    {
+        "apatite": 50.73,
+        "per": "ct"
+    },
+    {
+        "cats eye apatite": 8.55,
+        "per": "ct"
+    },
+    {
+        "azurite": 2.66,
+        "per": "ct"
+    },
+    {
+        "druzy azurite": 2.66,
+        "per": "ct"
+    },
+    {
+        "golden beryl": 30.73,
+        "per": "ct"
+    },
+    {
+        "chalcedony": 2.38,
+        "per": "ct"
+    },
+    {
+        "charoite": 1.75,
+        "per": "ct"
+    },
+    {
+        "chrysocolla": 1.51,
+        "per": "ct"
+    },
+    {
+        "kyanite": 29.55,
+        "per": "ct"
+    },
+    {
+        "zircon": 47.32,
+        "per": "ct"
+    },
+    {
+        "citrine": 9.3,
+        "per": "ct"
+    },
+    {
+        "coral": 6.27,
+        "per": "ct"
+    },
+    {
+        "fossil coral": 2.79,
+        "per": "ct"
+    },
+    {
+        "carnelian": 11.35,
+        "per": "ct"
+    },
+    {
+        "chrysoberyl": 84.16,
+        "per": "ct"
+    },
+    {
+        "chrysoberyl cats eye": 30.98,
+        "per": "ct"
+    },
+    {
+        "chrysoprase": 2.01,
+        "per": "ct"
+    },
+    {
+        "chrome diopside": 221.8,
+        "per": "ct"
+    },
+    {
+        "quartz": 5.98,
+        "per": "ct"
+    },
+    {
+        "smoky quartz": 4.27,
+        "per": "ct"
+    },
+    {
+        "quartz with hedenbergite": 4.13,
+        "per": "ct"
+    },
+    {
+        "quartz with marcasite": 6.12,
+        "per": "ct"
+    },
+    {
+        "strawberry quartz": 11.83,
+        "per": "ct"
+    },
+    {
+        "quartz cats eye": 4.17,
+        "per": "ct"
+    },
+    {
+        "rose quartz": 2.6,
+        "per": "ct"
+    },
+    {
+        "star rose quartz": 2.08,
+        "per": "ct"
+    },
+    {
+        "rutile quartz": 2.82,
+        "per": "ct"
+    },
+    {
+        "diamond": 1827.58,
+        "per": "ct"
+    },
+    {
+        "color change diaspore": 40.88,
+        "per": "ct"
+    },
+    {
+        "star diopside": 2.95,
+        "per": "ct"
+    },
+    {
+        "opal doublet": 40.01,
+        "per": "ct"
+    },
+    {
+        "druzy variscite": 1.85,
+        "per": "ct"
+    },
+    {
+        "enstatite": 112.24,
+        "per": "ct"
+    },
+    {
+        "scapolite": 5.6,
+        "per": "ct"
+    },
+    {
+        "cats eye scapolite": 5.6,
+        "per": "ct"
+    },
+    {
+        "scolecite": 1.14,
+        "per": "ct"
+    },
+    {
+        "sphene": 23.16,
+        "per": "ct"
+    },
+    {
+        "emerald": 546.63,
+        "per": "ct"
+    },
+    {
+        "spectrolite": 5.95,
+        "per": "ct"
+    },
+    {
+        "spinel": 19.4,
+        "per": "ct"
+    },
+    {
+        "fluorite": 12.04,
+        "per": "ct"
+    },
+    {
+        "color change fluorite": 26.56,
+        "per": "ct"
+    },
+    {
+        "ruby in fuchsite": 9.06,
+        "per": "ct"
+    },
+    {
+        "star gemstones": 11.79,
+        "per": "ct"
+    },
+    {
+        "jade gemstones": 1.06,
+        "per": "ct"
+    },
+    {
+        "agate geode": 2.39,
+        "per": "ct"
+    },
+    {
+        "garnet": 11.85,
+        "per": "ct"
+    },
+    {
+        "almandine garnet": 135.46,
+        "per": "ct"
+    },
+    {
+        "color change garnet": 111.32,
+        "per": "ct"
+    },
+    {
+        "demantoid garnet": 481.41,
+        "per": "ct"
+    },
+    {
+        "spessartite garnet": 34.53,
+        "per": "ct"
+    },
+    {
+        "star garnet": 3.98,
+        "per": "ct"
+    },
+    {
+        "grossularite garnet": 26.55,
+        "per": "ct"
+    },
+    {
+        "hessonite garnet": 24.27,
+        "per": "ct"
+    },
+    {
+        "malaya garnet": 73.78,
+        "per": "ct"
+    },
+    {
+        "pyrope garnet": 17.83,
+        "per": "ct"
+    },
+    {
+        "rhodolite garnet": 40.51,
+        "per": "ct"
+    },
+    {
+        "tsavorite garnet": 1137.37,
+        "per": "ct"
+    },
+    {
+        "grandidierite": 118.51,
+        "per": "ct"
+    },
+    {
+        "hematite": 1.48,
+        "per": "ct"
+    },
+    {
+        "hemimorphite": 16.43,
+        "per": "ct"
+    },
+    {
+        "hemimorphite druzy": 16.43,
+        "per": "ct"
+    },
+    {
+        "howlite": 0.65,
+        "per": "ct"
+    },
+    {
+        "idocrase": 112.7,
+        "per": "ct"
+    },
+    {
+        "iolite": 43.15,
+        "per": "ct"
+    },
+    {
+        "jadeite": 1.06,
+        "per": "ct"
+    },
+    {
+        "jasper": 0.82,
+        "per": "ct"
+    },
+    {
+        "kornerupine": 98.38,
+        "per": "ct"
+    },
+    {
+        "kunzite": 13.79,
+        "per": "ct"
+    },
+    {
+        "labradorite": 3.03,
+        "per": "ct"
+    },
+    {
+        "lapis lazuli": 0.72,
+        "per": "ct"
+    },
+    {
+        "larimar": 5.48,
+        "per": "ct"
+    },
+    {
+        "color change gems": 31.66,
+        "per": "ct"
+    },
+    {
+        "mother of pearl": 2.1,
+        "per": "ct"
+    },
+    {
+        "malachite": 1.22,
+        "per": "ct"
+    },
+    {
+        "mali garnet": 151.86,
+        "per": "ct"
+    },
+    {
+        "tigers eye matrix": 1.93,
+        "per": "ct"
+    },
+    {
+        "maw sit sit": 3.24,
+        "per": "ct"
+    },
+    {
+        "morganite": 32.85,
+        "per": "ct"
+    },
+    {
+        "nuummite": 4.18,
+        "per": "ct"
+    },
+    {
+        "obsidian": 0.85,
+        "per": "ct"
+    },
+    {
+        "snowflake obsidian": 0.59,
+        "per": "ct"
+    },
+    {
+        "actinolite cats eye": 16.18,
+        "per": "ct"
+    },
+    {
+        "cats eye opal": 2.67,
+        "per": "ct"
+    },
+    null,
+    {
+        "tigers eye": 1.23,
+        "per": "ct"
+    },
+    {
+        "cats eye": 9.02,
+        "per": "ct"
+    },
+    {
+        "peridot": 31.36,
+        "per": "ct"
+    },
+    {
+        "pearl": 15.38,
+        "per": "ct"
+    },
+    {
+        "moonstone": 12.71,
+        "per": "ct"
+    },
+    {
+        "rainbow moonstone": 25.83,
+        "per": "ct"
+    },
+    {
+        "star moonstone": 4.29,
+        "per": "ct"
+    },
+    {
+        "cats eye moonstone": 5.63,
+        "per": "ct"
+    },
+    {
+        "bloodstone": 2.51,
+        "per": "ct"
+    },
+    {
+        "sunstone": 13.07,
+        "per": "ct"
+    },
+    {
+        "pietersite": 5.17,
+        "per": "ct"
+    },
+    {
+        "pyrite": 2.71,
+        "per": "ct"
+    },
+    {
+        "rainbow pyrite": 2.71,
+        "per": "ct"
+    },
+    {
+        "prehnite": 4.85,
+        "per": "ct"
+    },
+    {
+        "amethyst geode slice": 0.48,
+        "per": "ct"
+    },
+    {
+        "rhodochrosite": 2.18,
+        "per": "ct"
+    },
+    {
+        "rubellite tourmaline": 46.79,
+        "per": "ct"
+    },
+    {
+        "ruby": 126.15,
+        "per": "ct"
+    },
+    {
+        "star ruby": 14.4,
+        "per": "ct"
+    },
+    {
+        "ruby zoisite": 1.66,
+        "per": "ct"
+    },
+    {
+        "seraphinite": 3.26,
+        "per": "ct"
+    },
+    {
+        "serpentine": 2.15,
+        "per": "ct"
+    },
+    {
+        "sillimanite": 65.68,
+        "per": "ct"
+    },
+    {
+        "sillimanite cats eye": 4.36,
+        "per": "ct"
+    },
+    {
+        "sodalite": 1.08,
+        "per": "ct"
+    },
+    {
+        "tanzanite": 61.42,
+        "per": "ct"
+    },
+    {
+        "topaz": 12.45,
+        "per": "ct"
+    },
+    {
+        "imperial topaz": 566.01,
+        "per": "ct"
+    },
+    {
+        "mystic topaz": 10.65,
+        "per": "ct"
+    },
+    {
+        "tourmaline": 36.73,
+        "per": "ct"
+    },
+    {
+        "chrome tourmaline": 100.0,
+        "per": "ct"
+    },
+    {
+        "turquoise": 3.25,
+        "per": "ct"
+    },
+    {
+        "variscite": 1.05,
+        "per": "ct"
+    },
+    {
+        "aventurine": 2.05,
+        "per": "ct"
+    },
+    {
+        "sapphire": 255.12,
+        "per": "ct"
+    },
+    {
+        "color change sapphire": 630.24,
+        "per": "ct"
+    },
+    {
+        "star sapphire": 50.94,
+        "per": "ct"
+    },
+    {
+        "agate": 4.5,
+        "per": "ct"
+    },
+    {
+        "fire agate": 8.1,
+        "per": "ct"
+    },
+    {
+        "dendritic agate": 2.22,
+        "per": "ct"
+    },
+    {
+        "onyx": 1.85,
+        "per": "ct"
+    },
+    {
+        "opal": 14.42,
+        "per": "ct"
+    },
+    {
+        "boulder opal": 6.08,
+        "per": "ct"
+    },
+    {
+        "chocolate opal": 30.72,
+        "per": "ct"
+    },
+    {
+        "fire opal": 36.54,
+        "per": "ct"
+    },
+    {
+        "opal in matrix": 3.24,
+        "per": "ct"
+    },
+    {
+        "black opal": 68.81,
+        "per": "ct"
+    }
+]
