@@ -22,6 +22,8 @@ const PricesPage = ({prices}:any) => {
         setDropdownSelected(assetName)
     }
 
+    
+
     return (
         <Main
             meta={
@@ -45,8 +47,9 @@ const PricesPage = ({prices}:any) => {
                                         Object.values(asset["more_list"]).map((childAsset: any) => {
                                             return (
                                                 <>
-                                                    <div className="grid grid-cols-3 gap-4">
-                                                        <div>{childAsset["weight"]} {childAsset["per"]}</div> 
+                                                    <div className="grid grid-cols-4 gap-4">
+                                                        <div>{(childAsset["price"] / childAsset["weight"].replace(",",".")).toFixed(2)}€/{asset["per"]}</div>
+                                                        <div>{childAsset["weight"].replace(",",".")} {childAsset["per"]}</div> 
                                                         <div>({childAsset["size"]})</div> 
                                                         <div>{childAsset["price"]}€</div>
                                                     </div>
@@ -54,7 +57,7 @@ const PricesPage = ({prices}:any) => {
                                             )
                                         })
                                         : null}
-                                    {dropdownSelected == asset["name"] ?  <a href={asset["link"]} target="_blank" className="w-full min-h-[2%] mt-6">{asset["link"]}</a> : null}
+                                    {dropdownSelected == asset["name"] ?  <a href={asset["link"]} target="_blank" className="w-full min-h-[2%] mt-6 block">{asset["link"]}</a> : null}
                                 </div>
                             : null}
                             </>
