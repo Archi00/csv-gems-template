@@ -53,7 +53,12 @@ const PricesPage = ({prices}:any) => {
                                             <div>Mida</div>
                                             <div>Preu</div>
                                         </div>
-                                        {Object.values(asset["more_list"]).map((childAsset: any) => {
+                                        {Object.values(asset["more_list"]).sort((a: any,b: any) => {
+                                            if (a.weight.replace(",", ".") < b.weight.replace(",",".")) {
+                                                return -1
+                                            }
+                                            return 1
+                                            }).map((childAsset: any) => {
                                             return (
                                                 <>
                                                     <div className="grid grid-cols-5 gap-4 my-4">
