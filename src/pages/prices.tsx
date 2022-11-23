@@ -1,15 +1,11 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
 import fs from "fs"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 export async function getServerSideProps() {
-    let prices = {}
     const file = fs.readFileSync(`src/gems/prices.json`)
-    const parsedPrices = await JSON.parse(file.toString())
-    Object.values(parsedPrices).map((price: any) => {
-        prices = {...prices, ...price}
-    })
+    const prices = await JSON.parse(file.toString())
     
     return {
       props: {prices}, 
@@ -17,9 +13,15 @@ export async function getServerSideProps() {
 }
 
 const PricesPage = ({prices}:any) => {
-    useEffect(() => {
-        console.log(prices)
-    }, [])
+    const [dropdownSelected, setDropdownSelected] = useState<string>("")
+
+    const handleDropdownSelect = (assetName: string) => {
+        if (assetName == dropdownSelected) {
+            return setDropdownSelected("")
+        }
+        setDropdownSelected(assetName)
+    }
+
     return (
         <Main
             meta={
@@ -32,13 +34,29 @@ const PricesPage = ({prices}:any) => {
         >
             <>
                 <div className="mx-auto mt-8 pb-4 flex flex-wrap max-w-[80vw] gap-1 justify-between">
-                    {Object.keys(prices).sort().map((price, id: number) => {
+                    {Object.values(prices).sort().map((asset: any, id: number) => {
                         return (
                             <>
-                            <div key={id} className="min-w-[15vw] cursor-pointer text-center py-4 px-6 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                                <p>{price}</p>
-                                <p>{prices[price]}€/{prices["per"]}</p>
-                            </div>
+                            {asset ?
+                                <div key={id} className="min-w-[15vw] cursor-pointer text-center py-4 px-6 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" onClick={() => handleDropdownSelect(asset["name"])}>
+                                    <p>{asset["name"]}</p>
+                                    <p>{asset["price"]}€/{asset["per"]}</p>
+                                    {dropdownSelected == asset["name"] ? 
+                                        Object.values(asset["more_list"]).map((childAsset: any) => {
+                                            return (
+                                                <>
+                                                    <div className="grid grid-cols-3 gap-4">
+                                                        <div>{childAsset["weight"]} {childAsset["per"]}</div> 
+                                                        <div>({childAsset["size"]})</div> 
+                                                        <div>{childAsset["price"]}€</div>
+                                                    </div>
+                                                </>
+                                            )
+                                        })
+                                        : null}
+                                    {dropdownSelected == asset["name"] ?  <a href={asset["link"]} target="_blank" className="w-full min-h-[2%] mt-6">{asset["link"]}</a> : null}
+                                </div>
+                            : null}
                             </>
                         )
                     })}
