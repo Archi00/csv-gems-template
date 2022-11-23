@@ -56,8 +56,8 @@ const PricesPage = ({prices}:any) => {
                                         {Object.values(asset["more_list"]).map((childAsset: any) => {
                                             return (
                                                 <>
-                                                    <div className="grid grid-cols-5 gap-4">
-                                                        <div><img src={childAsset["image"]} alt={asset["name"]} loading="lazy" width={"30%"} height={"30%"}/></div>
+                                                    <div className="grid grid-cols-5 gap-4 my-4">
+                                                        <div><img className="block m-auto" src={childAsset["image"]} alt={asset["name"]} loading="lazy" width={"30%"} height={"30%"}/></div>
                                                         <div>{(childAsset["price"] / childAsset["weight"].replace(",",".")).toFixed(2)}€/{asset["per"]}</div>
                                                         <div>{childAsset["weight"].replace(",",".")} {childAsset["per"]}</div> 
                                                         <div>({childAsset["size"]})</div> 
