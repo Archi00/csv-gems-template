@@ -54,7 +54,7 @@ const PricesPage = ({prices}:any) => {
                                             <div>Preu</div>
                                         </div>
                                         {Object.values(asset["more_list"]).sort((a: any,b: any) => {
-                                            if (a.weight.replace(",", ".") < b.weight.replace(",",".")) {
+                                            if (Math.round(a.weight.replace(",", ".")) < Math.round(b.weight.replace(",","."))) {
                                                 return -1
                                             }
                                             return 1
