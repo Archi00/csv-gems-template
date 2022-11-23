@@ -43,11 +43,21 @@ const PricesPage = ({prices}:any) => {
                                 <div key={id} className="min-w-[15vw] cursor-pointer text-center py-4 px-6 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" onClick={() => handleDropdownSelect(asset["name"])}>
                                     <p>{asset["name"]}</p>
                                     <p>{asset["price"]}€/{asset["per"]}</p>
+                                    {dropdownSelected == asset["name"] ?  <a href={asset["link"]} target="_blank" className="w-full min-h-[2%] my-4 block">{asset["link"]}</a> : null}
                                     {dropdownSelected == asset["name"] ? 
-                                        Object.values(asset["more_list"]).map((childAsset: any) => {
+                                    <>
+                                        <div className="grid grid-cols-5 gap-4 mb-2">
+                                            <div>Imatge</div>
+                                            <div>Preu per {asset["per"]}</div>
+                                            <div>Pes</div>
+                                            <div>Mida</div>
+                                            <div>Preu</div>
+                                        </div>
+                                        {Object.values(asset["more_list"]).map((childAsset: any) => {
                                             return (
                                                 <>
-                                                    <div className="grid grid-cols-4 gap-4">
+                                                    <div className="grid grid-cols-5 gap-4">
+                                                        <div><img src={childAsset["image"]} alt={asset["name"]} loading="lazy" width={"30%"} height={"30%"}/></div>
                                                         <div>{(childAsset["price"] / childAsset["weight"].replace(",",".")).toFixed(2)}€/{asset["per"]}</div>
                                                         <div>{childAsset["weight"].replace(",",".")} {childAsset["per"]}</div> 
                                                         <div>({childAsset["size"]})</div> 
@@ -55,9 +65,9 @@ const PricesPage = ({prices}:any) => {
                                                     </div>
                                                 </>
                                             )
-                                        })
-                                        : null}
-                                    {dropdownSelected == asset["name"] ?  <a href={asset["link"]} target="_blank" className="w-full min-h-[2%] mt-6 block">{asset["link"]}</a> : null}
+                                        })}
+                                    </>
+                                    : null}
                                 </div>
                             : null}
                             </>
