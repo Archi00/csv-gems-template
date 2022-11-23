@@ -150,5 +150,43 @@
             "https://www.gemmesterra.com/Botiga/upload/F840-2.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/F840-3.jpeg"
         ]
+    },
+    {
+        "ID": "F841",
+        "Active": 1,
+        "Categories": "2,16,17,20",
+        "Price": "48",
+        "Reference": "F841",
+        "Quantity": 1,
+        "Name": "Ametista 4.60ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Ametista</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>4.60ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>11.4x11.4x4.6mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Damero</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Uruguay</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>L'Ametista és una varietat violeta del quars. Es presenta en tota la gamma de violetes. De gairebé incolora a violeta fosc. Als millors exemplars té centelleigs de vermell i blau. Quan una ametista presenta un violeta fosc amb centelleigs se l'anomena comercialment de 'color siberià' ja que a Sibèria van sortir exemplars de gran bellesa.</div><div></div><div>Té duresa 7 de Mohs i es pot fer servir amb seguretat de durabilitat.</div><div></div><div>S'ha sinteritzat amb èxit amb molt d'encert i és molt difícil distingir la sintètica de la natural.</div><div></div><div>Un tant per cent molt alt de les que estan a la venda al mercat són sintètiques per això és una gemma que s'ha de comprar a un proveïdor de molta confiança.</div><div></div><div>Els jaciments principals són a: Uruguai, Brasil, Bolívia, Est d'Àfrica, Rússia.</div><div></div><div>A Catalunya van tenir molta importància les ametistes del Montseny (Barcelona).</div>",
+        "meta-title": "Ametista 4.60ct - Gemmesterra",
+        "meta-description": " Ametista 4.60ct de color violeta amb forma damero (11.4x11.4x4.6mm) de Uruguay - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F841-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F841-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F841-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F841-3.jpeg"
+        ]
+    },
+    {
+        "ID": "F842",
+        "Active": 1,
+        "Categories": "2,16,17,186",
+        "Price": "32",
+        "Reference": "F842",
+        "Quantity": 1,
+        "Name": "Citrí 3.50ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Citrí</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>3.50ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>14.8x10.9x3.1mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Damero</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Groc</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Citrí 3.50ct - Gemmesterra",
+        "meta-description": " Citrí 3.50ct de color groc amb forma damero (14.8x10.9x3.1mm) de Madagascar - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F842-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F842-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F842-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F842-3.jpeg"
+        ]
     }
 ]

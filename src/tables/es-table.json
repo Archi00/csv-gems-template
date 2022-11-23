@@ -102,5 +102,31 @@
         "ShortDescription": "<p></p>",
         "meta-title": "Calcedonia 1.50ct - Gemmesterra",
         "meta-description": " Calcedonia 1.50ct de color rojo/naranja con forma esmeralda (6.3x6.3x5mm) de Brasil - Sin tratamientos"
+    },
+    {
+        "ID": "F841",
+        "Active": 1,
+        "Categories": "2,16,17,20",
+        "Price": "48",
+        "Reference": "F841",
+        "Quantity": 1,
+        "Name": "Amatista 4.60ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Amatista</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>4.60ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>11.4x11.4x4.6mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Damero</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Uruguay</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>La Amatista es una variedad violeta del cuarzo. Se presenta en toda la gama de violetas.De casi incolora a violeta oscuro. En los mejores ejemplares tiene destellos de rojo yazul. Cuando una amatista presenta un violeta oscuro con destellos se la llamacomercialmente de 'color siberiano' ya que en Siberia salieron ejemplares de gran belleza.</p><p>Tiene dureza 7 de Mohs y se puede usar con seguridad de durabilidad.</p><p>Se ha sinterizado con exito con mucho acierto y es muy dificil distinguir la sintetica dela natural.</p><p>Un tanto por ciento muy alto de las que estan a la venta en el mercado son sinteticas poreso es una gema que se tiene que comprar a un proveedor de mucha confianza.</p><p>Garantizamos que nuestras amatistas son naturales.</p><p>Los yacimientos principales estan en: uruguay, Brasil, Bolivia, Este de Africa,Rusia.</p><p>En Cataluña tuvieron mucha importancia las amatistas del Montseny (Barcelona).</p><p></p>",
+        "meta-title": "Amatista 4.60ct - Gemmesterra",
+        "meta-description": " Amatista 4.60ct de color violeta con forma damero (11.4x11.4x4.6mm) de Uruguay - Sin tratamientos"
+    },
+    {
+        "ID": "F842",
+        "Active": 1,
+        "Categories": "2,16,17,186",
+        "Price": "32",
+        "Reference": "F842",
+        "Quantity": 1,
+        "Name": "Citrino 3.50ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Citrino</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>3.50ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>14.8x10.9x3.1mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Damero</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Amarillo</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Citrino 3.50ct - Gemmesterra",
+        "meta-description": " Citrino 3.50ct de color amarillo con forma damero (14.8x10.9x3.1mm) de Madagascar - Sin tratamientos"
     }
 ]
