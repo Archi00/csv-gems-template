@@ -65,6 +65,7 @@ const TableCreator = ({gems}: any) => {
             weight: document.getElementById("weight"),
             size: document.getElementById("size"),
             shape: document.getElementById("shape"),
+            color: document.getElementById("color"),
             hardness: document.getElementById("hardness"),
             origin: document.getElementById("origin"),
             treatment: document.getElementById("treatment"),

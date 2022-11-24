@@ -9,6 +9,7 @@ export interface FormInfo {
     weight: HTMLElement
     size: HTMLElement
     shape: HTMLElement
+    color: HTMLElement
     hardness: HTMLElement
     quantity: HTMLElement
     origin: HTMLElement
