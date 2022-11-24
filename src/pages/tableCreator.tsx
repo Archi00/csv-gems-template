@@ -130,7 +130,7 @@ const TableCreator = ({gems}: any) => {
     const createImgUrl = () => {
         let tmp = []
         for (let i = 0, l = 3; i <= l; i++) {
-            const url = `https://www.gemmesterra.com/Botiga/upload/${gemInfo["id"].value}-${i}.jpeg`
+            const url = `https://www.gemmesterra.com/Botiga/upload/${gemInfo["id"]? gemInfo["id"].value: ""}-${i}.jpeg`
             tmp.push(url)
         }
         return tmp
@@ -144,19 +144,24 @@ const TableCreator = ({gems}: any) => {
     }
 
     const createWriteData = async () => {
-        replaceInput()
-        const item = {
-            ID: gemInfo["id"].value,
-            Active: 1,
-            Categories: `2,${Object.values(catMap).join(",")}`,
-            Price: gemInfo["price"].value,
-            Reference: gemInfo["id"].value,
-            Quantity: 1,
+        if (gemInfo["id"] && gemInfo["price"]) {
+            replaceInput()
+            const item = {
+                ID: gemInfo["id"].value,
+                Active: 1,
+                Categories: `2,${Object.values(catMap).join(",")}`,
+                Price: gemInfo["price"].value,
+                Reference: gemInfo["id"].value,
+                Quantity: 1,
+            }
+            console.log(`Before replaceSpan(): ${JSON.stringify(item)}`)
+            replaceSpan()
+            console.log(`After replaceSpan(): ${JSON.stringify(item)}`)
+            setLoading(true)
+            handleCopyBtn()
+            return await handleWriteJson(JSON.stringify(item))
         }
-        replaceSpan()
-        setLoading(true)
-        handleCopyBtn()
-        await handleWriteJson(JSON.stringify(item))
+        return
     }
 
     const handleWriteJson = async (body: any) => {
