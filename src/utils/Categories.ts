@@ -88,6 +88,7 @@ export const Categories: any = {
                     TEFROITA: 57,
                     TURQUESA: 54,
                     XAROITA: 56,
+                    JASPI: 62,
                     CALCEDONIA: 83,
                     RODONITA: 85,
                     ESFALERITA: 86,

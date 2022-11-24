@@ -79,6 +79,7 @@ export const Hardness: any = {
     paisine: "4-6",
     pyrite: "6-6.5",
     "inca stone": "6.5-7",
+    "cinta stone": "2-5",
     moonstone: "6-6.5",
     mtorolite: "6-7",
     epidote: "6-7",
