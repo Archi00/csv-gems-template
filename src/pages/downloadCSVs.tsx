@@ -5,22 +5,25 @@ import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
 import { useEffect, useState } from "react"
 
-const DownloadCSVs = () => {
-    const [imageList, setImageList] = useState<any>([])
+export async function getServerSideProps() {
+    async function getImages() {
+        const response = await fetch("http://localhost:3000/api/getImages")
+        const result = await response.json()
+        return result
+    }
+
+    const imageList = await getImages()
+    return {
+      props: {imageList}, 
+    }
+}
+
+const DownloadCSVs = ({imageList}: any) => {
     const [loading, setLoading] = useState<boolean>(false)
     const [saved, setSaved] = useState<string>("")
     useEffect(() => {
         createDescription()
-        getImages()
     }, [])
-
-    async function getImages() {
-        const endpoint = reqOptions["uri"]["getImages"]
-        const response = await fetch(endpoint)
-        const result = await response.json()
-        setImageList(result)
-        return result
-    }
 
     const handleDownload = async () => {
         setLoading(true)
