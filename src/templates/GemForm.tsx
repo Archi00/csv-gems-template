@@ -9,7 +9,6 @@ const GemForm = ({
     flCat,
     slCat,
     tlCat,
-    colorHandler,
 }: any) => (
     <>
         <div className="flex w-full overflow-hidden text-lg pt-4 gap-y-8 whitespace-nowrap sm:mx-[-30px] sm:ml-[30px] flex-col sm:px-0 sm:flex-row sm:justify-center">
