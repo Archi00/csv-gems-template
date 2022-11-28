@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model tmp_gems {
+  ID               String  @id
+  Active           BigInt?
+  Categories       String?
+  Price            BigInt?
+  Reference        String?
+  Quantity         BigInt?
+  Name             String?
+  Description      String?
+  ShortDescription String?
+  meta_title       String? @map("meta-title")
+  meta_description String? @map("meta-description")
+  imgUrls          String?
+  imgAlts          String?
+
+  @@map("tmp-gems")
+}
