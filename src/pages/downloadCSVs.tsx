@@ -143,7 +143,7 @@ const DownloadCSVs = ({imageList}: any) => {
                 </div>
                 : saved === "ERROR" ? <div className="mx-auto bg-red-300 py-2 px-4">
                     
-                <p className="text-center text-sm"><span>&#10003;</span> Hi ha hagut un error enviant els fitxers! Envia un missatge a l'Albert!!</p>
+                <p className="text-center text-sm"><span>&#10003;</span> Hi ha hagut un error enviant els fitxers! Envia un missatge a l&#39;Albert!!</p>
             </div>
                 :null: null}
                 <div className="mx-auto flex justify-center gap-4 mt-12 sm:justify-around">

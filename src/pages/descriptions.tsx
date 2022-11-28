@@ -27,13 +27,6 @@ const DescriptionsPage = ({gems}:any) => {
     const addingDescription = useRef<HTMLTextAreaElement|null>(null)
     const router = useRouter()
 
-    useEffect(() => {
-        if (currentSelected) {
-            handleSelect()
-        }
-    }, [currentLanguage])
-
-
     const handleSelect = async (gemName = currentSelected) => {
         setCurrentSelected(gemName)
         const probableContainer = document.querySelector(".myContainer")
@@ -50,7 +43,15 @@ const DescriptionsPage = ({gems}:any) => {
         myContainer.contentEditable = "true"
         myContainer.className = "myContainer"
         descriptionContainer.current!.appendChild(myContainer)
+        return void 0
     }
+
+    useEffect((): any=> {
+        if (currentSelected) {
+            return handleSelect()
+        } 
+    }, [currentLanguage])
+
 
     const handleSave = async () => {
         const container = document.querySelector(".myContainer")!.innerHTML
@@ -69,9 +70,10 @@ const DescriptionsPage = ({gems}:any) => {
             if (gem.toLowerCase() === gemName?.toLowerCase()) {
                 return duplicate = true
             }
+            return
         })
         if (duplicate!) return alert(`Ja hi ha descripció de ${gemName}!!`)
-        setNewGemName(gemName!.toLowerCase())
+        return setNewGemName(gemName!.toLowerCase())
     }
     
     const handleAddDescription = async () => {
@@ -161,7 +163,7 @@ const DescriptionsPage = ({gems}:any) => {
                 : null}
                 {!currentSelected && !newGemName ? 
                     <>
-                        <button type="button" onClick={handleRouter} className="mt-8 text-center mx-auto text-white block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Anar a la pàgina d'estat</button>
+                        <button type="button" onClick={handleRouter} className="mt-8 text-center mx-auto text-white block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Anar a la pàgina d&#39;estat</button>
                         <button type="button" onClick={addGem} className="mt-8 text-center mx-auto text-white block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Afegir una gemma</button>
                         <div className="mx-auto mt-8 pb-4 flex flex-wrap max-w-[80vw] gap-1 justify-between">
                             {Object.keys(gems).sort().map((gem, id: number) => {
@@ -189,7 +191,7 @@ const DescriptionsPage = ({gems}:any) => {
                 </div>
             : success === false ? 
                 <div className="p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
-                    <span className="font-medium">Algo ha anat malament!</span> Truca a l'Albert!!
+                    <span className="font-medium">Algo ha anat malament!</span> Truca a l&#39;Albert!!
                 </div>
             : null}
         </Main>

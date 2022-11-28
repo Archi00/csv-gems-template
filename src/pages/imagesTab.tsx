@@ -217,7 +217,7 @@ export default function ImagesTab() {
                 {isSaved ? 
                 <div className="mx-auto bg-green-300 py-2 px-4">
                     
-                    <p className="text-center text-sm"><span>&#10003;</span> L'imatge s'ha guardat correctament!</p>
+                    <p className="text-center text-sm"><span>&#10003;</span> L&#39;imatge s&#39;ha guardat correctament!</p>
                 </div>
                 : null}
                 {Boolean(imgSrc) ? (
