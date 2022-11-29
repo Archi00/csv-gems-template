@@ -39,6 +39,10 @@ export const AppConfig: AppConfigInterface = {
     updateDescriptions: {
         title: "Update Descriptions",
         description: "Click the button to update descriptions"
+    },
+    inventory: {
+        title: "Inventory Page",
+        description: "Home page for the inventory"
     }
 }
 

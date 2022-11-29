@@ -42,6 +42,7 @@ const Meta = (props: IMetaProps) => {
                     key="icon16"
                 />
                 <link rel="icon" href={`${router.basePath}/favicon.ico`} key="favicon" />
+
             </Head>
             <NextSeo
                 title={props.title}

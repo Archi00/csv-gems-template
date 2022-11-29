@@ -10,5 +10,6 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
     images.forEach((file) => {
         tmp.push(file)
     })
+    console.log(tmp)
     return res.status(200).json(tmp)
 }

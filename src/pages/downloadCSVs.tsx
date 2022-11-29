@@ -9,6 +9,7 @@ export async function getServerSideProps() {
     async function getImages() {
         const response = await fetch("http://localhost:3000/api/getImages")
         const result = await response.json()
+        console.log(result)
         return result
     }
 
