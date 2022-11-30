@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebase/app": "^0.8.4",
+    "@firebase/storage": "^0.9.14",
     "dotenv": "^16.0.2",
     "jszip": "^3.10.1",
     "next": "12.2.3",

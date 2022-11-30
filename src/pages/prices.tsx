@@ -58,10 +58,10 @@ const PricesPage = ({prices}:any) => {
                                                 return -1
                                             }
                                             return 1
-                                            }).map((childAsset: any) => {
+                                            }).map((childAsset: any, id: number) => {
                                             return (
                                                 <>
-                                                    <div className="grid grid-cols-5 gap-4 my-4">
+                                                    <div key={id} className="grid grid-cols-5 gap-4 my-4">
                                                         <div><img className="block m-auto" src={childAsset["image"]} alt={asset["name"]} loading="lazy" width={"30%"} height={"30%"}/></div>
                                                         <div>{(childAsset["price"] / childAsset["weight"].replace(",",".")).toFixed(2)}€/{asset["per"]}</div>
                                                         <div>{childAsset["weight"].replace(",",".")} {childAsset["per"]}</div> 
