@@ -46,6 +46,9 @@ const TableCreator = ({gems}: any) => {
     const [gemOrigin, setGemOrigin] = useState<string>("")
     const [gemSize, setGemSize] = useState<string>("")
     const [forceRender, setForceRender] = useState<boolean>(false)
+    const [enTbl, setEnTbl] = useState<any[]>([])
+    const [esTbl, setEsTbl] = useState<any[]>([])
+    const [catTbl, setCatTbl] = useState<any[]>([])
     
     useEffect(() => {
         const name = document.getElementById("name")
@@ -174,6 +177,17 @@ const TableCreator = ({gems}: any) => {
         const catEndpoint = reqOptions.uri["cat"]
         const price: any = formInfo["weight"].nextSibling!
         const urls: any = createImgUrl()
+        console.log("---------------NEW DATA---------------")
+        console.log("--------------EN DATA---------------")
+        console.log(enTbl)
+        console.log("----------END OF EN DATA------------")
+        console.log("--------------ES DATA---------------")
+        console.log(esTbl)
+        console.log("----------END OF ES DATA------------")
+        console.log("--------------CAT DATA---------------")
+        console.log(catTbl)
+        console.log("----------END OF CAT DATA------------")
+        console.log("-----------END OF NEW DATA------------")
         
         console.log("Fetching en version...")
         rawData["en"] = data
@@ -230,7 +244,7 @@ const TableCreator = ({gems}: any) => {
         setLoading(false)
         setForceRender(true)
         setTimeout(() => setForceRender(false), 500)
-        window.location.reload()
+        // window.location.reload()
     }
 
     const translate = (lang: keyof TranslationsLang) => {
@@ -252,7 +266,7 @@ const TableCreator = ({gems}: any) => {
         setLang("en")
         formInfo["product"].innerText = "Product Details"
         formInfo["type"].innerText = "GEM TYPE"
-        formInfo["size"].innerText = "SIZE : (LxWxH)"
+        formInfo["size"].innerText = "SIZE (LxWxH)"
         formInfo["weight"].innerText = joieria ? "GEM WEIGHT" : "TOTAL WEIGHT"
         formInfo["shape"].innerText = joieria ? "GEM SHAPE" : "SHAPE"
         formInfo["hardness"].innerText = joieria ? "GEM HARDNESS" : "HARDNESS"
@@ -270,7 +284,13 @@ const TableCreator = ({gems}: any) => {
         }
         replaceInput()
         console.log("--------------------EN VERSION----------------------")
-        console.log(formInfo["form"].innerText.split("\n"))
+        const tbl = formInfo["form"].innerText.split("\n")
+        for (let i = 1, l = tbl.length; i < l; i++) {
+            const keyVal = tbl[i]?.split(":")!
+            const key = keyVal[0]?.toLowerCase().replace("\t", "")
+            const val = keyVal[1]?.trim()
+            setEnTbl(enTbl => [...enTbl, {[key as string]: val}])
+        }
         console.log("----------------END OF EN VERSION------------------")
         setEnDesc(formInfo["form"].innerHTML)
         replaceSpan()
@@ -281,7 +301,7 @@ const TableCreator = ({gems}: any) => {
         formInfo["product"].innerText = "Detalles del producto"
         formInfo["type"].innerText = "GEMA"
         formInfo["weight"].innerText = joieria ? "PESO GEMA" : "PESO TOTAL"
-        formInfo["size"].innerText = "MEDIDAS: (LxWxH)"
+        formInfo["size"].innerText = "MEDIDAS (LxWxH)"
         formInfo["shape"].innerText = joieria ? "FORMA GEMA" : "FORMA"
         formInfo["hardness"].innerText = joieria ? "DUREZA GEMA" : "DUREZA"
         formInfo["origin"].innerText = joieria ? "ORIGEN GEMA" : "ORIGEN"
@@ -297,6 +317,13 @@ const TableCreator = ({gems}: any) => {
         replaceInput()
         console.log("--------------------ES VERSION----------------------")
         console.log(formInfo["form"].innerText)
+        const tbl = formInfo["form"].innerText.split("\n")
+        for (let i = 1, l = tbl.length; i < l; i++) {
+            const keyVal = tbl[i]?.split(":")!
+            const key = keyVal[0]?.toLowerCase().replace("\t", "")
+            const val = keyVal[1]?.trim()
+            setEsTbl(esTbl => [...esTbl, {[key as string]: val}])
+        }
         console.log("----------------END OF ES VERSION------------------")
         setEsDesc(formInfo["form"].innerHTML)
         replaceSpan()
@@ -307,7 +334,7 @@ const TableCreator = ({gems}: any) => {
         formInfo["product"].innerText = "Detalls del producte"
         formInfo["type"].innerText = "GEMMA"
         formInfo["weight"].innerText = joieria? "PES GEMMA" : "PES TOTAL"
-        formInfo["size"].innerText = "MIDES: (LxWxH)"
+        formInfo["size"].innerText = "MIDES (LxWxH)"
         formInfo["shape"].innerText = joieria ? "FORMA GEMMA" : "FORMA"
         formInfo["hardness"].innerText = joieria ? "DURESA GEMMA" : "DURESA"
         formInfo["origin"].innerText = joieria ? "ORIGEN GEMMA" : "ORIGEN"
@@ -323,6 +350,13 @@ const TableCreator = ({gems}: any) => {
         replaceInput()
         console.log("-------------------CAT VERSION----------------------")
         console.log(formInfo["form"].innerText)
+        const tbl = formInfo["form"].innerText.split("\n")
+        for (let i = 1, l = tbl.length; i < l; i++) {
+            const keyVal = tbl[i]?.split(":")!
+            const key = keyVal[0]?.toLowerCase().replace("\t", "").trim()
+            const val = keyVal[1]?.trim()
+            setCatTbl(catTbl => [...catTbl, {[key as string]: val}])
+        }
         console.log("----------------END OF CAT VERSION------------------")
         setCatDesc(formInfo["form"].innerHTML)
         replaceSpan()
