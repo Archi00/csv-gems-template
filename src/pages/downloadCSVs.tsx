@@ -1,30 +1,55 @@
 import { Main } from "@/templates/Main"
 import { Meta } from "@/layouts/Meta"
-import catTable from "../tables/cat-table.json"
 import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
 import { useEffect, useState } from "react"
+import { easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
-    async function getImages() {
-        const response = await fetch("http://localhost:3000/api/getImages")
-        const result = await response.json()
-        console.log(result)
-        return result
-    }
-
-    const imageList = await getImages()
+    const imageList = await easyFetch("getImages", {method:"POST", headers: {"Content-type": "image/jpg"}})
+    const enTable = await easyFetch("readTable", {headers: {data: "en"}})
+    const esTable = await easyFetch("readTable", {headers: {data: "es"}})
+    const catTable = await easyFetch("readTable", {headers: {data: "cat"}})
     return {
-      props: {imageList}, 
+      props: {imageList, enTable, esTable, catTable}, 
     }
 }
 
-const DownloadCSVs = ({imageList}: any) => {
+const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     const [loading, setLoading] = useState<boolean>(false)
     const [saved, setSaved] = useState<string>("")
     useEffect(() => {
         createDescription()
+        console.log(catTable)
+        parseTable()
     }, [])
+
+    const parseTable = async () => {
+        for (let i = 0, l = catTable.length; i < l; i++) {
+            const tbl = document.querySelector(`#${catTable[i]!["ID"]}`)
+            const tblText = tbl?.textContent
+            const tblContents = tblText?.split(": ").slice(1, -1)
+            const tblNoSize = tblContents?.slice(0, 2).concat(tblContents?.slice(3))!
+            const gemName = tblNoSize[0]?.replace("PES TOTAL", "") 
+            const gemWeight = tblNoSize[1]?.replace("MIDES", "")
+            const gemSize = tblNoSize[2]?.replace("FORMA", "")
+            const gemShape = tblNoSize[3]?.replace("COLOR", "")
+            const gemColor = tblNoSize[4]?.replace("DURESA", "")
+            const gemPlace = tblNoSize[6]?.replace("TRACTAMENT", "")
+            const gemPrice = catTable[i]["Price"]
+            const gemRef = catTable[i]["ID"]
+            console.log(" --------------------------------- ")
+            console.log(`- Ref    : ${gemRef}`)
+            console.log(`- Nom    : ${gemName}`)
+            console.log(`- Pes    : ${gemWeight}`)
+            console.log(`- Mides  : ${gemSize}`)
+            console.log(`- Forma  : ${gemShape}`)
+            console.log(`- Color  : ${gemColor}`)
+            console.log(`- Origen : ${gemPlace}`)
+            console.log(`- Preu   : ${gemPrice}€`)
+            console.log(" --------------------------------- ")
+        }
+    }
 
     const handleDownload = async () => {
         setLoading(true)
@@ -96,7 +121,7 @@ const DownloadCSVs = ({imageList}: any) => {
             deleteButton.className =
                 "bg-red-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded"
             deleteButton.onclick = () => {
-                const result = confirm(`Segur que vols borrar${catTable[i]!["Name"]}?`)
+                const result = confirm(`Segur que vols borrar ${catTable[i]!["Name"]}?`)
                 if (result) handleDeleteButton(catTable[i]!["ID"])
         }
             parentObject.appendChild(deleteButton)

@@ -1,4 +1,5 @@
 import JSZip from "jszip"
+
 export const makeCSV = (table: any[]) => {
     let csvRows = []
     const headers = Object.keys(table[0]!)
@@ -99,4 +100,10 @@ export const saveByteArray =  (data: any, name: string)  => {
 
 export const capitalizeFirstLetter = (string: string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
+}
+export async function easyFetch(endpoint:string, req: RequestInit = {method: "POST", headers: {"Content-type": "application/json"}}) {
+    const response = await fetch(`http://localhost:3000/api/${endpoint}`, req)
+    const result = await response.json()
+    console.log(result)
+    return result
 }
