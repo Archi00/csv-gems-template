@@ -6,10 +6,13 @@ import { useEffect, useState } from "react"
 import { easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
-    const imageList = await easyFetch("getImages", {method:"POST", headers: {"Content-type": "image/jpg"}})
+    let imageList = await easyFetch("getImages", {method:"POST", headers: {"Content-type": "image/jpg"}})
     const enTable = await easyFetch("readTable", {headers: {data: "en"}})
     const esTable = await easyFetch("readTable", {headers: {data: "es"}})
     const catTable = await easyFetch("readTable", {headers: {data: "cat"}})
+    if (typeof(imageList) == typeof("")) {
+        imageList = []
+    }
     return {
       props: {imageList, enTable, esTable, catTable}, 
     }
@@ -20,7 +23,6 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     const [saved, setSaved] = useState<string>("")
     useEffect(() => {
         createDescription()
-        console.log(catTable)
         parseTable()
     }, [])
 
