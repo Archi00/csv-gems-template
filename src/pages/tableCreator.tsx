@@ -229,7 +229,8 @@ const TableCreator = ({gems}: any) => {
         await fetch(catEndpoint, catPost)
         setLoading(false)
         setForceRender(true)
-        return setTimeout(() => setForceRender(false), 500)
+        setTimeout(() => setForceRender(false), 500)
+        window.location.reload()
     }
 
     const translate = (lang: keyof TranslationsLang) => {
@@ -268,6 +269,9 @@ const TableCreator = ({gems}: any) => {
             setEnName(`${translations.name["en"][gemName]} (${formInfo["info"][6]!.value})`)
         }
         replaceInput()
+        console.log("--------------------EN VERSION----------------------")
+        console.log(formInfo["form"].innerText.split("\n"))
+        console.log("----------------END OF EN VERSION------------------")
         setEnDesc(formInfo["form"].innerHTML)
         replaceSpan()
     }
@@ -291,6 +295,9 @@ const TableCreator = ({gems}: any) => {
             setEsName(`${translations.name["es"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
+        console.log("--------------------ES VERSION----------------------")
+        console.log(formInfo["form"].innerText)
+        console.log("----------------END OF ES VERSION------------------")
         setEsDesc(formInfo["form"].innerHTML)
         replaceSpan()
     }
@@ -314,6 +321,9 @@ const TableCreator = ({gems}: any) => {
             setCatName(`${translations.name["cat"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
+        console.log("-------------------CAT VERSION----------------------")
+        console.log(formInfo["form"].innerText)
+        console.log("----------------END OF CAT VERSION------------------")
         setCatDesc(formInfo["form"].innerHTML)
         replaceSpan()
     }
