@@ -111,3 +111,35 @@ export async function easyFetch(endpoint:string, req: RequestInit = {method: "PO
         return JSON.stringify(e)
     }
 }
+
+const createStructure = (props: any) => {
+    const table = ["<table>"]
+    const body = ["<tbody>"]
+    const trStart = "<tr>"
+    const thStart = "<th>"
+    const trEnd = "</tr>"
+    const thEnd = "</th>"
+    const ret = []
+
+    for (let i = 0; i < props.length; i++) {
+        const header = thStart + Object.keys(props[i])[0]!  + thEnd
+        const content = thStart + Object.values(props[i])[0]! + thEnd
+        ret.push(trStart + header + trEnd + trStart + content + trEnd)
+    }
+
+    body.push(ret.join(""))
+    body.push("</tbody>")
+    table.push(body.join(""))
+    table.push("</table>")
+
+    return body.join("")
+}
+
+export const createDescription = (parsedTable: any) => {
+    parsedTable.map((t:any) => t.TestDescription).map((desc: any[]) => {
+        parsedTable[0]["Description"] = createStructure(desc)
+        delete parsedTable[0]["TestDescription"]
+    })
+    console.log(parsedTable)
+    return parsedTable
+}
