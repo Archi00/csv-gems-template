@@ -21,12 +21,24 @@ export async function getServerSideProps() {
 const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     const [loading, setLoading] = useState<boolean>(false)
     const [saved, setSaved] = useState<string>("")
+    const [currentLang, setCurrentLang] = useState<string>("cat")
     let firstLoad = true
+
     useEffect(() => {
+        console.log("in use effect")
         if (!firstLoad) return
-        createDescription(catTable)
+        if (currentLang == "cat") createDescription(catTable)
+        if (currentLang == "eng") createDescription(enTable)
+        if (currentLang == "esp") createDescription(esTable)
         firstLoad = false
-    }, [])
+    }, [currentLang])
+
+    const handleLang = () => {
+        if (currentLang == "cat") setCurrentLang("esp")
+        if (currentLang == "esp") setCurrentLang("eng")
+        if (currentLang == "eng") setCurrentLang("cat")
+        firstLoad = true
+    }
 
     const handleDownload = async () => {
         setLoading(true)
@@ -80,11 +92,13 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
 
     const handleEdit = (id: string, ctx: string) => {
         const tbl = deconstruct(ctx)
+        console.log(tbl)
     }
 
     const createDescription = (table: any[]) => {
         for (let i = 0, l = table.length; i < l; i++) {
-            const parentObject: any = document.querySelector(`#${catTable[i]!["ID"]}`)
+            const parentObject: any = document.querySelector(`#${table[i]!["ID"]}`)
+            parentObject.replaceChildren()
             const deleteButton: any = document.createElement("a")
             const tableElement: HTMLTableElement = document.createElement("table")
             const divElement: HTMLDivElement = document.createElement("div")
@@ -101,14 +115,13 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             } (${table[i]!["Price"]}€)`
             title.style.fontWeight = "900"
             title.style.textAlign = "left"
-            title.style.alignSelf = "flex-end"
 
             divElement.style.display = "flex"
             divElement.style.justifyContent = "space-between"
             divElement.style.maxWidth = "20vw"
             divElement.style.margin = "auto"
 
-            editButton.className = "h-6 px-2 m-2 text-xs text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800"
+            editButton.className = "text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-small rounded-lg text-xs px-3 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700"
             editButton.innerText = "Edit"
             editButton.style.alignSelf = "center"
             editButton.style.marginBottom = ".2rem"
@@ -146,6 +159,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             current="CSV"
         >
             <div className="mx-auto mt-[-15px] pb-4">
+                <button className="fixed bottom-4 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700" onClick={handleLang}>{currentLang}</button>
                 {catTable.map((gem: any, id: any) => (
                     <ul
                         className="mx-auto mt-2 text-center border-b border-gray-300"
