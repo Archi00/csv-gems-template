@@ -101,6 +101,7 @@ export const saveByteArray =  (data: any, name: string)  => {
 export const capitalizeFirstLetter = (string: string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
 export async function easyFetch(endpoint:string, req: RequestInit = {method: "POST", headers: {"Content-type": "application/json"}}) {
     try {
         const response = await fetch(`http://localhost:3000/api/${endpoint}`, req)
@@ -112,19 +113,19 @@ export async function easyFetch(endpoint:string, req: RequestInit = {method: "PO
     }
 }
 
-const createStructure = (props: any) => {
+export const createStructure = (props: any) => {
     const table = ["<table>"]
     const body = ["<tbody>"]
     const trStart = "<tr>"
-    const thStart = "<th>"
+    const tdStart = "<td>"
     const trEnd = "</tr>"
-    const thEnd = "</th>"
+    const tdEnd = "</td>"
     const ret = []
 
     for (let i = 0; i < props.length; i++) {
-        const header = thStart + Object.keys(props[i])[0]!  + thEnd
-        const content = thStart + Object.values(props[i])[0]! + thEnd
-        ret.push(trStart + header + trEnd + trStart + content + trEnd)
+        const header = tdStart + capitalizeFirstLetter(Object.keys(props[i])[0]!)  + tdEnd
+        const content = tdStart + ": " + Object.values(props[i])[0]! + tdEnd
+        ret.push(trStart + header + content + trEnd)
     }
 
     body.push(ret.join(""))

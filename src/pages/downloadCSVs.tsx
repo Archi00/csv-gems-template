@@ -3,7 +3,7 @@ import { Meta } from "@/layouts/Meta"
 import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
 import { useEffect, useState } from "react"
-import { easyFetch } from "@/utils/helpers"
+import { createStructure, easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
     let imageList = await easyFetch("getImages", {method:"POST", headers: {"Content-type": "image/jpg"}})
@@ -21,37 +21,12 @@ export async function getServerSideProps() {
 const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     const [loading, setLoading] = useState<boolean>(false)
     const [saved, setSaved] = useState<string>("")
+    let firstLoad = true
     useEffect(() => {
+        if (!firstLoad) return
         createDescription()
-        parseTable()
+        firstLoad = false
     }, [])
-
-    const parseTable = async () => {
-        for (let i = 0, l = catTable.length; i < l; i++) {
-            const tbl = document.querySelector(`#${catTable[i]!["ID"]}`)
-            const tblText = tbl?.textContent
-            const tblContents = tblText?.split(": ").slice(1, -1)
-            const tblNoSize = tblContents?.slice(0, 2).concat(tblContents?.slice(3))!
-            const gemName = tblNoSize[0]?.replace("PES TOTAL", "") 
-            const gemWeight = tblNoSize[1]?.replace("MIDES", "")
-            const gemSize = tblNoSize[2]?.replace("FORMA", "")
-            const gemShape = tblNoSize[3]?.replace("COLOR", "")
-            const gemColor = tblNoSize[4]?.replace("DURESA", "")
-            const gemPlace = tblNoSize[6]?.replace("TRACTAMENT", "")
-            const gemPrice = catTable[i]["Price"]
-            const gemRef = catTable[i]["ID"]
-            console.log(" --------------------------------- ")
-            console.log(`- Ref    : ${gemRef}`)
-            console.log(`- Nom    : ${gemName}`)
-            console.log(`- Pes    : ${gemWeight}`)
-            console.log(`- Mides  : ${gemSize}`)
-            console.log(`- Forma  : ${gemShape}`)
-            console.log(`- Color  : ${gemColor}`)
-            console.log(`- Origen : ${gemPlace}`)
-            console.log(`- Preu   : ${gemPrice}€`)
-            console.log(" --------------------------------- ")
-        }
-    }
 
     const handleDownload = async () => {
         setLoading(true)
@@ -107,16 +82,24 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         for (let i = 0, l = catTable.length; i < l; i++) {
             const parentObject: any = document.querySelector(`#${catTable[i]!["ID"]}`)
             const deleteButton: any = document.createElement("a")
+            const tableElement: HTMLTableElement = document.createElement("table")
+            const title: HTMLHeadElement = document.createElement("h3")
 
-            parentObject.innerHTML = catTable[i]!["Description"]
-            parentObject.style.marginBottom = "1rem"
-            parentObject.style.marginTop = "1rem"
-            parentObject.children[0]!.style.textAlign = "left"
-            parentObject.children[0]!.style.margin = "auto"
-            parentObject.children[0]!.children[0].children[0].children[0].innerText = `${
+            const tableStructure = createStructure(catTable[i]!["TestDescription"])
+            tableElement.innerHTML = tableStructure
+            tableElement.style.textAlign = "left"
+            tableElement.style.margin = "auto"
+            // parentObject.innerHTML = catTable[i]!["Description"]
+            title.innerText = `${
                 catTable[i]!["ID"]
             } (${catTable[i]!["Price"]}€)`
-
+            title.style.fontWeight = "900"
+            title.style.textAlign = "center"
+            title.style.margin = "auto"
+            parentObject.appendChild(title)
+            parentObject.appendChild(tableElement)
+            parentObject.style.marginBottom = "1rem"
+            parentObject.style.marginTop = "1em"
             deleteButton.innerText = "Remove"
             deleteButton.style.marginTop = "1em"
             deleteButton.style.display = "inline-block"
