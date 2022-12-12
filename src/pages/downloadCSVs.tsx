@@ -3,7 +3,7 @@ import { Meta } from "@/layouts/Meta"
 import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
 import { useEffect, useState } from "react"
-import { createStructure, easyFetch } from "@/utils/helpers"
+import { createStructure, deconstruct, easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
     let imageList = await easyFetch("getImages", {method:"POST", headers: {"Content-type": "image/jpg"}})
@@ -78,6 +78,10 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         return response
     }
 
+    const handleEdit = (id: string, ctx: string) => {
+        const tbl = deconstruct(ctx)
+    }
+
     const createDescription = (table: any[]) => {
         for (let i = 0, l = table.length; i < l; i++) {
             const parentObject: any = document.querySelector(`#${catTable[i]!["ID"]}`)
@@ -85,7 +89,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             const tableElement: HTMLTableElement = document.createElement("table")
             const divElement: HTMLDivElement = document.createElement("div")
             const editButton: HTMLButtonElement = document.createElement("button")
-            const title: HTMLHeadElement = document.createElement("h3")
+            const title: any = document.createElement("h3")
 
             const tableStructure = createStructure(table[i]!["TestDescription"])
             tableElement.innerHTML = tableStructure
@@ -108,7 +112,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             editButton.innerText = "Edit"
             editButton.style.alignSelf = "center"
             editButton.style.marginBottom = ".2rem"
-
+            editButton.addEventListener("click", () => handleEdit(table[i]!["ID"], parentObject.children[1].innerText))
             divElement.appendChild(title)
             divElement.appendChild(editButton)
 
