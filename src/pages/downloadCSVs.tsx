@@ -96,13 +96,15 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         if (editButton.innerText == "Save") {
             table?.removeAttribute("contenteditable")
             editButton.innerText = "Edit"
+            const saveTbl = deconstruct(ctx)
+            console.log(saveTbl)
             return 
         }
         const tbl = deconstruct(ctx)
         setInitialState(tbl)
         table?.setAttribute("contenteditable", "true")
         editButton.innerText = "Save"
-        console.log(table)
+        return console.log(table)
     }
 
     const createDescription = (table: any[]) => {
