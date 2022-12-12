@@ -144,3 +144,16 @@ export const createDescription = (parsedTable: any) => {
     console.log(parsedTable)
     return parsedTable
 }
+
+const organizeDeconstruct = (tbl: string[]) => {
+    tbl.map((t: string) => t.split(":")).map((parts: string[]) => {
+        const key = parts[0]!.toLowerCase().replace("\t", "").trim()
+        const val = parts[1]!.trim()
+        return {[key as string]: val}
+    })
+}
+
+export const deconstruct = (ctx: string) => {
+    const tbl = ctx.split("\n")
+    return organizeDeconstruct(tbl)
+}
