@@ -22,6 +22,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     const [loading, setLoading] = useState<boolean>(false)
     const [saved, setSaved] = useState<string>("")
     const [currentLang, setCurrentLang] = useState<string>("cat")
+    const [initialState, setInitialState] = useState<any[]>([])
     let firstLoad = true
 
     useEffect(() => {
@@ -90,9 +91,18 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         return response
     }
 
-    const handleEdit = (id: string, ctx: string) => {
+    const handleEdit = (id: string, ctx: string, editButton: HTMLButtonElement) => {
+        const table = document.getElementById(id)
+        if (editButton.innerText == "Save") {
+            table?.removeAttribute("contenteditable")
+            editButton.innerText = "Edit"
+            return 
+        }
         const tbl = deconstruct(ctx)
-        console.log(tbl)
+        setInitialState(tbl)
+        table?.setAttribute("contenteditable", "true")
+        editButton.innerText = "Save"
+        console.log(table)
     }
 
     const createDescription = (table: any[]) => {
@@ -125,7 +135,9 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             editButton.innerText = "Edit"
             editButton.style.alignSelf = "center"
             editButton.style.marginBottom = ".2rem"
-            editButton.addEventListener("click", () => handleEdit(table[i]!["ID"], parentObject.children[1].innerText))
+            editButton.addEventListener("click", () => {
+                handleEdit(table[i]!["ID"], parentObject.children[1].innerText, editButton)
+            })
             divElement.appendChild(title)
             divElement.appendChild(editButton)
 
