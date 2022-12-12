@@ -24,7 +24,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     let firstLoad = true
     useEffect(() => {
         if (!firstLoad) return
-        createDescription()
+        createDescription(catTable)
         firstLoad = false
     }, [])
 
@@ -78,37 +78,55 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         return response
     }
 
-    const createDescription = () => {
-        for (let i = 0, l = catTable.length; i < l; i++) {
+    const createDescription = (table: any[]) => {
+        for (let i = 0, l = table.length; i < l; i++) {
             const parentObject: any = document.querySelector(`#${catTable[i]!["ID"]}`)
             const deleteButton: any = document.createElement("a")
             const tableElement: HTMLTableElement = document.createElement("table")
+            const divElement: HTMLDivElement = document.createElement("div")
+            const editButton: HTMLButtonElement = document.createElement("button")
             const title: HTMLHeadElement = document.createElement("h3")
 
-            const tableStructure = createStructure(catTable[i]!["TestDescription"])
+            const tableStructure = createStructure(table[i]!["TestDescription"])
             tableElement.innerHTML = tableStructure
             tableElement.style.textAlign = "left"
             tableElement.style.margin = "auto"
-            // parentObject.innerHTML = catTable[i]!["Description"]
+
             title.innerText = `${
-                catTable[i]!["ID"]
-            } (${catTable[i]!["Price"]}€)`
+                table[i]!["ID"]
+            } (${table[i]!["Price"]}€)`
             title.style.fontWeight = "900"
-            title.style.textAlign = "center"
-            title.style.margin = "auto"
-            parentObject.appendChild(title)
+            title.style.textAlign = "left"
+            title.style.alignSelf = "flex-end"
+
+            divElement.style.display = "flex"
+            divElement.style.justifyContent = "space-between"
+            divElement.style.maxWidth = "20vw"
+            divElement.style.margin = "auto"
+
+            editButton.className = "h-6 px-2 m-2 text-xs text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800"
+            editButton.innerText = "Edit"
+            editButton.style.alignSelf = "center"
+            editButton.style.marginBottom = ".2rem"
+
+            divElement.appendChild(title)
+            divElement.appendChild(editButton)
+
+            parentObject.appendChild(divElement)
             parentObject.appendChild(tableElement)
             parentObject.style.marginBottom = "1rem"
             parentObject.style.marginTop = "1em"
+            
             deleteButton.innerText = "Remove"
             deleteButton.style.marginTop = "1em"
             deleteButton.style.display = "inline-block"
             deleteButton.className =
                 "bg-red-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded"
             deleteButton.onclick = () => {
-                const result = confirm(`Segur que vols borrar ${catTable[i]!["Name"]}?`)
-                if (result) handleDeleteButton(catTable[i]!["ID"])
-        }
+                const result = confirm(`Segur que vols borrar ${table[i]!["Name"]}?`)
+                if (result) handleDeleteButton(table[i]!["ID"])
+            }
+
             parentObject.appendChild(deleteButton)
         }
     }
