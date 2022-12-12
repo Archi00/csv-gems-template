@@ -195,6 +195,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("en")
         rawData["en"]["Description"] = enDesc
+        rawData["en"]["TestDescription"] = enTbl
         rawData["en"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
             if (gem === enName.toLowerCase()) return rawData["en"]["ShortDescription"] = gems[gem]["en"]            
@@ -211,6 +212,7 @@ const TableCreator = ({gems}: any) => {
         rawData["es"]["Name"] = !joieria ? `${esName} ${
             price.children[0].innerText || price.children[0].value
         }` : setName("es")
+        rawData["es"]["TestDescription"] = esTbl
         rawData["es"]["Description"] = esDesc
         rawData["es"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
@@ -229,6 +231,7 @@ const TableCreator = ({gems}: any) => {
         rawData["cat"]["Name"] = !joieria ? `${catName} ${
             price.children[0].innerText || price.children[0].value
         }` : setName("cat")
+        rawData["cat"]["TestDescription"] = catTbl
         rawData["cat"]["Description"] = catDesc
         rawData["cat"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
@@ -244,7 +247,7 @@ const TableCreator = ({gems}: any) => {
         setLoading(false)
         setForceRender(true)
         setTimeout(() => setForceRender(false), 500)
-        // window.location.reload()
+        window.location.reload()
     }
 
     const translate = (lang: keyof TranslationsLang) => {
