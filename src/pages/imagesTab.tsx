@@ -97,6 +97,7 @@ export default function ImagesTab() {
 
     async function handleSaveImage() {
         setLoading(true)
+        if (!currentId) return setLoading(false)
         const cnv: HTMLCanvasElement | null = document.querySelector("#dwnCanvas")!
         const imgSrc: string = cnv.toDataURL("image/jpeg", 0.40)
         const endpoint = reqOptions["uri"]["image"]
