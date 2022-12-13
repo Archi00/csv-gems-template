@@ -2,7 +2,7 @@ import { Main } from "@/templates/Main"
 import { Meta } from "@/layouts/Meta"
 import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { createStructure, deconstruct, easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
@@ -29,15 +29,15 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         console.log("in use effect")
         if (!firstLoad) return
         if (currentLang == "cat") createDescription(catTable)
-        if (currentLang == "eng") createDescription(enTable)
-        if (currentLang == "esp") createDescription(esTable)
+        if (currentLang == "en") createDescription(enTable)
+        if (currentLang == "es") createDescription(esTable)
         firstLoad = false
     }, [currentLang])
 
     const handleLang = () => {
-        if (currentLang == "cat") setCurrentLang("esp")
-        if (currentLang == "esp") setCurrentLang("eng")
-        if (currentLang == "eng") setCurrentLang("cat")
+        if (currentLang == "cat") setCurrentLang("es")
+        if (currentLang == "es") setCurrentLang("en")
+        if (currentLang == "en") setCurrentLang("cat")
         firstLoad = true
     }
 
@@ -91,14 +91,21 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
         return response
     }
 
-    const handleEdit = (id: string, ctx: string, editButton: HTMLButtonElement) => {
+    const handleEdit = async (id: string, ctx: string, price: string, editButton: HTMLButtonElement) => {
         const table = document.getElementById(id)
+        const currentPrice = document.getElementById("price")!.innerText
+        const priceSlice = currentPrice.split(" ")[1]?.slice(1).replace(/\D/g,'').trim()
         if (editButton.innerText == "Save") {
             table?.removeAttribute("contenteditable")
             editButton.innerText = "Edit"
-            const saveTbl = deconstruct(ctx)
-            console.log(saveTbl)
-            return 
+            const saveTbl = JSON.stringify(deconstruct(ctx))
+            const post = reqOptions["post"]
+            post.body = saveTbl
+            Object.assign(post.headers, {lang: currentLang});
+            Object.assign(post.headers, {id});
+            Object.assign(post.headers, {price: priceSlice ?? price});
+            const response = await fetch("/api/updateTables", post)
+            return response
         }
         const tbl = deconstruct(ctx)
         setInitialState(tbl)
@@ -127,6 +134,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             } (${table[i]!["Price"]}€)`
             title.style.fontWeight = "900"
             title.style.textAlign = "left"
+            title.setAttribute("id", "price")
 
             divElement.style.display = "flex"
             divElement.style.justifyContent = "space-between"
@@ -138,7 +146,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
             editButton.style.alignSelf = "center"
             editButton.style.marginBottom = ".2rem"
             editButton.addEventListener("click", () => {
-                handleEdit(table[i]!["ID"], parentObject.children[1].innerText, editButton)
+                handleEdit(table[i]!["ID"], parentObject.children[1].innerText, table[i]!["Price"], editButton)
             })
             divElement.appendChild(title)
             divElement.appendChild(editButton)
