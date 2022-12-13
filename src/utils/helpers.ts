@@ -1,4 +1,5 @@
 import JSZip from "jszip"
+
 export const makeCSV = (table: any[]) => {
     let csvRows = []
     const headers = Object.keys(table[0]!)
@@ -99,4 +100,61 @@ export const saveByteArray =  (data: any, name: string)  => {
 
 export const capitalizeFirstLetter = (string: string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+export async function easyFetch(endpoint:string, req: RequestInit = {method: "POST", headers: {"Content-type": "application/json"}}) {
+    try {
+        const response = await fetch(`http://localhost:3000/api/${endpoint}`, req)
+        const result = await response.json()
+        return result
+    } catch(e: any){
+        console.log(e)
+        return JSON.stringify(e)
+    }
+}
+
+export const createStructure = (props: any) => {
+    const table = ["<table>"]
+    const body = ["<tbody>"]
+    const trStart = "<tr>"
+    const tdStart = "<td>"
+    const trEnd = "</tr>"
+    const tdEnd = "</td>"
+    const ret = []
+
+    for (let i = 0; i < props.length; i++) {
+        const header = tdStart + capitalizeFirstLetter(Object.keys(props[i])[0]!)  + tdEnd
+        const content = tdStart + ": " + Object.values(props[i])[0]! + tdEnd
+        ret.push(trStart + header + content + trEnd)
+    }
+
+    body.push(ret.join(""))
+    body.push("</tbody>")
+    table.push(body.join(""))
+    table.push("</table>")
+
+    return body.join("")
+}
+
+export const createDescription = (parsedTable: any) => {
+    parsedTable.map((t:any) => t.TestDescription).map((desc: any[]) => {
+        parsedTable[0]["Description"] = createStructure(desc)
+        delete parsedTable[0]["TestDescription"]
+    })
+    console.log(parsedTable)
+    return parsedTable
+}
+
+const organizeDeconstruct = (tbl: string[]) => {
+    const ret = tbl.map((t: string) => t.split(":")).map((parts: string[]) => {
+        const key = parts[0]!.toLowerCase().replace("\t", "").trim()
+        const val = parts[1]!.trim()
+        return {[key as string]: val}
+    })
+    return ret
+}
+
+export const deconstruct = (ctx: string) => {
+    const tbl = ctx.split("\n")
+    return organizeDeconstruct(tbl)
 }

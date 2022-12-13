@@ -1,30 +1,45 @@
 import { Main } from "@/templates/Main"
 import { Meta } from "@/layouts/Meta"
-import catTable from "../tables/cat-table.json"
 import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
+import { createStructure, deconstruct, easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
-    async function getImages() {
-        const response = await fetch("http://localhost:3000/api/getImages")
-        const result = await response.json()
-        console.log(result)
-        return result
+    let imageList = await easyFetch("getImages", {method:"POST", headers: {"Content-type": "image/jpg"}})
+    const enTable = await easyFetch("readTable", {headers: {data: "en"}})
+    const esTable = await easyFetch("readTable", {headers: {data: "es"}})
+    const catTable = await easyFetch("readTable", {headers: {data: "cat"}})
+    if (typeof(imageList) == typeof("")) {
+        imageList = []
     }
-
-    const imageList = await getImages()
     return {
-      props: {imageList}, 
+      props: {imageList, enTable, esTable, catTable}, 
     }
 }
 
-const DownloadCSVs = ({imageList}: any) => {
+const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     const [loading, setLoading] = useState<boolean>(false)
     const [saved, setSaved] = useState<string>("")
+    const [currentLang, setCurrentLang] = useState<string>("cat")
+    const [initialState, setInitialState] = useState<any[]>([])
+    let firstLoad = true
+
     useEffect(() => {
-        createDescription()
-    }, [])
+        console.log("in use effect")
+        if (!firstLoad) return
+        if (currentLang == "cat") createDescription(catTable)
+        if (currentLang == "en") createDescription(enTable)
+        if (currentLang == "es") createDescription(esTable)
+        firstLoad = false
+    }, [currentLang])
+
+    const handleLang = () => {
+        if (currentLang == "cat") setCurrentLang("es")
+        if (currentLang == "es") setCurrentLang("en")
+        if (currentLang == "en") setCurrentLang("cat")
+        firstLoad = true
+    }
 
     const handleDownload = async () => {
         setLoading(true)
@@ -76,29 +91,81 @@ const DownloadCSVs = ({imageList}: any) => {
         return response
     }
 
-    const createDescription = () => {
-        for (let i = 0, l = catTable.length; i < l; i++) {
-            const parentObject: any = document.querySelector(`#${catTable[i]!["ID"]}`)
+    const handleEdit = async (id: string, ctx: string, price: string, editButton: HTMLButtonElement) => {
+        const table = document.getElementById(id)
+        const currentPrice = document.getElementById("price")!.innerText
+        const priceSlice = currentPrice.split(" ")[1]?.slice(1).replace(/\D/g,'').trim()
+        if (editButton.innerText == "Save") {
+            table?.removeAttribute("contenteditable")
+            editButton.innerText = "Edit"
+            const saveTbl = JSON.stringify(deconstruct(ctx))
+            const post = reqOptions["post"]
+            post.body = saveTbl
+            Object.assign(post.headers, {lang: currentLang});
+            Object.assign(post.headers, {id});
+            Object.assign(post.headers, {price: priceSlice ?? price});
+            const response = await fetch("/api/updateTables", post)
+            return response
+        }
+        const tbl = deconstruct(ctx)
+        setInitialState(tbl)
+        table?.setAttribute("contenteditable", "true")
+        editButton.innerText = "Save"
+        return console.log(table)
+    }
+
+    const createDescription = (table: any[]) => {
+        for (let i = 0, l = table.length; i < l; i++) {
+            const parentObject: any = document.querySelector(`#${table[i]!["ID"]}`)
+            parentObject.replaceChildren()
             const deleteButton: any = document.createElement("a")
+            const tableElement: HTMLTableElement = document.createElement("table")
+            const divElement: HTMLDivElement = document.createElement("div")
+            const editButton: HTMLButtonElement = document.createElement("button")
+            const title: any = document.createElement("h3")
 
-            parentObject.innerHTML = catTable[i]!["Description"]
+            const tableStructure = createStructure(table[i]!["TestDescription"])
+            tableElement.innerHTML = tableStructure
+            tableElement.style.textAlign = "left"
+            tableElement.style.margin = "auto"
+
+            title.innerText = `${
+                table[i]!["ID"]
+            } (${table[i]!["Price"]}€)`
+            title.style.fontWeight = "900"
+            title.style.textAlign = "left"
+            title.setAttribute("id", "price")
+
+            divElement.style.display = "flex"
+            divElement.style.justifyContent = "space-between"
+            divElement.style.maxWidth = "20vw"
+            divElement.style.margin = "auto"
+
+            editButton.className = "text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-small rounded-lg text-xs px-3 py-1.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700"
+            editButton.innerText = "Edit"
+            editButton.style.alignSelf = "center"
+            editButton.style.marginBottom = ".2rem"
+            editButton.addEventListener("click", () => {
+                handleEdit(table[i]!["ID"], parentObject.children[1].innerText, table[i]!["Price"], editButton)
+            })
+            divElement.appendChild(title)
+            divElement.appendChild(editButton)
+
+            parentObject.appendChild(divElement)
+            parentObject.appendChild(tableElement)
             parentObject.style.marginBottom = "1rem"
-            parentObject.style.marginTop = "1rem"
-            parentObject.children[0]!.style.textAlign = "left"
-            parentObject.children[0]!.style.margin = "auto"
-            parentObject.children[0]!.children[0].children[0].children[0].innerText = `${
-                catTable[i]!["ID"]
-            } (${catTable[i]!["Price"]}€)`
-
+            parentObject.style.marginTop = "1em"
+            
             deleteButton.innerText = "Remove"
             deleteButton.style.marginTop = "1em"
             deleteButton.style.display = "inline-block"
             deleteButton.className =
                 "bg-red-500 hover:bg-blue-700 cursor-pointer text-white font-bold py-2 px-4 rounded"
             deleteButton.onclick = () => {
-                const result = confirm(`Segur que vols borrar${catTable[i]!["Name"]}?`)
-                if (result) handleDeleteButton(catTable[i]!["ID"])
-        }
+                const result = confirm(`Segur que vols borrar ${table[i]!["Name"]}?`)
+                if (result) handleDeleteButton(table[i]!["ID"])
+            }
+
             parentObject.appendChild(deleteButton)
         }
     }
@@ -114,6 +181,7 @@ const DownloadCSVs = ({imageList}: any) => {
             current="CSV"
         >
             <div className="mx-auto mt-[-15px] pb-4">
+                <button className="fixed bottom-4 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700" onClick={handleLang}>{currentLang}</button>
                 {catTable.map((gem: any, id: any) => (
                     <ul
                         className="mx-auto mt-2 text-center border-b border-gray-300"

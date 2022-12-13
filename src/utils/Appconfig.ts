@@ -56,7 +56,6 @@ export const reqOptions = {
         image: `/api/saveImage`,
         getImages: `/api/getImages`,
         downloadImages: `/api/downloadImages`,
-        table: `/api/readTable`,
         ftp: `/api/sendFTP`,
         csv: `/api/saveCsv`,
         script: `/api/importScript`,

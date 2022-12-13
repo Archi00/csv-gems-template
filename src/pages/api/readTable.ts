@@ -4,7 +4,8 @@ type Data = {
     name: string
 }
 
-export default async function handler(_req: NextApiRequest, res: NextApiResponse<Data>) {
-    const file: any = fs.readFileSync(`src/tables/en-table.json`, "utf8")
+export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
+    console.log(req.headers.data)
+    const file: any = fs.readFileSync(`src/tables/${req.headers.data}-table.json`, "utf8")
     return res.status(200).json(JSON.parse(file))
 }

@@ -45,6 +45,10 @@ const TableCreator = ({gems}: any) => {
     const [ready, setReady] = useState<boolean>(false)
     const [gemOrigin, setGemOrigin] = useState<string>("")
     const [gemSize, setGemSize] = useState<string>("")
+    const [forceRender, setForceRender] = useState<boolean>(false)
+    const [enTbl, setEnTbl] = useState<any[]>([])
+    const [esTbl, setEsTbl] = useState<any[]>([])
+    const [catTbl, setCatTbl] = useState<any[]>([])
     
     useEffect(() => {
         const name = document.getElementById("name")
@@ -173,6 +177,17 @@ const TableCreator = ({gems}: any) => {
         const catEndpoint = reqOptions.uri["cat"]
         const price: any = formInfo["weight"].nextSibling!
         const urls: any = createImgUrl()
+        console.log("---------------NEW DATA---------------")
+        console.log("--------------EN DATA---------------")
+        console.log(enTbl)
+        console.log("----------END OF EN DATA------------")
+        console.log("--------------ES DATA---------------")
+        console.log(esTbl)
+        console.log("----------END OF ES DATA------------")
+        console.log("--------------CAT DATA---------------")
+        console.log(catTbl)
+        console.log("----------END OF CAT DATA------------")
+        console.log("-----------END OF NEW DATA------------")
         
         console.log("Fetching en version...")
         rawData["en"] = data
@@ -180,6 +195,7 @@ const TableCreator = ({gems}: any) => {
             price.children[0].innerText || price.children[0].value
         }` : setName("en")
         rawData["en"]["Description"] = enDesc
+        rawData["en"]["TestDescription"] = enTbl
         rawData["en"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
             if (gem === enName.toLowerCase()) return rawData["en"]["ShortDescription"] = gems[gem]["en"]            
@@ -196,6 +212,7 @@ const TableCreator = ({gems}: any) => {
         rawData["es"]["Name"] = !joieria ? `${esName} ${
             price.children[0].innerText || price.children[0].value
         }` : setName("es")
+        rawData["es"]["TestDescription"] = esTbl
         rawData["es"]["Description"] = esDesc
         rawData["es"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
@@ -214,6 +231,7 @@ const TableCreator = ({gems}: any) => {
         rawData["cat"]["Name"] = !joieria ? `${catName} ${
             price.children[0].innerText || price.children[0].value
         }` : setName("cat")
+        rawData["cat"]["TestDescription"] = catTbl
         rawData["cat"]["Description"] = catDesc
         rawData["cat"]["ShortDescription"] = "<p></p>"
         Object.keys(gems).map((gem: any) =>{
@@ -226,8 +244,10 @@ const TableCreator = ({gems}: any) => {
         const catPost = reqOptions["post"]
         catPost["body"] = catData
         await fetch(catEndpoint, catPost)
-
         setLoading(false)
+        setForceRender(true)
+        setTimeout(() => setForceRender(false), 500)
+        window.location.reload()
     }
 
     const translate = (lang: keyof TranslationsLang) => {
@@ -249,7 +269,7 @@ const TableCreator = ({gems}: any) => {
         setLang("en")
         formInfo["product"].innerText = "Product Details"
         formInfo["type"].innerText = "GEM TYPE"
-        formInfo["size"].innerText = "SIZE : (LxWxH)"
+        formInfo["size"].innerText = "SIZE (LxWxH)"
         formInfo["weight"].innerText = joieria ? "GEM WEIGHT" : "TOTAL WEIGHT"
         formInfo["shape"].innerText = joieria ? "GEM SHAPE" : "SHAPE"
         formInfo["hardness"].innerText = joieria ? "GEM HARDNESS" : "HARDNESS"
@@ -266,6 +286,15 @@ const TableCreator = ({gems}: any) => {
             setEnName(`${translations.name["en"][gemName]} (${formInfo["info"][6]!.value})`)
         }
         replaceInput()
+        console.log("--------------------EN VERSION----------------------")
+        const tbl = formInfo["form"].innerText.split("\n")
+        for (let i = 1, l = tbl.length; i < l; i++) {
+            const keyVal = tbl[i]?.split(":")!
+            const key = keyVal[0]?.toLowerCase().replace("\t", "")
+            const val = keyVal[1]?.trim()
+            setEnTbl(enTbl => [...enTbl, {[key as string]: val}])
+        }
+        console.log("----------------END OF EN VERSION------------------")
         setEnDesc(formInfo["form"].innerHTML)
         replaceSpan()
     }
@@ -275,7 +304,7 @@ const TableCreator = ({gems}: any) => {
         formInfo["product"].innerText = "Detalles del producto"
         formInfo["type"].innerText = "GEMA"
         formInfo["weight"].innerText = joieria ? "PESO GEMA" : "PESO TOTAL"
-        formInfo["size"].innerText = "MEDIDAS: (LxWxH)"
+        formInfo["size"].innerText = "MEDIDAS (LxWxH)"
         formInfo["shape"].innerText = joieria ? "FORMA GEMA" : "FORMA"
         formInfo["hardness"].innerText = joieria ? "DUREZA GEMA" : "DUREZA"
         formInfo["origin"].innerText = joieria ? "ORIGEN GEMA" : "ORIGEN"
@@ -289,6 +318,16 @@ const TableCreator = ({gems}: any) => {
             setEsName(`${translations.name["es"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
+        console.log("--------------------ES VERSION----------------------")
+        console.log(formInfo["form"].innerText)
+        const tbl = formInfo["form"].innerText.split("\n")
+        for (let i = 1, l = tbl.length; i < l; i++) {
+            const keyVal = tbl[i]?.split(":")!
+            const key = keyVal[0]?.toLowerCase().replace("\t", "")
+            const val = keyVal[1]?.trim()
+            setEsTbl(esTbl => [...esTbl, {[key as string]: val}])
+        }
+        console.log("----------------END OF ES VERSION------------------")
         setEsDesc(formInfo["form"].innerHTML)
         replaceSpan()
     }
@@ -298,7 +337,7 @@ const TableCreator = ({gems}: any) => {
         formInfo["product"].innerText = "Detalls del producte"
         formInfo["type"].innerText = "GEMMA"
         formInfo["weight"].innerText = joieria? "PES GEMMA" : "PES TOTAL"
-        formInfo["size"].innerText = "MIDES: (LxWxH)"
+        formInfo["size"].innerText = "MIDES (LxWxH)"
         formInfo["shape"].innerText = joieria ? "FORMA GEMMA" : "FORMA"
         formInfo["hardness"].innerText = joieria ? "DURESA GEMMA" : "DURESA"
         formInfo["origin"].innerText = joieria ? "ORIGEN GEMMA" : "ORIGEN"
@@ -312,6 +351,16 @@ const TableCreator = ({gems}: any) => {
             setCatName(`${translations.name["cat"][gemName]} (${gemOrigin})`)
         }
         replaceInput()
+        console.log("-------------------CAT VERSION----------------------")
+        console.log(formInfo["form"].innerText)
+        const tbl = formInfo["form"].innerText.split("\n")
+        for (let i = 1, l = tbl.length; i < l; i++) {
+            const keyVal = tbl[i]?.split(":")!
+            const key = keyVal[0]?.toLowerCase().replace("\t", "").trim()
+            const val = keyVal[1]?.trim()
+            setCatTbl(catTbl => [...catTbl, {[key as string]: val}])
+        }
+        console.log("----------------END OF CAT VERSION------------------")
         setCatDesc(formInfo["form"].innerHTML)
         replaceSpan()
     }
@@ -409,6 +458,7 @@ const TableCreator = ({gems}: any) => {
             }
             current="table"
         >
+            {!forceRender ?
             <GemForm
                 handleCreateTablesBtn={handleCreateTablesBtn}
                 handleEn={handleEn}
@@ -422,6 +472,16 @@ const TableCreator = ({gems}: any) => {
                 slCat={slCat}
                 tlCat={tlCat}
             />
+            : 
+            <div role="status" className="flex align-center justify-center mt-[20%]">
+                <svg aria-hidden="true" className="mr-2 w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+                    <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+                </svg>
+                <span className="sr-only">Loading...</span>
+            </div>
+
+            }
         </Main>
     )
 }

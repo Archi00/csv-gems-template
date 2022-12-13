@@ -41,7 +41,7 @@ const GemForm = ({
                             </td>
                         </tr>
                         <tr>
-                            <td id="size">SIZE : (LxWxH)</td>
+                            <td id="size">SIZE (LxWxH)</td>
                             <td>
                                 :{" "}
                                 <input

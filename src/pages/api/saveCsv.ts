@@ -1,6 +1,7 @@
 import * as fs from "fs"
 import type { NextApiRequest, NextApiResponse } from "next"
-import { makeCSV } from "@/utils/helpers"
+import { makeCSV, createDescription } from "@/utils/helpers"
+
 
 export default async function handler(_req: NextApiRequest, res: NextApiResponse) {
     try {
@@ -10,9 +11,15 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
         const parsedEsTable = JSON.parse(esTable.toString())
         const catTable = fs.readFileSync("src/tables/cat-table.json")
         const parsedCatTable = JSON.parse(catTable.toString())
-        const enCSV =  makeCSV(parsedEnTable)
-        const esCSV = makeCSV(parsedEsTable)
-        const catCSV = makeCSV(parsedCatTable)
+        
+        const parsedEnTableNewDescription = createDescription(parsedEnTable)
+        const parsedEsTableNewDescription = createDescription(parsedEsTable)
+        const parsedCatTableNewDescription = createDescription(parsedCatTable)
+
+        const enCSV =  makeCSV(parsedEnTableNewDescription)
+        const esCSV = makeCSV(parsedEsTableNewDescription)
+        const catCSV = makeCSV(parsedCatTableNewDescription)
+
         fs.writeFileSync("src/tables/csv/enTable.csv", enCSV, "utf8")
         fs.writeFileSync("src/tables/csv/esTable.csv", esCSV, "utf8")
         fs.writeFileSync("src/tables/csv/catTable.csv", catCSV, "utf8")
