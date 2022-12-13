@@ -1,0 +1,4 @@
+/src/tables/cat-table.json merge=foo
+/src/tables/es-table.json merge=foo
+/src/tables/en-table.json merge=foo
+
