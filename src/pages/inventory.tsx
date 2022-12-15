@@ -1,6 +1,6 @@
 import { Meta } from "@/layouts/Meta"
 import { Main } from "@/templates/Main"
-import executeQuery from "@/utils/db"
+import {executeQuery} from "@/utils/db"
 import { NextPageContext } from "next"
 import { useState } from "react"
 import AssetCard from "@/templates/AssetCard"

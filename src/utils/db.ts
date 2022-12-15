@@ -22,7 +22,17 @@ export const db = mysql({
     } as mysqlConfig,
 })
 
-export default async function executeQuery({
+export const ps_db = mysql({
+	config: {
+		host: process.env.NEXT_PUBLIC_DB_HOST,
+		port: process.env.NEXT_PUBLIC_DB_PORT,
+		database: process.env.NEXT_PUBLIC_PSDB_DATABASE,
+		user: process.env.NEXT_PUBLIC_PSDB_USER,
+		password: process.env.NEXT_PUBLIC_PSDB_PWD,
+	} as mysqlConfig,	
+})
+
+export async function executeQuery({
     query,
     values,
 }: {
@@ -33,6 +43,23 @@ export default async function executeQuery({
         console.log(query, values)
         const results = await db.query(query, values)
         await db.end()
+        return results
+    } catch (error) {
+        return { error }
+    }
+}
+
+export async function executePSQuery({
+    query,
+    values,
+}: {
+    query: string
+    values: Table[] | any
+}) {
+    try {
+        console.log(query, values)
+        const results = await ps_db.query(query, values)
+        await ps_db.end()
         return results
     } catch (error) {
         return { error }
