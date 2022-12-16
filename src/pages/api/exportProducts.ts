@@ -6,9 +6,10 @@ type Data = {
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
-    const file = fs.readFileSync(`src/utils/exportProducts.txt`, "utf8")
+    const file = fs.readFileSync(`src/utils/exportEverything.txt`, "utf8")
     const result = await executePSQuery({query: file.toString(), values:[]})
-    const data = JSON.stringify(result, null, 4)
+    const activeGems = result.filter(gem => gem["Active"] == 1)
+    const data = JSON.stringify(activeGems, null, 4)
     fs.writeFileSync(`public/assets/products/products.json`,data)
     return res.status(200).json(JSON.parse(data))
 }
