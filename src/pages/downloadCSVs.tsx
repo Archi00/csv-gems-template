@@ -2,7 +2,7 @@ import { Main } from "@/templates/Main"
 import { Meta } from "@/layouts/Meta"
 import { reqOptions } from "@/utils/Appconfig"
 import Router from "next/router"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import { createStructure, deconstruct, easyFetch } from "@/utils/helpers"
 
 export async function getServerSideProps() {
@@ -115,6 +115,7 @@ const DownloadCSVs = ({imageList, enTable, esTable, catTable}: any) => {
     }
 
     const createDescription = (table: any[]) => {
+        if (table.length < 1) return
         for (let i = 0, l = table.length; i < l; i++) {
             const parentObject: any = document.querySelector(`#${table[i]!["ID"]}`)
             parentObject.replaceChildren()
