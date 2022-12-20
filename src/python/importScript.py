@@ -114,11 +114,3 @@ import_tab = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPAT
 restore_index = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="alias_fieldset_indexation"]/div[2]/a[2]'))).click()
 
 time.sleep(2)
-dashboard_search = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="tab-AdminDashboard"]'))).click()
-quick_access_button_search = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="quick_select"]'))).click()
-search_tab = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="header_quick"]/div/ul/li[3]'))).click()
-eng_selector = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="export_language"]/option[1]'))).click()
-select_client = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="export_customers"]'))).click()
-select_orders = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="export_orders"]'))).click()
-submit_export = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="configuration_form_submit_btn"]'))).click()
-time.sleep(1)
