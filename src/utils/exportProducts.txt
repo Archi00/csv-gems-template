@@ -1,0 +1,24 @@
+SELECT
+p.active 'Active',
+p.id_product 'Product number',
+p.price 'Price',
+pl.name 'Product name',
+pl.description_short 'Short description',
+pl.link_rewrite 'Link',
+GROUP_CONCAT("http://", su.domain, su.physical_uri , IF(pai.id_image IS NOT NULL,pai.id_image,im.id_image), "/", REPLACE(REPLACE(REPLACE(pl.name," ","_"),"\"",""),"#",""), ".jpg") as "Image URL"
+
+FROM
+ps_product p
+LEFT JOIN ps_product_lang pl ON (p.id_product = pl.id_product and pl.id_lang=1)
+LEFT JOIN ps_category_product cp ON (p.id_product = cp.id_product)
+LEFT JOIN ps_category_lang cl ON (cp.id_category = cl.id_category and cl.id_lang=1)
+LEFT JOIN ps_product_attribute pa ON (p.id_product = pa.id_product)
+LEFT JOIN ps_stock_available s ON (p.id_product = s.id_product and (pa.id_product_attribute=s.id_product_attribute or pa.id_product_attribute is null))
+LEFT JOIN ps_product_tag pt ON (p.id_product = pt.id_product)
+LEFT JOIN ps_product_attribute_combination pac ON (pac.id_product_attribute = pa.id_product_attribute)
+LEFT JOIN ps_attribute_lang al ON (al.id_attribute = pac.id_attribute and al.id_lang=1)
+LEFT JOIN ps_shop sh ON p.id_shop_default = sh.id_shop 
+LEFT JOIN ps_shop_url su ON su.id_shop = sh.id_shop AND su.main = 1
+LEFT JOIN ps_image im ON (p.id_product = im.id_product AND im.cover = 1)
+LEFT JOIN ps_product_attribute_image pai ON (pai.id_product_attribute = s.id_product_attribute)
+GROUP BY p.id_product,pac.id_product_attribute order by p.id_product

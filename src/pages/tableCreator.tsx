@@ -228,6 +228,7 @@ const TableCreator = ({gems}: any) => {
         await fetch(catEndpoint, catPost)
 
         setLoading(false)
+        window.location.reload()
     }
 
     const translate = (lang: keyof TranslationsLang) => {

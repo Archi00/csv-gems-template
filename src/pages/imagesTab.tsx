@@ -107,6 +107,7 @@ export default function ImagesTab() {
         post["headers"]["index"] = currentIndex
         const response = await fetch(endpoint, post)
         if(response.status === 200) setIsSaved(true)
+        console.log(response.status)
 
         setLoading(false)
         return setTimeout(() => setIsSaved(false),5000)

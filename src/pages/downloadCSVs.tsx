@@ -44,6 +44,7 @@ const DownloadCSVs = ({imageList}: any) => {
             const testEndpoint = reqOptions["uri"]["script"]
             const testResponse = await fetch(testEndpoint)
             const parsedTestResponse = await testResponse.json()
+            await fetch("/api/exportProducts")
             const updateIG = await fetch("/api/updateIG")
             const parsedUpdateIG = await updateIG.json()
             console.log(parsedUpdateIG)
