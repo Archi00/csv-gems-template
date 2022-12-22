@@ -1,1 +1,41 @@
-[]
+[
+    {
+        "ID": "C864",
+        "Active": 1,
+        "Categories": "2,16,18,63",
+        "Price": "15",
+        "Reference": "C864",
+        "Quantity": 1,
+        "Name": "Larimar 2.70ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Larimar</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>2.70ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>9.4x7.5x3.8mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Rectangular</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>4.5-5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Rep. Dominicana</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Larimar.</div><div></div><div>Porta el nom de la localitat on va ser trobada a la mina Filipines Larimar, República Dominicana.</div><div></div><div>És el nom comercial de la varietat blava de la pectoilita.</div><div></div><div>Ca2NaHSi3O9</div>",
+        "meta-title": "Larimar 2.70ct - Gemmesterra",
+        "meta-description": " Larimar 2.70ct de color blau amb forma rectangular (9.4x7.5x3.8mm) de Rep. Dominicana - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C864-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C864-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C864-2.jpeg"
+        ],
+        "imgAlts": "Larimar 2.70ct,Larimar 2.70ct,Larimar 2.70ct"
+    },
+    {
+        "ID": "C865",
+        "Active": 1,
+        "Categories": "2,16,18,64",
+        "Price": "18",
+        "Reference": "C865",
+        "Quantity": 1,
+        "Name": "Lapislàtzuli 2.55ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Lapislàtzuli</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>2.55ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>11.8x8.3x3.2mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>5.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Afghanistan</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Lapislàtzuli 2.55ct - Gemmesterra",
+        "meta-description": " Lapislàtzuli 2.55ct de color blau amb forma oval (11.8x8.3x3.2mm) de Afghanistan - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C865-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C865-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C865-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C865-3.jpeg"
+        ],
+        "imgAlts": "Lapislàtzuli 2.55ct,Lapislàtzuli 2.55ct,Lapislàtzuli 2.55ct,Lapislàtzuli 2.55ct"
+    }
+]

@@ -118,6 +118,7 @@ export const Hardness: any = {
     zultanite: "6.5-7",
     chiastolite: "3-7",
     lava: "3-3.5",
+    lapislazuli:"5.5",
     larimar: "4.5-5",
     howlite: "3.5",
     larvikite: "6-6.5",
