@@ -59,6 +59,7 @@ export const Categories: any = {
                     ZOISITA: 185,
                     "CITRI QUARS": 186,
                     PREHNITA: 187,
+                    ZIRCON: 159,
                     ORTHOCLASA: 188,
                 },
             },
