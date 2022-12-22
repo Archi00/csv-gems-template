@@ -121,6 +121,7 @@ export const Categories: any = {
                     "CANVI DE COLOR": 170,
                     "ULL DE GAT": 171,
                     LARIMAR: 63,
+                    LAPIS: 64,
                     // "ULL DE GAT": 172,
                     APATITA: 189,
                     ROBI: 198,
