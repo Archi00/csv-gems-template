@@ -7335,6 +7335,7 @@
         "link": "https://gemmesterra.com/Botiga/en/home/1311-granate-demantoide-045ct.html",
         "image_link": "http://gemmesterra.com/Botiga/3112/Demantoide_garnet_0.45ct.jpg",
         "brand": "Gemmesterra"
+<<<<<<< HEAD
     },
     {
         "id": 1358,
@@ -7346,5 +7347,7 @@
         "link": "https://gemmesterra.com/Botiga/en/home/1358-emerald-2ct.html",
         "image_link": "http://gemmesterra.com/Botiga/3253/Emerald_2ct.jpg",
         "brand": "Gemmesterra"
+=======
+>>>>>>> refs/remotes/origin/main
     }
 ]
