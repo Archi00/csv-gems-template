@@ -21,20 +21,12 @@ const metaComp = (gem: any) => {
 
 export default async function handler(_req: NextApiRequest, res: NextApiResponse<Data>) {
 	try {
-<<<<<<< HEAD
     	const file = fs.readFileSync(`src/utils/exportProducts.txt`, "utf8")
     	const result: any = await executePSQuery({query: file.toString(), values:[]})
 		console.log(result)
     	const activeGems = result.filter((gem: any) => gem["Active"] == 1).map((gem: any) => metaComp(gem))
     	const data = JSON.stringify(activeGems, null, 4)
     	fs.writeFileSync(`public/assets/products/products.json`,data)
-=======
-		const file = fs.readFileSync(`src/utils/exportProducts.txt`, "utf8")
-		const result: any = await executePSQuery({query: file.toString(), values:[]})
-		const activeGems = result.filter((gem: any) => gem["Active"] == 1).map((gem: any) => metaComp(gem))
-		const data = JSON.stringify(activeGems, null, 4)
-		fs.writeFileSync(`public/assets/products/products.json`,data)
->>>>>>> refs/remotes/origin/main
 		const headers = Object.keys(activeGems[0]).join(";") + "\n"
 		const values = activeGems.map((gem: any) => Object.values(gem).join(";"))
 		const retCSV = headers + values.join("\n")
