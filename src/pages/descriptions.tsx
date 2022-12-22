@@ -43,12 +43,11 @@ const DescriptionsPage = ({gems}:any) => {
         myContainer.contentEditable = "true"
         myContainer.className = "myContainer"
         descriptionContainer.current!.appendChild(myContainer)
-        return void 0
     }
 
     useEffect((): any=> {
         if (currentSelected) {
-            return handleSelect()
+            handleSelect()
         } 
     }, [currentLanguage])
 
