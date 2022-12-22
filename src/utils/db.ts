@@ -57,7 +57,6 @@ export async function executePSQuery({
     values: Table[] | any
 }) {
     try {
-        console.log(query, values)
         const results = await ps_db.query(query, values)
         await ps_db.end()
         return results

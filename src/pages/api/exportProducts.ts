@@ -21,9 +21,9 @@ const metaComp = (gem: any) => {
 
 export default async function handler(_req: NextApiRequest, res: NextApiResponse<Data>) {
 	try {
-
     	const file = fs.readFileSync(`src/utils/exportProducts.txt`, "utf8")
     	const result: any = await executePSQuery({query: file.toString(), values:[]})
+		console.log(result)
     	const activeGems = result.filter((gem: any) => gem["Active"] == 1).map((gem: any) => metaComp(gem))
     	const data = JSON.stringify(activeGems, null, 4)
     	fs.writeFileSync(`public/assets/products/products.json`,data)
