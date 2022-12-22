@@ -120,11 +120,8 @@ export const Categories: any = {
                     ALEXANDRITA: 169,
                     "CANVI DE COLOR": 170,
                     "ULL DE GAT": 171,
-<<<<<<< HEAD
                     LARIMAR: 63,
                     // "ULL DE GAT": 172,
-=======
->>>>>>> refs/remotes/origin/main
                     APATITA: 189,
                     ROBI: 198,
                 },
