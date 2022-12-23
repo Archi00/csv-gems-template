@@ -35,5 +35,5 @@ yarn-error.log*
 *.tsbuildinfo
 
 # dynamic
-/public/assets/*
-/src/tables/*
+/public/assets
+/src/tables
