@@ -36,5 +36,43 @@
             "https://www.gemmesterra.com/Botiga/upload/F867-2.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/F867-3.jpeg"
         ]
+    },
+    {
+        "ID": "F868",
+        "Active": 1,
+        "Categories": "2,16,17,159",
+        "Price": "54",
+        "Reference": "F868",
+        "Quantity": 1,
+        "Name": "Zircó 1.60ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Zircó</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>1.60ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>6.9x5.9x3.4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Zircó</div><div></div><div>El més probable és que el seu nom provingui de la paraula persa zargun, significant daurat.</div><div></div><div>Aquesta gemma es presenta en una varietat de colors. Del vermell fins al blau, i fins i tot incolora.</div>",
+        "meta-title": "Zircó 1.60ct - Gemmesterra",
+        "meta-description": " Zircó 1.60ct de color taronja amb forma oval (6.9x5.9x3.4mm) de Tanzania - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F868-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F868-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F868-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F868-3.jpeg"
+        ]
+    },
+    {
+        "ID": "F869",
+        "Active": 1,
+        "Categories": "2,16,17,111",
+        "Price": "100",
+        "Reference": "F869",
+        "Quantity": 1,
+        "Name": "Diàspor 1ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Diàspor</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>1ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>7.2x5.3x3.2mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Groc</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>6.5-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Turkia</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Diàspor 1ct - Gemmesterra",
+        "meta-description": " Diàspor 1ct de color groc amb forma oval (7.2x5.3x3.2mm) de Turkia - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F869-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F869-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F869-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F869-3.jpeg"
+        ]
     }
 ]

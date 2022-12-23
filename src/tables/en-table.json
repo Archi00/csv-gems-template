@@ -24,5 +24,31 @@
         "ShortDescription": "<div>Iolite (Cordierite)</div><div></div><div>It was discovered in 1813 by Louis Cordier who named it after him. The term Iolite derives from the Greek 'ios' - violet.</div><div></div><div>It has a very marked trichroism (3 different colors, depending on the angle you look at it)</div>",
         "meta-title": "Iolite 2.10ct - Gemmesterra",
         "meta-description": "Green oval Iolite 2.10ct (9.3x7.5x4.8mm) from Africa - Not treated"
+    },
+    {
+        "ID": "F868",
+        "Active": 1,
+        "Categories": "2,16,17,159",
+        "Price": "54",
+        "Reference": "F868",
+        "Quantity": 1,
+        "Name": "Zircon 1.60ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>: <span>Zircon</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>: <span>1.60ct</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>: <span>6.9x5.9x3.4mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Orange</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>: <span>7.5</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
+        "ShortDescription": "<div>Zircon</div><div></div><div>Most likely, his name comes from the Persian word 'zargun', meaning golden.</div><div></div><div>This gem comes in a variety of colors. From red to blue, and even colorless.</div>",
+        "meta-title": "Zircon 1.60ct - Gemmesterra",
+        "meta-description": "Orange oval Zircon 1.60ct (6.9x5.9x3.4mm) from Tanzania - Not treated"
+    },
+    {
+        "ID": "F869",
+        "Active": 1,
+        "Categories": "2,16,17,111",
+        "Price": "100",
+        "Reference": "F869",
+        "Quantity": 1,
+        "Name": "Diaspore 1ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>:<!-- --> <span>Diaspore</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>:<!-- --> <span>1ct</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>:<!-- --> <span>7.2x5.3x3.2mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Yellow</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>:<!-- --> <span>6.5-7</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>Turkia</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Diaspore 1ct - Gemmesterra",
+        "meta-description": "Yellow oval Diaspore 1ct (7.2x5.3x3.2mm) from Turkia - Not treated"
     }
 ]

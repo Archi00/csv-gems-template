@@ -24,5 +24,31 @@
         "ShortDescription": "<p>Iolita (Cordierita)</p><p>Fue descubierta en 1813 por Louis Cordier que le puso su nombre. El término Iolita deriva del griego 'ios' - violeta. </p><p>Tiene un tricroismo muy marcado (3 colores distintos, dependiendo del angulo que la mires)</p>",
         "meta-title": "Iolita 2.10ct - Gemmesterra",
         "meta-description": " Iolita 2.10ct de color verde con forma oval (9.3x7.5x4.8mm) de Africa - Sin tratamientos"
+    },
+    {
+        "ID": "F868",
+        "Active": 1,
+        "Categories": "2,16,17,159",
+        "Price": "54",
+        "Reference": "F868",
+        "Quantity": 1,
+        "Name": "Zircón 1.60ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Zircón</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>1.60ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>6.9x5.9x3.4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Naranja</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Zircón</p><p>Lo más probable es que su nombre provenga de la palabra persa 'zargun', significando dorado.</p><p>Esta gema se presenta en una variedad de colores. Del rojo hasta el azul, e incluso incolora.</p>",
+        "meta-title": "Zircón 1.60ct - Gemmesterra",
+        "meta-description": " Zircón 1.60ct de color naranja con forma oval (6.9x5.9x3.4mm) de Tanzania - Sin tratamientos"
+    },
+    {
+        "ID": "F869",
+        "Active": 1,
+        "Categories": "2,16,17,111",
+        "Price": "100",
+        "Reference": "F869",
+        "Quantity": 1,
+        "Name": "Diásporo 1ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Diásporo</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>1ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>7.2x5.3x3.2mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Amarillo</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6.5-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Turkia</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Diásporo 1ct - Gemmesterra",
+        "meta-description": " Diásporo 1ct de color amarillo con forma oval (7.2x5.3x3.2mm) de Turkia - Sin tratamientos"
     }
 ]
