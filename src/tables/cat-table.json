@@ -74,5 +74,62 @@
             "https://www.gemmesterra.com/Botiga/upload/F869-2.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/F869-3.jpeg"
         ]
+    },
+    {
+        "ID": "F871",
+        "Active": 1,
+        "Categories": "2,16,17,98",
+        "Price": "170",
+        "Reference": "F871",
+        "Quantity": 1,
+        "Name": "Pezzotaita 0.50ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Pezzotaita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>0.50ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>5.9x4x2.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Pezzotaita 0.50ct - Gemmesterra",
+        "meta-description": " Pezzotaita 0.50ct de color rosa amb forma oval (5.9x4x2.5mm) de Madagascar - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F871-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F871-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F871-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F871-3.jpeg"
+        ]
+    },
+    {
+        "ID": "C682",
+        "Active": 1,
+        "Categories": "2,16,18,201",
+        "Price": "44",
+        "Reference": "C682",
+        "Quantity": 1,
+        "Name": "Larimar 4.17gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Larimar</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>4.17gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>28.5x15.2x5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>4.5-5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>R. Dominicana</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Larimar.</div><div></div><div>Porta el nom de la localitat on va ser trobada a la mina Filipines Larimar, República Dominicana.</div><div></div><div>És el nom comercial de la varietat blava de la pectoilita.</div><div></div><div>Ca2NaHSi3O9</div>",
+        "meta-title": "Larimar 4.17gr - Gemmesterra",
+        "meta-description": " Larimar 4.17gr de color blau amb forma oval (28.5x15.2x5mm) de R. Dominicana - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C682-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C682-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C682-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C682-3.jpeg"
+        ]
+    },
+    {
+        "ID": "F873",
+        "Active": 1,
+        "Categories": "2,16,17,183",
+        "Price": "250",
+        "Reference": "F873",
+        "Quantity": 1,
+        "Name": "Maragda 1.25ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Maragda</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>1.25ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>7.7x5.9x3.4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Maragda</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Maragda</div><div></div><div>No és gaire clar d'on deriva el nom, es creu que del grec 'smaragdos' - pedra verda o del persa 'zamarat' - cor de pedra.</div>",
+        "meta-title": "Maragda 1.25ct - Gemmesterra",
+        "meta-description": " Maragda 1.25ct de color verd amb forma maragda (7.7x5.9x3.4mm) de Brasil - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F873-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F873-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F873-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F873-3.jpeg"
+        ]
     }
 ]

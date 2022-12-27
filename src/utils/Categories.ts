@@ -20,6 +20,7 @@ export const Categories: any = {
                     "PEDRA INCA": 59,
                     DEMANTOIDE: 92,
                     HACKMANITA: 93,
+                    MARAGDA: 204,
                     SAFIR: 94,
                     GRANAT: 95,
                     ESFALERITA: 97,

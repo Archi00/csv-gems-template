@@ -50,5 +50,44 @@
         "ShortDescription": "<p></p>",
         "meta-title": "Diásporo 1ct - Gemmesterra",
         "meta-description": " Diásporo 1ct de color amarillo con forma oval (7.2x5.3x3.2mm) de Turkia - Sin tratamientos"
+    },
+    {
+        "ID": "F871",
+        "Active": 1,
+        "Categories": "2,16,17,98",
+        "Price": "170",
+        "Reference": "F871",
+        "Quantity": 1,
+        "Name": "Pezzotaita 0.50ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Pezzotaita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>0.50ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>5.9x4x2.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Pezzotaita 0.50ct - Gemmesterra",
+        "meta-description": " Pezzotaita 0.50ct de color rosa con forma oval (5.9x4x2.5mm) de Madagascar - Sin tratamientos"
+    },
+    {
+        "ID": "C682",
+        "Active": 1,
+        "Categories": "2,16,18,201",
+        "Price": "44",
+        "Reference": "C682",
+        "Quantity": 1,
+        "Name": "Larimar 4.17gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Larimar</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>4.17gr</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>28.5x15.2x5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Azul</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>4.5-5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>R. Dominicana</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Larimar.</p><p></p><p>Lleva el nombre de la localidad donde fue encontrada en la mina Filipinas Larimar, República Dominicana.</p><p></p><p>Es el nombre comercial para la variedad azul de la pectoilita.</p><p></p><p>Ca2NaHSi3O9</p><p></p>",
+        "meta-title": "Larimar 4.17gr - Gemmesterra",
+        "meta-description": " Larimar 4.17gr de color azul con forma oval (28.5x15.2x5mm) de R. Dominicana - Sin tratamientos"
+    },
+    {
+        "ID": "F873",
+        "Active": 1,
+        "Categories": "2,16,17,183",
+        "Price": "250",
+        "Reference": "F873",
+        "Quantity": 1,
+        "Name": "Esmeralda 1.25ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Esmeralda</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>1.25ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>7.7x5.9x3.4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Esmeralda</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Esmeralda</p><p>No está muy claro de donde deriva el nombre, se cree que del griego 'smaragdos' - piedra verde o del persa 'zamarat' - corazón de piedra.</p>",
+        "meta-title": "Esmeralda 1.25ct - Gemmesterra",
+        "meta-description": " Esmeralda 1.25ct de color verde con forma esmeralda (7.7x5.9x3.4mm) de Brasil - Sin tratamientos"
     }
 ]
