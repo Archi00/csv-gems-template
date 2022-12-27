@@ -36,4 +36,6 @@ yarn-error.log*
 
 # dynamic
 /public/assets
-/src/tables
+cat-table.json
+en-table.json
+es-table.json
