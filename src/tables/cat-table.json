@@ -99,7 +99,7 @@
         "Active": 1,
         "Categories": "2,16,18,201",
         "Price": "44",
-        "Reference": "C682",
+        "Reference": "C872",
         "Quantity": 1,
         "Name": "Larimar 4.17gr",
         "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Larimar</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>4.17gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>28.5x15.2x5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>4.5-5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>R. Dominicana</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
@@ -116,7 +116,7 @@
     {
         "ID": "F873",
         "Active": 1,
-        "Categories": "2,16,17,183",
+        "Categories": "2,16,17,204",
         "Price": "250",
         "Reference": "F873",
         "Quantity": 1,
@@ -130,6 +130,44 @@
             "https://www.gemmesterra.com/Botiga/upload/F873-1.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/F873-2.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/F873-3.jpeg"
+        ]
+    },
+    {
+        "ID": "F870",
+        "Active": 1,
+        "Categories": "2,16,17,159",
+        "Price": "50",
+        "Reference": "F870",
+        "Quantity": 1,
+        "Name": "Zircó 1.01ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Zircó</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>1.01ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>6.1x4x2.8mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Rectangular</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Zircó</div><div></div><div>El més probable és que el seu nom provingui de la paraula persa zargun, significant daurat.</div><div></div><div>Aquesta gemma es presenta en una varietat de colors. Del vermell fins al blau, i fins i tot incolora.</div>",
+        "meta-title": "Zircó 1.01ct - Gemmesterra",
+        "meta-description": " Zircó 1.01ct de color rosa amb forma rectangular (6.1x4x2.8mm) de Tanzania - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F870-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F870-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F870-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F870-3.jpeg"
+        ]
+    },
+    {
+        "ID": "F874",
+        "Active": 1,
+        "Categories": "2,16,17,95",
+        "Price": "200",
+        "Reference": "F874",
+        "Quantity": 1,
+        "Name": "Granat spessartita 2.39ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Granat spessartita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>2.39ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>8.4x6.5x3.3mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Brillant modificada</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Granat Espesartita</div><div></div><div>El nom ve de 'Spessart' un bosc a Bavaria, Alemanya.</div>",
+        "meta-title": "Granat spessartita 2.39ct - Gemmesterra",
+        "meta-description": " Granat spessartita 2.39ct de color vermell amb forma brillant modificada (8.4x6.5x3.3mm) de Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F874-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F874-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F874-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F874-3.jpeg"
         ]
     }
 ]

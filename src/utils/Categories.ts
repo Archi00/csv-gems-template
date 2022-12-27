@@ -80,6 +80,7 @@ export const Categories: any = {
                     RODOCROSITA: 74,
                     SERPENTINA: 53,
                     "SONORA SUNRISE": 77,
+                    GARNET: 205,
                     SODALITA: 75,
                     SUGILITA: 73,
                     TEFROITA: 57,

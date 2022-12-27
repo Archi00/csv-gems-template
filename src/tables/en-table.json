@@ -69,7 +69,7 @@
         "Active": 1,
         "Categories": "2,16,18,201",
         "Price": "44",
-        "Reference": "C682",
+        "Reference": "C872",
         "Quantity": 1,
         "Name": "Larimar 4.17gr",
         "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>: <span>Larimar</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>: <span>4.17gr</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>: <span>28.5x15.2x5mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blue</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>: <span>4.5-5</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>R. Dominicana</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
@@ -80,7 +80,7 @@
     {
         "ID": "F873",
         "Active": 1,
-        "Categories": "2,16,17,183",
+        "Categories": "2,16,17,204",
         "Price": "250",
         "Reference": "F873",
         "Quantity": 1,
@@ -89,5 +89,31 @@
         "ShortDescription": "<div>Emerald</div><div></div><div>It is not very clear where the name derives from, it is believed that it comes from the Greek 'smaragdos' - green stone or the Persian 'zamarat' - heart of stone.</div>",
         "meta-title": "Emerald 1.25ct - Gemmesterra",
         "meta-description": "Green emerald Emerald 1.25ct (7.7x5.9x3.4mm) from Brasil - Not treated"
+    },
+    {
+        "ID": "F870",
+        "Active": 1,
+        "Categories": "2,16,17,159",
+        "Price": "50",
+        "Reference": "F870",
+        "Quantity": 1,
+        "Name": "Zircon 1.01ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>: <span>Zircon</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>: <span>1.01ct</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>: <span>6.1x4x2.8mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>: <span>Rectangular</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Pink</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>: <span>7.5</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
+        "ShortDescription": "<div>Zircon</div><div></div><div>Most likely, his name comes from the Persian word 'zargun', meaning golden.</div><div></div><div>This gem comes in a variety of colors. From red to blue, and even colorless.</div>",
+        "meta-title": "Zircon 1.01ct - Gemmesterra",
+        "meta-description": "Pink rectangular Zircon 1.01ct (6.1x4x2.8mm) from Tanzania - Not treated"
+    },
+    {
+        "ID": "F874",
+        "Active": 1,
+        "Categories": "2,16,17,95",
+        "Price": "200",
+        "Reference": "F874",
+        "Quantity": 1,
+        "Name": "Spessartite garnet 2.39ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>: <span>Spessartite garnet</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>: <span>2.39ct</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>: <span>8.4x6.5x3.3mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>: <span>Modified Brilliant</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Red</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
+        "ShortDescription": "<div>Spessartite Garnet</div><div></div><div>The name 'Spessart' comes from a forest in Bavaria, Germany.</div>",
+        "meta-title": "Spessartite garnet 2.39ct - Gemmesterra",
+        "meta-description": "Red modified brilliant Spessartite garnet 2.39ct (8.4x6.5x3.3mm) from Africa - Not treated"
     }
 ]
