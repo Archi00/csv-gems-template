@@ -115,5 +115,18 @@
         "ShortDescription": "<p>Granate Espesartita</p><p>El nombre viene de 'Spessart' un bosque en Bavaria, Alemania.</p>",
         "meta-title": "Granate espesartita 2.39ct - Gemmesterra",
         "meta-description": " Granate espesartita 2.39ct de color rojo con forma brillante modificada (8.4x6.5x3.3mm) de Africa - Sin tratamientos"
+    },
+    {
+        "ID": "C875",
+        "Active": 1,
+        "Categories": "2,16,18,205",
+        "Price": "100",
+        "Reference": "C875",
+        "Quantity": 1,
+        "Name": "Demantoide 1.78ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Demantoide</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>1.78ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>7.9x5.9x3.7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>7-7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Rusia</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Demantoide 1.78ct - Gemmesterra",
+        "meta-description": " Demantoide 1.78ct de color verde con forma oval (7.9x5.9x3.7mm) de Rusia - Sin tratamientos"
     }
 ]

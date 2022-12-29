@@ -169,5 +169,24 @@
             "https://www.gemmesterra.com/Botiga/upload/F874-2.jpeg",
             "https://www.gemmesterra.com/Botiga/upload/F874-3.jpeg"
         ]
+    },
+    {
+        "ID": "C875",
+        "Active": 1,
+        "Categories": "2,16,18,205",
+        "Price": "100",
+        "Reference": "C875",
+        "Quantity": 1,
+        "Name": "Demantoide 1.78ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Demantoide</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>1.78ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>7.9x5.9x3.7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>7-7.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Rusia</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Demantoide 1.78ct - Gemmesterra",
+        "meta-description": " Demantoide 1.78ct de color verd amb forma oval (7.9x5.9x3.7mm) de Rusia - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C875-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C875-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C875-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C875-3.jpeg"
+        ]
     }
 ]

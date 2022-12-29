@@ -82,6 +82,7 @@ export const Categories: any = {
                     "SONORA SUNRISE": 77,
                     GARNET: 205,
                     SODALITA: 75,
+                    PYROMORPHITE: 206,
                     SUGILITA: 73,
                     TEFROITA: 57,
                     TURQUESA: 54,

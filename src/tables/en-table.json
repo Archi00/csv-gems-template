@@ -115,5 +115,18 @@
         "ShortDescription": "<div>Spessartite Garnet</div><div></div><div>The name 'Spessart' comes from a forest in Bavaria, Germany.</div>",
         "meta-title": "Spessartite garnet 2.39ct - Gemmesterra",
         "meta-description": "Red modified brilliant Spessartite garnet 2.39ct (8.4x6.5x3.3mm) from Africa - Not treated"
+    },
+    {
+        "ID": "C875",
+        "Active": 1,
+        "Categories": "2,16,18,205",
+        "Price": "100",
+        "Reference": "C875",
+        "Quantity": 1,
+        "Name": "Demantoide 1.78ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Product Details</th></tr><tr><td id=\"type\">GEM TYPE</td><td>: <span>Demantoide</span></td></tr><tr><td id=\"weight\">TOTAL WEIGHT</td><td>: <span>1.78ct</span></td></tr><tr><td id=\"size\">SIZE : (LxWxH)</td><td>: <span>7.9x5.9x3.7mm</span></td></tr><tr><td id=\"shape\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Green</span></td></tr><tr><td id=\"hardness\">HARDNESS</td><td>: <span>7-7.5</span></td></tr><tr><td id=\"origin\">ORIGIN</td><td>: <span>Rusia</span></td></tr><tr><td id=\"treatment\">TREATMENT</td><td id=\"unh\">: Unheated / Untreated</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Demantoide 1.78ct - Gemmesterra",
+        "meta-description": "Green oval Demantoide 1.78ct (7.9x5.9x3.7mm) from Rusia - Not treated"
     }
 ]
