@@ -610,7 +610,7 @@ export const translations: TranslationsConfig = {
             violet: "Violet",
             transparent: "Transparent",
             golden: "Golden",
-            multi: "Multi-Color"
+            multi: "Multi-Color",
             colorless: "Colorless",
         },
         es: {
@@ -674,7 +674,7 @@ export const translations: TranslationsConfig = {
             violet: "Violeta",
             transparent: "Transparente",
             golden: "Dorado",
-            multi: "Multi-Color"
+            multi: "Multi-Color",
             colorless: "Incoloro",
         },
         cat: {
