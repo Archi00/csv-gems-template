@@ -126,7 +126,6 @@ export const Categories: any = {
                     "ULL DE GAT": 171,
                     LARIMAR: 201,
                     LAPIS: 202,
-                    // "ULL DE GAT": 172,
                     APATITA: 189,
                     ROBI: 198,
                 },
