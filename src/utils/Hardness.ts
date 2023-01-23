@@ -129,4 +129,6 @@ export const Hardness: any = {
     "pyrititzed ammonite": "3.5-6.5",
     estaurolite: "7-7.5",
     thulite: "6-7",
+    pyromorphite: "3.5-4",
+    "rutilated quartz": "7",
 }
