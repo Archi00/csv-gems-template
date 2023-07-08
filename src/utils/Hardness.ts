@@ -134,4 +134,15 @@ export const Hardness: any = {
     estaurolite: "7-7.5",
     thulite: "6-7",
     "pyromorphite": "3.5-4",
+    zoisite: "6-7",
+    "zoisite & rutil": "6",
+    cassiterite: "6",
+    vesuvianite: "6.5",
+    aegirine: "6",
+    parisite: "4.5",
+    monazite: "5-5.5",
+    pericline: "6-6.5",
+    apophyllite: "4.5-5",
+    scheelite: "4.5-5",
+    beryllonite: "5.5-6"
 }

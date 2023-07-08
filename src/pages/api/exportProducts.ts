@@ -12,9 +12,9 @@ const metaComp = (gem: any) => {
 	ret["description"] = JSON.stringify(gem["Short description"]).replace("\n", "")
 	ret["availability"] = JSON.stringify("in stock")
 	ret["condition"] = "new"
-	ret["price"] = Math.round(gem["Price"] + (gem["Price"] * 0.21))
+	ret["price"] = Math.round(gem["Price"])
 	ret["link"] = `https://gemmesterra.com/Botiga/en/home/${gem["Product number"]}-${gem["Link"]}.html`
-	ret["image_link"] = gem["Image URL"].split(",")[0]
+	ret["image_link"] = gem["Image URL"].split(",")[0].includes(".jpg") ? gem["Image URL"].split(",")[0] : gem["Image URL"].split(",")[0] + ".jpg"
 	ret["brand"] = "Gemmesterra"
 	return ret 
 }
