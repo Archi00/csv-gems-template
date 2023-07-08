@@ -62,6 +62,7 @@ export const Categories: any = {
                     PREHNITA: 187,
                     ZIRCON: 159,
                     ORTHOCLASA: 188,
+                    THULITE: 210,
                 },
             },
             CABOIXIONS: {
@@ -128,6 +129,8 @@ export const Categories: any = {
                     LAPIS: 202,
                     APATITA: 189,
                     ROBI: 198,
+                    THULITE: 209,
+                    CRYSOCOLLA: 211,
                 },
             },
             CARVING: { 19: {} },
