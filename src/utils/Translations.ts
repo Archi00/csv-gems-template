@@ -423,7 +423,7 @@ export const translations: TranslationsConfig = {
             iolite: "Iolita",
             "jade jadeite": "Jade jadeita",
             "jade nephrite": "Jade nefrita",
-            aegirine: "Aegirina",
+            aegirine: "Egirina",
             jasper: "Jaspi",
             "jasper bumble bee": "Jaspi bumble bee",
             "jacinto de compostela": "Jacint de Compostela",
