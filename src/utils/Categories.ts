@@ -141,6 +141,7 @@ export const Categories: any = {
                     ROBI: 198,
                     THULITE: 209,
                     CRYSOCOLLA: 211,
+                    FLUORITA: 222,
                 },
             },
             CARVING: { 19: {} },
