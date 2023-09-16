@@ -7,6 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome import options as chromeOptions
 from webdriver_manager.chrome import ChromeDriverManager
@@ -18,8 +19,8 @@ CSV_URL=os.getenv("CSV_URL")
 ADMIN_USER=os.getenv("ADMIN_USER")
 ADMIN_PWD=os.getenv("ADMIN_PWD")
 
-s=Service(ChromeDriverManager().install())
-driver = webdriver.Chrome(service=s)
+# s=Service(ChromeDriverManager())
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 driver.maximize_window()
 
 driver.get(TARGET_URL)
@@ -48,8 +49,9 @@ same_key = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
 '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[2]/div/div'))).click()
 regenerate_miniatures = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,
  '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[3]/div/div'))).click()
-send_notification = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
-'//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[5]/div/div'))).click()
+# send_notification = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, 
+# '//*[@id="main-div"]/div/div/div/div[2]/div/div/div[1]/form/div/div[1]/div[12]/div[5]/div/div'))).click()
+
 
 time.sleep(2)
 
