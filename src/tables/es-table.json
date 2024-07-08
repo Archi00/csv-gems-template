@@ -1,1 +1,106 @@
-[]
+[
+    {
+        "ID": "M955",
+        "Active": 1,
+        "Categories": "2,69",
+        "Price": "9",
+        "Reference": "M955",
+        "Quantity": 1,
+        "Name": "Meteorito 13.35ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Meteorito</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>13.35ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>12.7x 10.3x 7.9mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Forma Libre</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Gris</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>4</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Argentina</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Meteorito 13.35ct - Gemmesterra",
+        "meta-description": " Meteorito 13.35ct de color gris con forma forma libre (12.7x 10.3x 7.9mm) de Argentina - Sin tratamientos"
+    },
+    {
+        "ID": "F982",
+        "Active": 1,
+        "Categories": "2,16,17,150",
+        "Price": "130",
+        "Reference": "F982",
+        "Quantity": 1,
+        "Name": "Aguamarina 4.30ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Aguamarina</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>4.30ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>10.7x 6.4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Trillion</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Azul</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Aguamarina</p><p >El nombre aguamarina viene del latín, \"aqua marinā\", agua del mar. Su nombre hace referencia a su color.</p><p>La aguamarina es la variedad azul del berilo. La misma familia que la esmeralda, morganita, heliodoro...</p><p >Be3Al2Si6O18::Fe</p>",
+        "meta-title": "Aguamarina 4.30ct - Gemmesterra",
+        "meta-description": " Aguamarina 4.30ct de color azul con forma trillion (10.7x 6.4mm) de Africa - Sin tratamientos"
+    },
+    {
+        "ID": "F984",
+        "Active": 1,
+        "Categories": "2,16,17,150",
+        "Price": "103",
+        "Reference": "F984",
+        "Quantity": 1,
+        "Name": "Aguamarina 4.72ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Aguamarina</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>4.72ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>11x 6.8mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Trillion</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Azul</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Aguamarina</p><p >El nombre aguamarina viene del latín, \"aqua marinā\", agua del mar. Su nombre hace referencia a su color.</p><p>La aguamarina es la variedad azul del berilo. La misma familia que la esmeralda, morganita, heliodoro...</p><p >Be3Al2Si6O18::Fe</p>",
+        "meta-title": "Aguamarina 4.72ct - Gemmesterra",
+        "meta-description": " Aguamarina 4.72ct de color azul con forma trillion (11x 6.8mm) de Africa - Sin tratamientos"
+    },
+    {
+        "ID": "F988",
+        "Active": 1,
+        "Categories": "2,16,17,20",
+        "Price": "64",
+        "Reference": "F988",
+        "Quantity": 1,
+        "Name": "Amatista 6.40ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Amatista</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>6.40ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>11.9x 8.9mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Redonda</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>La Amatista es una variedad violeta del cuarzo. Se presenta en toda la gama de violetas.De casi incolora a violeta oscuro. En los mejores ejemplares tiene destellos de rojo yazul. Cuando una amatista presenta un violeta oscuro con destellos se la llamacomercialmente de 'color siberiano' ya que en Siberia salieron ejemplares de gran belleza.</p><p>Tiene dureza 7 de Mohs y se puede usar con seguridad de durabilidad.</p><p>Se ha sinterizado con exito con mucho acierto y es muy dificil distinguir la sintetica dela natural.</p><p>Un tanto por ciento muy alto de las que estan a la venta en el mercado son sinteticas poreso es una gema que se tiene que comprar a un proveedor de mucha confianza.</p><p>Garantizamos que nuestras amatistas son naturales.</p><p>Los yacimientos principales estan en: uruguay, Brasil, Bolivia, Este de Africa,Rusia.</p><p>En Cataluña tuvieron mucha importancia las amatistas del Montseny (Barcelona).</p><p></p>",
+        "meta-title": "Amatista 6.40ct - Gemmesterra",
+        "meta-description": " Amatista 6.40ct de color violeta con forma redonda (11.9x 8.9mm) de Brasil - Sin tratamientos"
+    },
+    {
+        "ID": "C989",
+        "Active": 1,
+        "Categories": "2,16,18,48",
+        "Price": "56",
+        "Reference": "C989",
+        "Quantity": 1,
+        "Name": "Prehnita 56ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Prehnita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>56ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>30x 36x 7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Pera</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Australia</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Prehnita</p><p>Lleva el nombre en honor a Hendrik von Prehn, gobernador del Cabo de Buena Esperanza (Sudáfrica) en 1774 quien descubrió este mineral. El nombre fue acuñado por el famoso geólogo alemán Gottlob Werner en 1788.</p><p>Suele aparecen en un hábito botrioidal - forma externa globular y que se asemeja a un racimo de uvas (donde deriva el nombre desde el griego). </p><p>Ca2Al(AlSi3O10)(OH)2</p>",
+        "meta-title": "Prehnita 56ct - Gemmesterra",
+        "meta-description": " Prehnita 56ct de color verde con forma pera (30x 36x 7mm) de Australia - Sin tratamientos"
+    },
+    {
+        "ID": "Mi 983",
+        "Active": 1,
+        "Categories": "2,39",
+        "Price": "55",
+        "Reference": "Mi 983",
+        "Quantity": 1,
+        "Name": "Topacio 5.5gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Topacio</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>5.5gr</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>18x 15x 12.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Forma Libre</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blanco</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Badajoz Spain</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Topacio</p><p>Se cree que el nombre proviene de 'topazos' - 'buscar/difícil de encontrar'.</p><p>Este nombre, \"topazos\" en un principio se utilizó para nombrar el mineral que ahora conocemos como Peridoto. Las primeras gemas de peridoto&nbsp; provenían de la isla \"Topazos\", ahora llamada isla 'Zeberget' del Mar&nbsp;Rojo. Era una isla difícil de encontrar y muy protegida.</p><p>El topacio es una gema alocromática, lo que significa que su color viene dado por ciertos elementos ajenos a su fórmula que se introducieron en la red cristalina durante su formación. En su forma pura sería incolora.</p><p>Al2SiO4(OH,F)2</p>",
+        "meta-title": "Topacio 5.5gr - Gemmesterra",
+        "meta-description": " Topacio 5.5gr de color blanco con forma forma libre (18x 15x 12.5mm) de Badajoz Spain - Sin tratamientos"
+    },
+    {
+        "ID": "Mi986",
+        "Active": 1,
+        "Categories": "2,39",
+        "Price": "24",
+        "Reference": "Mi986",
+        "Quantity": 1,
+        "Name": "Prehnita 25.95g",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Prehnita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>25.95g</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>44x 30x 16.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Forma Libre</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>6-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Jaen Spain</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Prehnita</p><p>Lleva el nombre en honor a Hendrik von Prehn, gobernador del Cabo de Buena Esperanza (Sudáfrica) en 1774 quien descubrió este mineral. El nombre fue acuñado por el famoso geólogo alemán Gottlob Werner en 1788.</p><p>Suele aparecen en un hábito botrioidal - forma externa globular y que se asemeja a un racimo de uvas (donde deriva el nombre desde el griego). </p><p>Ca2Al(AlSi3O10)(OH)2</p>",
+        "meta-title": "Prehnita 25.95g - Gemmesterra",
+        "meta-description": " Prehnita 25.95g de color verde con forma forma libre (44x 30x 16.5mm) de Jaen Spain - Sin tratamientos"
+    },
+    {
+        "ID": "M0001",
+        "Active": 1,
+        "Categories": "2,16,18,33",
+        "Price": "20",
+        "Reference": "M0001",
+        "Quantity": 1,
+        "Name": "Opalo 12ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Opalo</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>12ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>12x12x10</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Ópalo</p><p>El nombre deriva del Sanskrit para piedra.</p><p >Desde la época romana a los inicios del siglo XVII fue tenido en gran estima. Durante los siglos XVIII y XIX fue bastante olvidado al creer que esta piedra traía mala suerte.</p><p >Algunos dicen que su mala fama se originó en la novela de Walter Scott denominada \"Anne of Geierstein\".</p><p >SiO2+ H2O</p>",
+        "meta-title": "Opalo 12ct - Gemmesterra",
+        "meta-description": " Opalo 12ct de color verde con forma oval (12x12x10) de Africa - Sin tratamientos"
+    }
+]

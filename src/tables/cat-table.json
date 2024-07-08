@@ -1,1 +1,165 @@
-[]
+[
+    {
+        "ID": "M955",
+        "Active": 1,
+        "Categories": "2,69",
+        "Price": "9",
+        "Reference": "M955",
+        "Quantity": 1,
+        "Name": "Meteorit 13.35ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Meteorit</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>13.35ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>12.7x 10.3x 7.9mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Gris</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>4</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Argentina</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Meteorit 13.35ct - Gemmesterra",
+        "meta-description": " Meteorit 13.35ct de color gris amb forma forma lliure (12.7x 10.3x 7.9mm) de Argentina - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/M955-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/M955-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/M955-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/M955-3.jpeg"
+        ],
+        "imgAlts": "Meteorit 13.35ct,Meteorit 13.35ct,Meteorit 13.35ct,Meteorit 13.35ct"
+    },
+    {
+        "ID": "F982",
+        "Active": 1,
+        "Categories": "2,16,17,150",
+        "Price": "130",
+        "Reference": "F982",
+        "Quantity": 1,
+        "Name": "Aiguamarina 4.30ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Aiguamarina</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>4.30ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>10.7x 6.4mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Trillion</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p>Aiguamarina</p><p>El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color. L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</p><p>Be3Al2Si6O18::Fe</p>",
+        "meta-title": "Aiguamarina 4.30ct - Gemmesterra",
+        "meta-description": " Aiguamarina 4.30ct de color blau amb forma trillion (10.7x 6.4mm) de Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F982-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F982-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F982-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F982-3.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F982-4.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F982-5.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F982-6.jpeg"
+        ],
+        "imgAlts": "Aiguamarina 4.30ct,Aiguamarina 4.30ct,Aiguamarina 4.30ct,Aiguamarina 4.30ct,Aiguamarina 4.30ct,Aiguamarina 4.30ct,Aiguamarina 4.30ct"
+    },
+    {
+        "ID": "F984",
+        "Active": 1,
+        "Categories": "2,16,17,150",
+        "Price": "103",
+        "Reference": "F984",
+        "Quantity": 1,
+        "Name": "Aiguamarina 4.72ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Aiguamarina</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>4.72ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>11x 6.8mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Trillion</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p>Aiguamarina</p><p>El nom aiguamarina ve del llatí, \"aqua marinā\", aigua del mar. El seu nom fa referència al color. L'aiguamarina és la varietat blava del beril. La mateixa família que la maragda, morganita, heliodor...</p><p>Be3Al2Si6O18::Fe</p>",
+        "meta-title": "Aiguamarina 4.72ct - Gemmesterra",
+        "meta-description": " Aiguamarina 4.72ct de color blau amb forma trillion (11x 6.8mm) de Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F984-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F984-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F984-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F984-3.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F984-4.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F984-5.jpeg"
+        ],
+        "imgAlts": "Aiguamarina 4.72ct,Aiguamarina 4.72ct,Aiguamarina 4.72ct,Aiguamarina 4.72ct,Aiguamarina 4.72ct,Aiguamarina 4.72ct"
+    },
+    {
+        "ID": "F988",
+        "Active": 1,
+        "Categories": "2,16,17,20",
+        "Price": "64",
+        "Reference": "F988",
+        "Quantity": 1,
+        "Name": "Ametista 6.40ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Ametista</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>6.40ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>11.9x 8.9mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Rodona</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>L'Ametista és una varietat violeta del quars. Es presenta en tota la gamma de violetes. De gairebé incolora a violeta fosc. Als millors exemplars té centelleigs de vermell i blau. Quan una ametista presenta un violeta fosc amb centelleigs se l'anomena comercialment de 'color siberià' ja que a Sibèria van sortir exemplars de gran bellesa.</div><div></div><div>Té duresa 7 de Mohs i es pot fer servir amb seguretat de durabilitat.</div><div></div><div>S'ha sinteritzat amb èxit amb molt d'encert i és molt difícil distingir la sintètica de la natural.</div><div></div><div>Un tant per cent molt alt de les que estan a la venda al mercat són sintètiques per això és una gemma que s'ha de comprar a un proveïdor de molta confiança.</div><div></div><div>Els jaciments principals són a: Uruguai, Brasil, Bolívia, Est d'Àfrica, Rússia.</div><div></div><div>A Catalunya van tenir molta importància les ametistes del Montseny (Barcelona).</div>",
+        "meta-title": "Ametista 6.40ct - Gemmesterra",
+        "meta-description": " Ametista 6.40ct de color violeta amb forma rodona (11.9x 8.9mm) de Brasil - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/F988-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F988-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F988-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F988-3.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/F988-4.jpeg"
+        ],
+        "imgAlts": "Ametista 6.40ct,Ametista 6.40ct,Ametista 6.40ct,Ametista 6.40ct,Ametista 6.40ct"
+    },
+    {
+        "ID": "C989",
+        "Active": 1,
+        "Categories": "2,16,18,48",
+        "Price": "56",
+        "Reference": "C989",
+        "Quantity": 1,
+        "Name": "Prehnita 56ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Prehnita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>56ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>30x 36x 7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Pera</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>6-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Australia</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Prehnita</div><div></div><div>Porta el nom en honor a Hendrik von Prehn, governador del Cap de Bona Esperança (Sud-àfrica) el 1774 qui va descobrir aquest mineral. El nom va ser posat pel famós geòleg alemany Gottlob Werner el 1788.</div><div></div><div>Sol apareixer en un hàbit botrioïdal - forma externa globular i que s'assembla a un brot de raïm (on deriva el nom des del grec).</div><div></div><div>Ca2Al(AlSi3O10)(OH)2</div>",
+        "meta-title": "Prehnita 56ct - Gemmesterra",
+        "meta-description": " Prehnita 56ct de color verd amb forma pera (30x 36x 7mm) de Australia - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C989-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C989-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C989-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C989-3.jpeg"
+        ],
+        "imgAlts": "Prehnita 56ct,Prehnita 56ct,Prehnita 56ct,Prehnita 56ct"
+    },
+    {
+        "ID": "Mi 983",
+        "Active": 1,
+        "Categories": "2,39",
+        "Price": "55",
+        "Reference": "Mi 983",
+        "Quantity": 1,
+        "Name": "Topazi 5.5gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Topazi</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>5.5gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>18x 15x 12.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Blanc</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>8</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Badajoz Spain</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Topazi</div><div></div><div>Es creu que el nom prové de 'topazos' - 'buscar/difícil de trobar'.</div><div></div><div>Aquest nom, \"topazos\" al principi es va utilitzar per anomenar el mineral que ara coneixem com a Peridot. Les primeres gemmes de peridot provenien de l'illa \"Topazos\", ara anomenada illa 'Zeberget' del Mar Rojo. Era una illa difícil de trobar i protegida.</div><div></div><div>El topazi és una gemma al·locromàtica, cosa que significa que el seu color ve donat per certs elements aliens a la seva fórmula que es van introduir a la xarxa cristal·lina durant la seva formació. En forma pura seria incolora.</div><div></div><div>Al2SiO4(OH,F)2</div>",
+        "meta-title": "Topazi 5.5gr - Gemmesterra",
+        "meta-description": " Topazi 5.5gr de color blanc amb forma forma lliure (18x 15x 12.5mm) de Badajoz Spain - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/Mi 983-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/Mi 983-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/Mi 983-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/Mi 983-3.jpeg"
+        ]
+    },
+    {
+        "ID": "Mi986",
+        "Active": 1,
+        "Categories": "2,39",
+        "Price": "24",
+        "Reference": "Mi986",
+        "Quantity": 1,
+        "Name": "Prehnita 25.95g",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Prehnita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>25.95g</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>44x 30x 16.5mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>6-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Jaen Spain</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<div>Prehnita</div><div></div><div>Porta el nom en honor a Hendrik von Prehn, governador del Cap de Bona Esperança (Sud-àfrica) el 1774 qui va descobrir aquest mineral. El nom va ser posat pel famós geòleg alemany Gottlob Werner el 1788.</div><div></div><div>Sol apareixer en un hàbit botrioïdal - forma externa globular i que s'assembla a un brot de raïm (on deriva el nom des del grec).</div><div></div><div>Ca2Al(AlSi3O10)(OH)2</div>",
+        "meta-title": "Prehnita 25.95g - Gemmesterra",
+        "meta-description": " Prehnita 25.95g de color verd amb forma forma lliure (44x 30x 16.5mm) de Jaen Spain - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/Mi986-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/Mi986-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/Mi986-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/Mi986-3.jpeg"
+        ]
+    },
+    {
+        "ID": "M0001",
+        "Active": 1,
+        "Categories": "2,16,18,33",
+        "Price": "20",
+        "Reference": "M0001",
+        "Quantity": 1,
+        "Name": "Opal 12ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Opal</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>12ct</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>12x12x10</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p>Òpal</p><p>El nom deriva del Sanskrit per a pedra.</p><p >Des de l'època romana als inicis del segle XVII va ser tingut en gran estima. Durant els segles XVIII i XIX va ser força oblidat en creure que aquesta pedra portava mala sort.</p><p >Alguns diuen que la seva mala fama es va originar a la novel·la de Walter Scott anomenada \"Anne of Geierstein\".</p><p>SiO2+ H2O</p>",
+        "meta-title": "Opal 12ct - Gemmesterra",
+        "meta-description": " Opal 12ct de color verd amb forma oval (12x12x10) de Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/M0001-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/M0001-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/M0001-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/M0001-3.jpeg"
+        ]
+    }
+]

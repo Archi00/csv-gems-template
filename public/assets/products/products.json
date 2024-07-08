@@ -253,28 +253,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 64,
-        "title": "inca stone",
-        "description": "\"<p>Pedra Inca cab (Inca stone)</p>\\n<p>(Chalcedony with copper)</p>\\n<p>No treated.</p>\\n<p>Size 42mm.</p>\\n<p>Bolivia.</p>\\n<p> </p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 63,
-        "link": "https://gemmesterra.com/Botiga/en/home/64-inca-stone.html",
-        "image_link": "http://gemmesterra.com/Botiga/176/INCA_STONE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 65,
-        "title": "serpentine",
-        "description": "\"<p>Cab of serpentine.</p>\\n<p>Oval.</p>\\n<p>No treated.</p>\\n<p>Size 24X20X3.5mm.</p>\\n<p>Málaga.</p>\\n<p> </p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 21,
-        "link": "https://gemmesterra.com/Botiga/en/home/65-serpentine.html",
-        "image_link": "http://gemmesterra.com/Botiga/182/SERPENTINE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 66,
         "title": " turquoise, natural",
         "description": "\"<p>Cab of natural turquoise. Round.</p>\\n<p>The turquoise is  natural, untreated in any way.</p>\\n<p>Arizona, Sleeping Beauty.</p>\\n<p>Weight:3,1ct.</p>\\n<p>Size: 13X3mm.</p>\"",
@@ -327,17 +305,6 @@
         "price": 91,
         "link": "https://gemmesterra.com/Botiga/en/home/73--turquoise-natural.html",
         "image_link": "http://gemmesterra.com/Botiga/206/_TURQUOISE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 74,
-        "title": " turquoise, natural",
-        "description": "\"<p>Cab of natural turquoise. Round.</p>\\n<p>The turquoise is  natural, untreated in any way.</p>\\n<p>Arizona, Sleeping Beauty.</p>\\n<p>Weight:3,00ct.</p>\\n<p>Size: 21x11x3mm.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 25,
-        "link": "https://gemmesterra.com/Botiga/en/home/74--turquoise-natural.html",
-        "image_link": "http://gemmesterra.com/Botiga/202/_TURQUOISE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -781,17 +748,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 131,
-        "title": "amethyst",
-        "description": "\"<p>Facteded Amethyst from Uruguay.</p>\\n<p>Not treated.</p>\\n<p>Weight: 3.0ct. Size: 10x9x7mm.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 33,
-        "link": "https://gemmesterra.com/Botiga/en/home/131-amatista.html",
-        "image_link": "http://gemmesterra.com/Botiga/284/Amethyst.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 132,
         "title": "mexican opal",
         "description": "\"<p>Mexican opal.</p>\\n<p>Cab </p>\\n<p>No treated.</p>\\n<p>Size:  23x10x5mm.</p>\\n<p>Weight:  7,70ct.</p>\"",
@@ -921,17 +877,6 @@
         "price": 23,
         "link": "https://gemmesterra.com/Botiga/en/home/147-jade-jadeita.html",
         "image_link": "http://gemmesterra.com/Botiga/350/JADE_JADEITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 148,
-        "title": "inca stone",
-        "description": "\"<p>Pedra Inca round cab (Inca stone)</p>\\n<p>(Chalcedony with copper)</p>\\n<p>No treated.</p>\\n<p>Weight: 19.40gr. Size: 42mm.</p>\\n<p>Bolivia.</p>\\n<p> </p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 70,
-        "link": "https://gemmesterra.com/Botiga/en/home/148-inca-stone.html",
-        "image_link": "http://gemmesterra.com/Botiga/352/INCA_STONE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -1174,17 +1119,6 @@
         "price": 31,
         "link": "https://gemmesterra.com/Botiga/en/home/182--turquoise-natural.html",
         "image_link": "http://gemmesterra.com/Botiga/415/_TURQUOISE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 183,
-        "title": "carving scarab",
-        "description": "\"<p>Egyptian scarab of Lybian glass.</p>\\n<pre id=\\\"tw-target-text\\\" class=\\\"tw-data-text vk_txt tw-ta tw-text-medium\\\" dir=\\\"ltr\\\">Carving 24.5x20x10mm.<br />Weight: 29ct.</pre>\\n<p>Not treated.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 67,
-        "link": "https://gemmesterra.com/Botiga/en/home/183-necklace-of-lapislazuli.html",
-        "image_link": "http://gemmesterra.com/Botiga/411/CARVING_SCARAB.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -1617,17 +1551,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 234,
-        "title": "carved lotus necklace",
-        "description": "\"<p>Carved lotus necklace. (cow bone)</p>\\n<p>Not treated.</p>\\n<p>Size necklace: 54cm Size piece: 36x32x9mm.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 24,
-        "link": "https://gemmesterra.com/Botiga/en/home/234-carved-lotus-necklace.html",
-        "image_link": "http://gemmesterra.com/Botiga/456/CARVED_LOTUS_NECKLACE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 237,
         "title": "amber necklace",
         "description": "\"<p>Amber from Rep. Dominicana mounted on silver necklace.</p>\\n<p>Not treated.</p>\\n<p>Length: 56 cm Size piece: 31x27x6.5mm.</p>\"",
@@ -1859,17 +1782,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 271,
-        "title": "jet cross",
-        "description": "\"<p>Jet cross with silver</p>\\n<p>Size: 9x8x2 mm</p>\\n<p>Weight: 1.00ct.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 17,
-        "link": "https://gemmesterra.com/Botiga/en/home/271-jet-cross.html",
-        "image_link": "http://gemmesterra.com/Botiga/514/JET_CROSS.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 272,
         "title": "jet fist",
         "description": "\"<p>Jet fist with silver</p>\\n<p>Size: 16x6x4mm</p>\\n<p>Weight: 2.00ct.</p>\"",
@@ -2024,17 +1936,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 290,
-        "title": "paisina",
-        "description": "\"<p>Paisina</p>\\n<p>Size: 44x34.5x5.5mm</p>\\n<p>Weight: 17.90gr</p>\\n<p>From Spain, Albacete</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 21,
-        "link": "https://gemmesterra.com/Botiga/en/home/290-paisina.html",
-        "image_link": "http://gemmesterra.com/Botiga/531/PAISINA.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 291,
         "title": "rhodolite garnet",
         "description": "\"<p>Faceted rhodolite  garnet</p>\\n<p>Size: 8x8x5.3mm</p>\\n<p>Weight: 3.00ct</p>\\n<p>Not treated</p>\"",
@@ -2043,17 +1944,6 @@
         "price": 60,
         "link": "https://gemmesterra.com/Botiga/en/home/291-rhodolite-garnet.html",
         "image_link": "http://gemmesterra.com/Botiga/532/RHODOLITE_GARNET.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 294,
-        "title": "pendant of turquoise, natural",
-        "description": "\"<p>Pendant of natural turquoise. Silver.</p>\\n<p>The turquoise is  natural, untreated in any way.</p>\\n<p>Arizona, (Sleeping Beauty).</p>\\n<p>Total weight: 6.32gr.</p>\\n<p>Size: 19.4x33.8x6.8mm.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 48,
-        "link": "https://gemmesterra.com/Botiga/en/home/294-pendant-of-turquoise-natural.html",
-        "image_link": "http://gemmesterra.com/Botiga/535/PENDANT_of_TURQUOISE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -2321,17 +2211,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 326,
-        "title": "prenhite",
-        "description": "\"<p>Oval cab of prenhite.</p>\\n<p>Size: 10,8x8,6x6,9mm.</p>\\n<p>Weight: 5,12ct</p>\\n<p>Not treated.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 15,
-        "link": "https://gemmesterra.com/Botiga/en/home/326-prenhita.html",
-        "image_link": "http://gemmesterra.com/Botiga/601/PRENHITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 329,
         "title": "morganite",
         "description": "\"<p>Rough morganite.</p>\\n<p>Size: 23,5x23x24mm.</p>\\n<p>Weight: 92,03ct.</p>\\n<p>Natural. Not treated.</p>\"",
@@ -2395,17 +2274,6 @@
         "price": 31,
         "link": "https://gemmesterra.com/Botiga/en/home/335-bytownite.html",
         "image_link": "http://gemmesterra.com/Botiga/618/BYTOWNITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 336,
-        "title": "ametrine",
-        "description": "\"<p>Faceted ametrine.</p>\\n<p>Size: 11,6x11,6x6,1mm.</p>\\n<p>Weight: 5,34ct.</p>\\n<p>Natural. Not treated.</p>\\n<p>From Bolivia.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 41,
-        "link": "https://gemmesterra.com/Botiga/en/home/336-ametrino.html",
-        "image_link": "http://gemmesterra.com/Botiga/619/AMETRINE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -2571,17 +2439,6 @@
         "price": 91,
         "link": "https://gemmesterra.com/Botiga/en/home/353-grandidierite.html",
         "image_link": "http://gemmesterra.com/Botiga/654/GRANDIDIERITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 354,
-        "title": "grandidierite",
-        "description": "\"<p>Faceted Grandidierite.</p>\\n<p>Weight: 3,97ct.</p>\\n<p>Size: 10,6x8,6x7mm.</p>\\n<p>Natural. Not treated.</p>\\n<p>From Madagascar.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 165,
-        "link": "https://gemmesterra.com/Botiga/en/home/354-grandidierite.html",
-        "image_link": "http://gemmesterra.com/Botiga/656/GRANDIDIERITE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -2772,17 +2629,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 385,
-        "title": "jade guatemala",
-        "description": "\"<p>Jade Jadeite.</p>\\n<p>Weight: 1.99ct.</p>\\n<p>Size:12x9,5x5.5mm.</p>\\n<p>Natural not treated. From Guatemala.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 164,
-        "link": "https://gemmesterra.com/Botiga/en/home/385-jade-guatemala.html",
-        "image_link": "http://gemmesterra.com/Botiga/694/JADE_GUATEMALA.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 386,
         "title": "moonstone",
         "description": "\"<p>Moonstone tear cab.</p>\\n<p>Weight:2.30gr.</p>\\n<p>Size: 16x15x7mm.</p>\\n<p>Natural not treated.</p>\"",
@@ -2868,17 +2714,6 @@
         "price": 58,
         "link": "https://gemmesterra.com/Botiga/en/home/397-hessonite.html",
         "image_link": "http://gemmesterra.com/Botiga/718/HESSONITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 398,
-        "title": "grandidierite",
-        "description": "\"<p>Faceted Grandidierite.</p>\\n<p>Weight: 6.35ct.</p>\\n<p>Size: 15x10.2x6.9mm.</p>\\n<p>Natural. Not treated.</p>\\n<p>From Madagascar.</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 248,
-        "link": "https://gemmesterra.com/Botiga/en/home/398-grandidierite.html",
-        "image_link": "http://gemmesterra.com/Botiga/719/GRANDIDIERITE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -3143,17 +2978,6 @@
         "price": 60,
         "link": "https://gemmesterra.com/Botiga/en/home/436-jade-jadeita.html",
         "image_link": "http://gemmesterra.com/Botiga/770/JADE_JADEITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 437,
-        "title": "myamar amber",
-        "description": "\"<div id=\\\"ds_div\\\" style=\\\"color:#000000;font-family:Arial;font-size:medium;font-style:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;background-color:#a2b4be;text-align:left;\\\"><span style=\\\"font-size:large;\\\">Gem Type     - Natural Amber ( Burmite )</span></div>\\n<div style=\\\"color:#000000;font-family:Arial;font-size:medium;font-style:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;background-color:#a2b4be;text-align:left;\\\"><span style=\\\"font-size:large;\\\">Weight        - 1.31 ct</span></div>\\n<div style=\\\"color:#000000;font-family:Arial;font-size:medium;font-style:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;background-color:#a2b4be;text-align:left;\\\"><span style=\\\"font-size:large;\\\">Size             - 11.3 x 10 x 4.1 mm </span></div>\\n<div style=\\\"color:#000000;font-family:Arial;font-size:medium;font-style:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;background-color:#a2b4be;text-align:left;\\\"><span style=\\\"font-size:large;\\\">Treatment     - none</span></div>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 22,
-        "link": "https://gemmesterra.com/Botiga/en/home/437-mexican-amber.html",
-        "image_link": "http://gemmesterra.com/Botiga/771/MYAMAR_AMBER.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -3429,17 +3253,6 @@
         "price": 45,
         "link": "https://gemmesterra.com/Botiga/en/home/481-rhodolite.html",
         "image_link": "http://gemmesterra.com/Botiga/834/RHODOLITE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 482,
-        "title": "tourmaline",
-        "description": "\"<p>GEM TYPE<br />Tourmaline<br />SHAPE<br />Emerald Cut<br />WEIGHT<br />2.37 Ct.<br />SIZE<br />12.4 X 4.7 X 3.9 mm<br />QUANTITY<br />1 Piece<br />COLOR<br />Orange Pink<br />CLARITY<br />SI<br />LUSTER<br />Superior<br />ORIGIN<br />Mozambique<br />TREATMENT<br />None<br />HARDNESS<br />7-7.5</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 21,
-        "link": "https://gemmesterra.com/Botiga/en/home/482-tourmaline.html",
-        "image_link": "http://gemmesterra.com/Botiga/835/TOURMALINE.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -3726,17 +3539,6 @@
         "price": 7,
         "link": "https://gemmesterra.com/Botiga/en/home/521-quiastolite-1390-gr.html",
         "image_link": "http://gemmesterra.com/Botiga/940/QUIASTOLITE__5.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 522,
-        "title": "turquoise set 4 u.",
-        "description": "\"<p>Turquoise. Set 4 u.</p>\\n<p>Arizona.</p>\\n<p>Untreated.</p>\\n<p>11,95gr</p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 46,
-        "link": "https://gemmesterra.com/Botiga/en/home/522-turquoise-set-4-u.html",
-        "image_link": "http://gemmesterra.com/Botiga/943/TURQUOISE_SET_4_u..jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -4873,17 +4675,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 650,
-        "title": "turmaline",
-        "description": "\"<dl><dt>GEM TYPE</dt><dd>Tourmaline</dd><dt>SHAPE</dt><dd>Emerald Cut</dd><dt>WEIGHT</dt><dd>2.47 Ct.</dd><dt>SIZE</dt><dd>15 X 5 X 3.2 mm</dd><dt>QUANTITY</dt><dd>1 Piece</dd><dt>COLOR</dt><dd>Hot Pink</dd><dt>CLARITY</dt><dd>SI</dd><dt>LUSTER</dt><dd>Superior</dd><dt>ORIGIN</dt><dd>Mozambique</dd><dt>TREATMENT</dt><dd>None</dd><dt>HARDNESS</dt><dd>7-7.5</dd></dl>\\n<p> </p>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 76,
-        "link": "https://gemmesterra.com/Botiga/en/home/650-turmaline.html",
-        "image_link": "http://gemmesterra.com/Botiga/1180/TURMALINE.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 651,
         "title": "apatite cat's eye",
         "description": "\"<dl><dt>GEM TYPE</dt><dd>Apatite</dd><dt>SHAPE</dt><dd>Oval Cabochon</dd><dt>WEIGHT</dt><dd>5.33 Ct.</dd><dt>SIZE</dt><dd>10.8 X 9 X 6.3 mm</dd><dt>QUANTITY</dt><dd>1 Piece</dd><dt>COLOR</dt><dd>Yellow</dd><dt>CLARITY</dt><dd>I1-I2</dd><dt>LUSTER</dt><dd>Cat's Eye</dd><dt>ORIGIN</dt><dd>Brazil</dd><dt>TREATMENT</dt><dd>None</dd><dt>HARDNESS</dt><dd>5</dd></dl>\\n<p> </p>\"",
@@ -5126,28 +4917,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 707,
-        "title": "amber 5.95gr",
-        "description": "\"<table id=\\\"t01\\\">\\n<tbody>\\n<tr>\\n<th id=\\\"product\\\">Product Details</th>\\n</tr>\\n<tr>\\n<td id=\\\"type\\\">GEM TYPE</td>\\n<td>: <span>Amber</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"weight\\\">TOTAL WEIGHT</td>\\n<td>: <span>5.95gr</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"size\\\">SIZE : (LxWxH)</td>\\n<td>: <span>32.5x26x12.5mm</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"shape\\\">SHAPE</td>\\n<td>: <span>Rough</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"color\\\">COLOR</td>\\n<td>: <span>Deep yellow</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"hardness\\\">HARDNESS</td>\\n<td>: <span>2-2.5</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"origin\\\">ORIGIN</td>\\n<td>: <span>Cantabria</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"treatment\\\">TREATMENT</td>\\n<td id=\\\"unh\\\">: Unheated / Untreated</td>\\n</tr>\\n</tbody>\\n</table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 35,
-        "link": "https://gemmesterra.com/Botiga/en/home/707-ambar-595gr.html",
-        "image_link": "http://gemmesterra.com/Botiga/1452/Amber_5.95gr.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 708,
-        "title": "amber 3.83gr",
-        "description": "\"<table id=\\\"t01\\\">\\n<tbody>\\n<tr>\\n<th id=\\\"product\\\">Product Details</th>\\n</tr>\\n<tr>\\n<td id=\\\"type\\\">GEM TYPE</td>\\n<td>: <span>Amber</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"weight\\\">TOTAL WEIGHT</td>\\n<td>: <span>3.83gr</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"size\\\">SIZE : (LxWxH)</td>\\n<td>: <span>29.5x28x15mm</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"shape\\\">SHAPE</td>\\n<td>: <span>Rough</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"color\\\">COLOR</td>\\n<td>: <span>Deep yellow</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"hardness\\\">HARDNESS</td>\\n<td>: <span>2-2.5</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"origin\\\">ORIGIN</td>\\n<td>: <span>Cantabria</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"treatment\\\">TREATMENT</td>\\n<td id=\\\"unh\\\">: Unheated / Untreated</td>\\n</tr>\\n</tbody>\\n</table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 25,
-        "link": "https://gemmesterra.com/Botiga/en/home/708-ambar-383gr.html",
-        "image_link": "http://gemmesterra.com/Botiga/1466/Amber_3.83gr.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 709,
         "title": "amber 1.40gr",
         "description": "\"<table id=\\\"t01\\\">\\n<tbody>\\n<tr>\\n<th id=\\\"product\\\">Product Details</th>\\n</tr>\\n<tr>\\n<td id=\\\"type\\\">GEM TYPE</td>\\n<td>: <span>Amber</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"weight\\\">TOTAL WEIGHT</td>\\n<td>: <span>1.40gr</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"size\\\">SIZE : (LxWxH)</td>\\n<td>: <span>34x13x8mm</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"shape\\\">SHAPE</td>\\n<td>: <span>Rough</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"color\\\">COLOR</td>\\n<td>: <span>Deep yellow</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"hardness\\\">HARDNESS</td>\\n<td>: <span>2-2.5</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"origin\\\">ORIGIN</td>\\n<td>: <span>Cantabria</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"treatment\\\">TREATMENT</td>\\n<td id=\\\"unh\\\">: Unheated / Untreated</td>\\n</tr>\\n</tbody>\\n</table>\"",
@@ -5222,17 +4991,6 @@
         "price": 60,
         "link": "https://gemmesterra.com/Botiga/en/home/715-granate-118ct.html",
         "image_link": "http://gemmesterra.com/Botiga/1548/Garnet_1.18ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 716,
-        "title": "amber 2.16gr",
-        "description": "\"\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 25,
-        "link": "https://gemmesterra.com/Botiga/en/home/716-ambar-216gr.html",
-        "image_link": "http://gemmesterra.com/Botiga/1552/Amber_2.16gr.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -5852,28 +5610,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 788,
-        "title": "fire opal 1.10ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Fire Opal</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>1.10ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>10.2x6.7x4mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Orange</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Mexic</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 88,
-        "link": "https://gemmesterra.com/Botiga/en/home/788-opal-de-foc-110ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/2181/Fire_Opal_1.10ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 789,
-        "title": "amazonite 13.80ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Amazonite</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>13.80ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>21x19x5mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Teardrop</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blue</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>6-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Vietnam</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 14,
-        "link": "https://gemmesterra.com/Botiga/en/home/789-amazonita-1380ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/2184/Amazonite_13.80ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 790,
         "title": "amethyst 3.80ct",
         "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Amethyst</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>3.80ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>11x9x5.7mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Violet</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Brasil</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
@@ -6369,17 +6105,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 1238,
-        "title": "azurite 2.18ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Azurite</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>2.18ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>15.4x7.6mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Rough</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blue</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>3.5-4</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Arizona (USA)</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 19,
-        "link": "https://gemmesterra.com/Botiga/en/home/1238-atzurita-218ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/2509/Azurite_2.18ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 1239,
         "title": "larimar",
         "description": "\"<table id=\\\"t01\\\">\\n<tbody>\\n<tr>\\n<th id=\\\"product\\\">Product Details</th>\\n</tr>\\n<tr>\\n<td id=\\\"type\\\">GEM TYPE</td>\\n<td>: <span>Larimar</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"weight\\\">TOTAL WEIGHT</td>\\n<td>: 7.41gr</td>\\n</tr>\\n<tr>\\n<td id=\\\"size\\\">SIZE : (LxWxH)</td>\\n<td>: 31.5x21.1x6mm</td>\\n</tr>\\n<tr>\\n<td id=\\\"shape\\\">SHAPE</td>\\n<td>: <span>Oval</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"color\\\">COLOR</td>\\n<td>: <span>Blue</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"hardness\\\">HARDNESS</td>\\n<td>: <span>4.5-5</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"origin\\\">ORIGIN</td>\\n<td>: <span>Rep.Dominicana</span></td>\\n</tr>\\n<tr>\\n<td id=\\\"treatment\\\">TREATMENT</td>\\n<td id=\\\"unh\\\">: Unheated / Untreated</td>\\n</tr>\\n</tbody>\\n</table>\"",
@@ -6751,17 +6476,6 @@
         "price": 22,
         "link": "https://gemmesterra.com/Botiga/en/home/1272-esmeralda-065ct.html",
         "image_link": "http://gemmesterra.com/Botiga/2722/Emerald_0.65ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 1273,
-        "title": "mtorolite 1.80ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Mtorolite</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>1.80ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>11.9x6x3.5mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Navette</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Green</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>6-7</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Zimbabwe</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 15,
-        "link": "https://gemmesterra.com/Botiga/en/home/1273-mtorolita-180ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/2729/Mtorolite_1.80ct.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -7414,17 +7128,6 @@
         "brand": "Gemmesterra"
     },
     {
-        "id": 1381,
-        "title": "tsavorite garnet 1.00ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Tsavorite garnet</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>1.00ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>6.5x 5.4 x2.8mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Green</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>7-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Kenia</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 250,
-        "link": "https://gemmesterra.com/Botiga/en/home/1381-tsavorite-garnet-100ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/3344/Tsavorite_garnet_1.00ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
         "id": 1382,
         "title": "prehnite 4.38gr",
         "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>:<!-- --> <span>Prehnite</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>:<!-- --> <span>4.38gr</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>:<!-- --> <span>18.2x 15.1x 9.5mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Green</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>:<!-- --> <span>6-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
@@ -7532,28 +7235,6 @@
         "price": 41,
         "link": "https://gemmesterra.com/Botiga/en/home/1394-prehnite-716ct.html",
         "image_link": "http://gemmesterra.com/Botiga/3400/Prehnite_7.16ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 1395,
-        "title": "peridot 3.14ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Peridot</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>3.14ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>10x8x5.3mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Green</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>6.5-7</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Pakistan</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 61,
-        "link": "https://gemmesterra.com/Botiga/en/home/1395-peridot-314ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/3406/Peridot_3.14ct.jpg",
-        "brand": "Gemmesterra"
-    },
-    {
-        "id": 1396,
-        "title": "turquoise 3.10ct",
-        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Product Details</th></tr><tr><td id=\\\"type\\\">GEM TYPE</td><td>: <span>Turquoise</span></td></tr><tr><td id=\\\"weight\\\">TOTAL WEIGHT</td><td>: <span>3.10ct</span></td></tr><tr><td id=\\\"size\\\">SIZE : (LxWxH)</td><td>: <span>15.7x10.5x2mm</span></td></tr><tr><td id=\\\"shape\\\">SHAPE</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blue</span></td></tr><tr><td id=\\\"hardness\\\">HARDNESS</td><td>: <span>5-6</span></td></tr><tr><td id=\\\"origin\\\">ORIGIN</td><td>: <span>Arizona</span></td></tr><tr><td id=\\\"treatment\\\">TREATMENT</td><td id=\\\"unh\\\">: Unheated / Untreated</td></tr></tbody></table>\"",
-        "availability": "\"in stock\"",
-        "condition": "new",
-        "price": 37,
-        "link": "https://gemmesterra.com/Botiga/en/home/1396-turquoise-310ct.html",
-        "image_link": "http://gemmesterra.com/Botiga/3409/Turquoise_3.10ct.jpg",
         "brand": "Gemmesterra"
     },
     {
@@ -7796,6 +7477,556 @@
         "price": 48,
         "link": "https://gemmesterra.com/Botiga/en/home/1419-chrysoprase-2570ct.html",
         "image_link": "http://gemmesterra.com/Botiga/3522/Crisopres_25.70ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1421,
+        "title": "larimar 6.35ct.",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Larimar</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>6.35ct.</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>15.9x10.6x4.7mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Pera</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>4.5-5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Rep. Dominicana</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 28,
+        "link": "https://gemmesterra.com/Botiga/en/home/1421-larimar-635ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3527/Larimar_6.35ct..jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1422,
+        "title": "opal 16ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>16ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>26.4x17.1x6.2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 45,
+        "link": "https://gemmesterra.com/Botiga/en/home/1422-opal-16ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3530/Opal_16ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1424,
+        "title": "ambre () 3.75ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Ambre</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>3.75ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>16x12.7x5.9mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>2-2.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Myanmar</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 46,
+        "link": "https://gemmesterra.com/Botiga/en/home/1424-amber-myanmar-375ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3533/Ambre_()_3.75ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1425,
+        "title": "ametista 4.75ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Ametista</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>4.75ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>11x9x5.9mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 16,
+        "link": "https://gemmesterra.com/Botiga/en/home/1425-amethyst-475ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3536/Ametista_4.75ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1428,
+        "title": "andesina 4.8ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Andesina</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>4.8ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>13.5 x 9.6 x 6.4mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Marró</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 70,
+        "link": "https://gemmesterra.com/Botiga/en/home/1428-andesine-48ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3551/Andesina_4.8ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1429,
+        "title": "fluorita 11.60ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Fluorita</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>11.60ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>14.2x13x7.2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>4</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 48,
+        "link": "https://gemmesterra.com/Botiga/en/home/1429-fluorite-1160ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3556/Fluorita_11.60ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1430,
+        "title": "aiguamarina 14ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Aiguamarina</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>14ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>20.2x15x6mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>7.5-8</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>China</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 32,
+        "link": "https://gemmesterra.com/Botiga/en/home/1430-aquamarine-14ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3560/Aiguamarina_14ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1431,
+        "title": "opal 2.5ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>2.5ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>10.9x6.6mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Quadrada</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Ethiopia</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 160,
+        "link": "https://gemmesterra.com/Botiga/en/home/1431-opal-25ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3564/Opal_2.5ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1432,
+        "title": "turmalina 36.55ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Turmalina</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>36.55ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>50.5x10x7mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>7-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 1080,
+        "link": "https://gemmesterra.com/Botiga/en/home/1432-tourmaline-3655ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3569/Turmalina_36.55ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1433,
+        "title": "quars 24ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Quars</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>24ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>24.8x24.4x4.2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blanc</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 22,
+        "link": "https://gemmesterra.com/Botiga/en/home/1433-quartz-24ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3578/Quars_24ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1434,
+        "title": "peridot 1.60ct (2u)",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Peridot</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>1.60ct (2u)</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>6.6x4.8x3.1mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Canarias</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 64,
+        "link": "https://gemmesterra.com/Botiga/en/home/1434-peridot-160ct-2u.html",
+        "image_link": "http://gemmesterra.com/Botiga/3582/Peridot_1.60ct_(2u).jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1435,
+        "title": "espinel·la 2ct (2u)",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Espinel·la</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>2ct (2u)</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>6x 3.1mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Quadrada</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>7.5-8</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 70,
+        "link": "https://gemmesterra.com/Botiga/en/home/1435-spinel-2ct-2u.html",
+        "image_link": "http://gemmesterra.com/Botiga/3589/Espinel·la_2ct_(2u).jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1436,
+        "title": "opal 4.10ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>4.10ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>17.9x14.2x6.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blanc</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Etiopia</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 20,
+        "link": "https://gemmesterra.com/Botiga/en/home/1436-opal-410ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3595/Opal_4.10ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1437,
+        "title": "opal 5.50ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>5.50ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>15.8x14.8x7.3ct</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blanc</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Etiopia</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 25,
+        "link": "https://gemmesterra.com/Botiga/en/home/1437-opal-550ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3599/Opal_5.50ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1438,
+        "title": "espinel·la 1.80ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Espinel·la</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>1.80ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>7.5x6.4x4.2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Pera</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>7.5-8</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 65,
+        "link": "https://gemmesterra.com/Botiga/en/home/1438-spinel-180ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3604/Espinel·la_1.80ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1439,
+        "title": "granat 1.75ct (3u)",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>1.75ct (3u)</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>5.1x4.1x2.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tanzania</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 12,
+        "link": "https://gemmesterra.com/Botiga/en/home/1439-garnet-175ct-3u.html",
+        "image_link": "http://gemmesterra.com/Botiga/3608/Granat_1.75ct_(3u).jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1440,
+        "title": "quars 1.9ct.",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Quars</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>1.9ct.</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>10x5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Marró</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Spain</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 5,
+        "link": "https://gemmesterra.com/Botiga/en/home/1440-quartz-19ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3612/Quars_1.9ct..jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1441,
+        "title": "opal 3.15ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>3.15ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>14.3x9.5x5.8mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Pera</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Etiopia</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 90,
+        "link": "https://gemmesterra.com/Botiga/en/home/1441-opal-315ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3617/Opal_3.15ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1442,
+        "title": "granat 7.25ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>7.25ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>10x12x9</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Guinea (andradite)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 35,
+        "link": "https://gemmesterra.com/Botiga/en/home/1442-garnet-725ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3622/Granat_7.25ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1443,
+        "title": "granat 3.40ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>3.40ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>8x6x6mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Namibia (Spessartite)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 34,
+        "link": "https://gemmesterra.com/Botiga/en/home/1443-garnet-340ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3625/Granat_3.40ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1444,
+        "title": "granat 26.50 ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>26.50 ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>17x16x10mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Iran( demantoide)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 80,
+        "link": "https://gemmesterra.com/Botiga/en/home/1444-garnet-2650-ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3628/Granat_26.50_ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1445,
+        "title": "granat 7.80ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>7.80ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>12x8x7mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Rhodolite)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 39,
+        "link": "https://gemmesterra.com/Botiga/en/home/1445-garnet-780ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3631/Granat_7.80ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1446,
+        "title": "granat 18.60ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>18.60ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>18x12x9mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Mali (Mali garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 55,
+        "link": "https://gemmesterra.com/Botiga/en/home/1446-garnet-1860ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3635/Granat_18.60ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1447,
+        "title": "granat 13ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>13ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>13x12x9mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Mali (Mali garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 39,
+        "link": "https://gemmesterra.com/Botiga/en/home/1447-garnet-13ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3639/Granat_13ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1448,
+        "title": "granat 19.20ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>19.20ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>14x12x12mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Mali (Mali garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 57,
+        "link": "https://gemmesterra.com/Botiga/en/home/1448-garnet-1920ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3643/Granat_19.20ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1449,
+        "title": "granat 4.90ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>4.90ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>16x7.5x3mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Zambia (almandin garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 20,
+        "link": "https://gemmesterra.com/Botiga/en/home/1449-garnet-49ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3647/Granat_4.90ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1450,
+        "title": "granat 7.10ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>7.10ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>10x8x7mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Zambia (almandin garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 28,
+        "link": "https://gemmesterra.com/Botiga/en/home/1450-garnet-710ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3651/Granat_7.10ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1451,
+        "title": "granat 2.55ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>2.55ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>9x6x3.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd/Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (colour change garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 38,
+        "link": "https://gemmesterra.com/Botiga/en/home/1451-garnet-255ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3655/Granat_2.55ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1452,
+        "title": "granat 6.40ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>6.40ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>12x9x5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Red garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 25,
+        "link": "https://gemmesterra.com/Botiga/en/home/1452-garnet-640ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3659/Granat_6.40ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1453,
+        "title": "granat 6.20ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>6.20ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>12 x10 x5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Red garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 24,
+        "link": "https://gemmesterra.com/Botiga/en/home/1453-garnet-620ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3663/Granat_6.20ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1454,
+        "title": "granat 3.70ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>3.70ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>8x 7.5x 6.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Vermell</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (red garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 14,
+        "link": "https://gemmesterra.com/Botiga/en/home/1454-garnet-370ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3668/Granat_3.70ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1455,
+        "title": "granat 6.40ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>6.40ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>11x 9x 6.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Hessonite garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 25,
+        "link": "https://gemmesterra.com/Botiga/en/home/1455-garnet-640ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3671/Granat_6.40ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1456,
+        "title": "granat 4.35ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>4.35ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>7x 7x 7.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Hessonite garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 16,
+        "link": "https://gemmesterra.com/Botiga/en/home/1456-garnet-435ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3674/Granat_4.35ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1457,
+        "title": "granat 3.30ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>3.30ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>7x 7x 5.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Taronja</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Hessonite garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 12,
+        "link": "https://gemmesterra.com/Botiga/en/home/1457-garnet-330ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3678/Granat_3.30ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1458,
+        "title": "granat 0.50ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>0.50ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>5x 4x 2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Tsavorite garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 8,
+        "link": "https://gemmesterra.com/Botiga/en/home/1458-garnet-050ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3682/Granat_0.50ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1459,
+        "title": "granat 0.50ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>0.50ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>4x 4x 3.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Tsavorita garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 8,
+        "link": "https://gemmesterra.com/Botiga/en/home/1459-garnet-050ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3685/Granat_0.50ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1460,
+        "title": "granat 0.50ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>0.50ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>5x 4x 3mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Brut</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Tz (Tsavorite garnet)</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 8,
+        "link": "https://gemmesterra.com/Botiga/en/home/1460-garnet-050ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3689/Granat_0.50ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1462,
+        "title": "granat 0.60ct/u",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>0.60ct/u</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>6x 4x 2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 24,
+        "link": "https://gemmesterra.com/Botiga/en/home/1462-garnet-060ct-u.html",
+        "image_link": "http://gemmesterra.com/Botiga/3698/Granat_0.60ct/u.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1463,
+        "title": "granat 0.45ct/u",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>0.45ct/u</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>4.2x 1.6mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Rodona</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 40,
+        "link": "https://gemmesterra.com/Botiga/en/home/1463-garnet-045ct-u.html",
+        "image_link": "http://gemmesterra.com/Botiga/3702/Granat_0.45ct/u.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1464,
+        "title": "granat 0.70ct/u",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>0.70ct/u</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>5x 2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Rodona</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Africa</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 24,
+        "link": "https://gemmesterra.com/Botiga/en/home/1464-garnet-070ct-u.html",
+        "image_link": "http://gemmesterra.com/Botiga/3706/Granat_0.70ct/u.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1465,
+        "title": "collaret ametista",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Ametista</span></td></tr><tr><td id=\\\"weight\\\">PES GEMMA</td><td>: <span>22gr</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>42.5x 33.6x 6.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA GEMMA</td><td>: <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Violeta</span></td></tr><tr><td id=\\\"hardness\\\">DURESA GEMMA</td><td>: <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN GEMMA</td><td>: <span>Brasil</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT GEMMA</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 140,
+        "link": "https://gemmesterra.com/Botiga/en/home/1465-amethyst-necklace.html",
+        "image_link": "http://gemmesterra.com/Botiga/3711/Collaret_Ametista.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1466,
+        "title": "quars 21.90ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Quars</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>21.90ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>19.5x 17.5x 9.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Cushion</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blanc</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Brasil</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 63,
+        "link": "https://gemmesterra.com/Botiga/en/home/1466-quartz-2190ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3715/Quars_21.90ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1467,
+        "title": "opal 20.83ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>20.83ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>20.6x 18.9x 9.2mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Cushion</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Peru</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 25,
+        "link": "https://gemmesterra.com/Botiga/en/home/1467-opal-2083ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3720/Opal_20.83ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1468,
+        "title": "granat 0.50ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>0.50ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>5.5x 4x 2.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 99,
+        "link": "https://gemmesterra.com/Botiga/en/home/1468-garnet-050ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3726/Granat_0.50ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1469,
+        "title": "granat 0.55ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Granat</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>0.55ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>5.2x 3.9x 2.7mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Madagascar</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 82,
+        "link": "https://gemmesterra.com/Botiga/en/home/1469-garnet-055ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3730/Granat_0.55ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1470,
+        "title": "calcedònia 15.20ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Calcedònia</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>15.20ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>17x 12.3x 9.5mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Blau</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>6.5-7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Turkia</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 24,
+        "link": "https://gemmesterra.com/Botiga/en/home/1470-chalcedony-1520ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3734/Calcedònia_15.20ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1471,
+        "title": "opal 57.65ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>57.65ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>25.5x 17.8mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Forma Lliure</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Marró</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Toledo Spain</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 44,
+        "link": "https://gemmesterra.com/Botiga/en/home/1471-opal-5765ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3738/Opal_57.65ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1472,
+        "title": "opal 27.70ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>: <span>Opal</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>: <span>27.70ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>: <span>34x 14x 10.6mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>: <span>Pera</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Rosa</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Perú</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 44,
+        "link": "https://gemmesterra.com/Botiga/en/home/1472-opal-2770ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3742/Opal_27.70ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1473,
+        "title": "variscita 23.95ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Variscita</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>23.95ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>16.7x 16.5x 14.4mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Pera</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Verd</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>3.5-4.5</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Zamora Spain</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 42,
+        "link": "https://gemmesterra.com/Botiga/en/home/1473-variscite-2395ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3746/Variscita_23.95ct.jpg",
+        "brand": "Gemmesterra"
+    },
+    {
+        "id": 1474,
+        "title": "citrí 14.10ct",
+        "description": "\"<table id=\\\"t01\\\"><tbody><tr><th id=\\\"product\\\">Detalls del producte</th></tr><tr><td id=\\\"type\\\">GEMMA</td><td>:<!-- --> <span>Citrí</span></td></tr><tr><td id=\\\"weight\\\">PES TOTAL</td><td>:<!-- --> <span>14.10ct</span></td></tr><tr><td id=\\\"size\\\">MIDES: (LxWxH)</td><td>:<!-- --> <span>11.7x 16.9mm</span></td></tr><tr><td id=\\\"shape\\\">FORMA</td><td>:<!-- --> <span>Rodona</span></td></tr><tr><td id=\\\"color\\\">COLOR</td><td>: <span>Groc</span></td></tr><tr><td id=\\\"hardness\\\">DURESA</td><td>:<!-- --> <span>7</span></td></tr><tr><td id=\\\"origin\\\">ORIGEN</td><td>: <span>Salamanca Spain</span></td></tr><tr><td id=\\\"treatment\\\">TRACTAMENT</td><td id=\\\"unh\\\">:  Sense tractament</td></tr></tbody></table>\"",
+        "availability": "\"in stock\"",
+        "condition": "new",
+        "price": 190,
+        "link": "https://gemmesterra.com/Botiga/en/home/1474-citrine-1410ct.html",
+        "image_link": "http://gemmesterra.com/Botiga/3750/Citrí_14.10ct.jpg",
         "brand": "Gemmesterra"
     }
 ]
