@@ -5,6 +5,7 @@ export const Categories: any = {
                 17: {
                     RODOLITA: 146,
                     AMETISTA: 20,
+                    AMBER: 223,
                     AXINITA: 21,
                     BITOWNITA: 23,
                     CLINOHUMITA: 24,
