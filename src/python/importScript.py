@@ -20,7 +20,13 @@ ADMIN_USER=os.getenv("ADMIN_USER")
 ADMIN_PWD=os.getenv("ADMIN_PWD")
 
 # s=Service(ChromeDriverManager())
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+chrome_install = ChromeDriverManager().install()
+
+folder = os.path.dirname(chrome_install)
+chromedriver_path = os.path.join(folder, "chromedriver.exe")
+
+service = ChromeService(chromedriver_path)
+driver = webdriver.Chrome(service=service)
 driver.maximize_window()
 
 driver.get(TARGET_URL)
