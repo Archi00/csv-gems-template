@@ -13,9 +13,10 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
         const enCSV =  makeCSV(parsedEnTable)
         const esCSV = makeCSV(parsedEsTable)
         const catCSV = makeCSV(parsedCatTable)
-        fs.writeFileSync("src/tables/csv/enTable.csv", enCSV, "utf8")
-        fs.writeFileSync("src/tables/csv/esTable.csv", esCSV, "utf8")
         fs.writeFileSync("src/tables/csv/catTable.csv", catCSV, "utf8")
+        fs.writeFileSync("src/tables/csv/esTable.csv", esCSV, "utf8")
+        fs.writeFileSync("src/tables/csv/enTable.csv", enCSV, "utf8")
+
     
         return res.status(200).json({message: 200})
     } catch(e) {

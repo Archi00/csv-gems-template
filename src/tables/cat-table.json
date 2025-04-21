@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "ID": "C1036",
+        "Active": 1,
+        "Categories": "2,16,18,134",
+        "Price": "22",
+        "Reference": "C1036",
+        "Quantity": 1,
+        "Name": "Unakita 5.34gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Unakita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>5.34gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>24.9x17.7x6.6mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Unakita 5.34gr - Gemmesterra",
+        "meta-description": " Unakita 5.34gr de color rosa/verd amb forma oval (24.9x17.7x6.6mm) de South Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C1036-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1036-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1036-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1036-3.jpeg"
+        ],
+        "imgAlts": "Unakita 5.34gr,Unakita 5.34gr,Unakita 5.34gr,Unakita 5.34gr"
+    },
+    {
+        "ID": "C1037",
+        "Active": 1,
+        "Categories": "2,16,18,134",
+        "Price": "22",
+        "Reference": "C1037",
+        "Quantity": 1,
+        "Name": "Unakita 2.85gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Unakita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>2.85gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>19.7x14.9x5.8mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Unakita 2.85gr - Gemmesterra",
+        "meta-description": " Unakita 2.85gr de color rosa/verd amb forma oval (19.7x14.9x5.8mm) de South Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C1037-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1037-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1037-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1037-3.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1037-4.jpeg"
+        ],
+        "imgAlts": "Unakita 2.85gr,Unakita 2.85gr,Unakita 2.85gr,Unakita 2.85gr,Unakita 2.85gr"
+    },
+    {
+        "ID": "C1038",
+        "Active": 1,
+        "Categories": "2,16,18,134",
+        "Price": "24",
+        "Reference": "C1038",
+        "Quantity": 1,
+        "Name": "Unakita 9.93gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>: <span>Unakita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>: <span>9.93gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>: <span>31.7x4.9mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Rodona</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>: <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Unakita 9.93gr - Gemmesterra",
+        "meta-description": " Unakita 9.93gr de color rosa/verd amb forma rodona (31.7x4.9mm) de South Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C1038-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1038-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1038-2.jpeg"
+        ],
+        "imgAlts": "Unakita 9.93gr,Unakita 9.93gr,Unakita 9.93gr"
+    },
+    {
+        "ID": "C1039",
+        "Active": 1,
+        "Categories": "2,16,18,134",
+        "Price": "22",
+        "Reference": "C1039",
+        "Quantity": 1,
+        "Name": "Unakita 5.70gr",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalls del producte</th></tr><tr><td id=\"type\">GEMMA</td><td>:<!-- --> <span>Unakita</span></td></tr><tr><td id=\"weight\">PES TOTAL</td><td>:<!-- --> <span>5.70gr</span></td></tr><tr><td id=\"size\">MIDES: (LxWxH)</td><td>:<!-- --> <span>25.5x18.5x7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verd</span></td></tr><tr><td id=\"hardness\">DURESA</td><td>:<!-- --> <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRACTAMENT</td><td id=\"unh\">:  Sense tractament</td></tr></tbody></table>",
+        "ShortDescription": "<p></p>",
+        "meta-title": "Unakita 5.70gr - Gemmesterra",
+        "meta-description": " Unakita 5.70gr de color rosa/verd amb forma oval (25.5x18.5x7mm) de South Africa - Sense tractaments",
+        "imgUrls": [
+            "https://www.gemmesterra.com/Botiga/upload/C1039-0.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1039-1.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1039-2.jpeg",
+            "https://www.gemmesterra.com/Botiga/upload/C1039-3.jpeg"
+        ],
+        "imgAlts": "Unakita 5.70gr,Unakita 5.70gr,Unakita 5.70gr,Unakita 5.70gr"
+    }
+]
