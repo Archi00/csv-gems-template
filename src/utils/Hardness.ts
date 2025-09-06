@@ -6,6 +6,7 @@ export const Hardness: any = {
     turquoise: "5-6",
     aerinite: "3",
     aquamarine: "7.5-8",
+    goshenita: "7.5-8",
     amazonite:"6-6.5",
     chalcedony: "6.5-7",
     albite: "6-6.5",
@@ -200,5 +201,6 @@ export const Hardness: any = {
     pericline: "6-6.5",
     apophyllite: "4.5-5",
     scheelite: "4.5-5",
-    beryllonite: "5.5-6"
+    beryllonite: "5.5-6",
+    "rutilated quartz": "7",
 }

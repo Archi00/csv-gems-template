@@ -52,7 +52,7 @@ export const downloadZipFile = async (imgData: any, filename: any) => {
 export const createImgUrl = (id: string, quantity: number | undefined) => {
     let tmp = []
     for (let i = 0; i < quantity!; i++) {
-        const url = `https://www.gemmesterra.com/Botiga/upload/${id}-${i}.jpeg`
+        const url = `https://www.gemmesterra.com/Botiga/img/p/${id}-${i}.jpeg`
         tmp.push(url)
     }
     return tmp

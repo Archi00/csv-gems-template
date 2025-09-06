@@ -1,54 +1,15 @@
 [
     {
-        "ID": "C1036",
+        "ID": "C1064",
         "Active": 1,
-        "Categories": "2,16,18,134",
-        "Price": "22",
-        "Reference": "C1036",
+        "Categories": "2,16,18,33",
+        "Price": "260",
+        "Reference": "C1064",
         "Quantity": 1,
-        "Name": "Unakita 5.34gr",
-        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Unakita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>5.34gr</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>24.9x17.7x6.6mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
-        "ShortDescription": "<p></p>",
-        "meta-title": "Unakita 5.34gr - Gemmesterra",
-        "meta-description": " Unakita 5.34gr de color rosa/verde con forma oval (24.9x17.7x6.6mm) de South Africa - Sin tratamientos"
-    },
-    {
-        "ID": "C1037",
-        "Active": 1,
-        "Categories": "2,16,18,134",
-        "Price": "22",
-        "Reference": "C1037",
-        "Quantity": 1,
-        "Name": "Unakita 2.85gr",
-        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Unakita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>2.85gr</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>19.7x14.9x5.8mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
-        "ShortDescription": "<p></p>",
-        "meta-title": "Unakita 2.85gr - Gemmesterra",
-        "meta-description": " Unakita 2.85gr de color rosa/verde con forma oval (19.7x14.9x5.8mm) de South Africa - Sin tratamientos"
-    },
-    {
-        "ID": "C1038",
-        "Active": 1,
-        "Categories": "2,16,18,134",
-        "Price": "24",
-        "Reference": "C1038",
-        "Quantity": 1,
-        "Name": "Unakita 9.93gr",
-        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Unakita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>9.93gr</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>31.7x4.9mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Redonda</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
-        "ShortDescription": "<p></p>",
-        "meta-title": "Unakita 9.93gr - Gemmesterra",
-        "meta-description": " Unakita 9.93gr de color rosa/verde con forma redonda (31.7x4.9mm) de South Africa - Sin tratamientos"
-    },
-    {
-        "ID": "C1039",
-        "Active": 1,
-        "Categories": "2,16,18,134",
-        "Price": "22",
-        "Reference": "C1039",
-        "Quantity": 1,
-        "Name": "Unakita 5.70gr",
-        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>:<!-- --> <span>Unakita</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>:<!-- --> <span>5.70gr</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>:<!-- --> <span>25.5x18.5x7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>:<!-- --> <span>Oval</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Rosa/Verde</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>:<!-- --> <span>6-7</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>South Africa</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
-        "ShortDescription": "<p></p>",
-        "meta-title": "Unakita 5.70gr - Gemmesterra",
-        "meta-description": " Unakita 5.70gr de color rosa/verde con forma oval (25.5x18.5x7mm) de South Africa - Sin tratamientos"
+        "Name": "Opalo 25.10ct",
+        "Description": "<table id=\"t01\"><tbody><tr><th id=\"product\">Detalles del producto</th></tr><tr><td id=\"type\">GEMA</td><td>: <span>Opalo</span></td></tr><tr><td id=\"weight\">PESO TOTAL</td><td>: <span>25.10ct</span></td></tr><tr><td id=\"size\">MEDIDAS: (LxWxH)</td><td>: <span>23.7x17.3x10.7mm</span></td></tr><tr><td id=\"shape\">FORMA</td><td>: <span>Pera</span></td></tr><tr><td id=\"color\">COLOR</td><td>: <span>Azul</span></td></tr><tr><td id=\"hardness\">DUREZA</td><td>: <span>5.5-6.5</span></td></tr><tr><td id=\"origin\">ORIGEN</td><td>: <span>Peru</span></td></tr><tr><td id=\"treatment\">TRATAMIENTO</td><td id=\"unh\">:  Sin tratamiento</td></tr></tbody></table>",
+        "ShortDescription": "<p>Ópalo</p><p>El nombre deriva del Sanskrit para piedra.</p><p >Desde la época romana a los inicios del siglo XVII fue tenido en gran estima. Durante los siglos XVIII y XIX fue bastante olvidado al creer que esta piedra traía mala suerte.</p><p >Algunos dicen que su mala fama se originó en la novela de Walter Scott denominada \"Anne of Geierstein\".</p><p >SiO2+ H2O</p>",
+        "meta-title": "Opalo 25.10ct - Gemmesterra",
+        "meta-description": " Opalo 25.10ct de color azul con forma pera (23.7x17.3x10.7mm) de Peru - Sin tratamientos"
     }
 ]
